@@ -1,0 +1,51 @@
+# ── Internal / Claude Code ────────────────────────────────────────────────────
+.claude/
+CLAUDE.md
+AGENTS.md
+logs.log
+notebooks/logs.log
+screenshot.py
+generate_ppt.py
+generate_ppt_with_images.py
+
+# ── Internal docs (session notes, handoff, presentations) ─────────────────────
+docs/
+
+# ── Raw data — large binaries / publicly downloadable ─────────────────────────
+data/raw/*.pdf
+data/raw/*.xlsx
+data/raw/*.tar
+data/raw/HQMR_stations.txt
+
+# ── Spatial — large, publicly downloadable from ABS ───────────────────────────
+data/spatial/
+
+# ── Binary outputs ────────────────────────────────────────────────────────────
+data/clean/*.gpkg
+outputs/models/*.pkl
+outputs/sa_water_linkedin_deck.pptx
+
+# ── Choropleth HTML figures (embed full shapefile GeoJSON, 11–61 MB each) ─────
+outputs/figures/*_map.html
+outputs/simulation/interactive_scenario_map.html
+outputs/simulation/tier_shift_map_*.html
+
+# ── Power BI project files (local machine paths baked in) ─────────────────────
+powerbi/sa_water_main.pbip
+powerbi/sa_water_main.Report/
+powerbi/sa_water_main.SemanticModel/
+powerbi/sa_water_powerbi_guide.docx
+
+# ── Legacy / scratch scripts ───────────────────────────────────────────────────
+scripts/legacy/
+
+# ── Python / Jupyter ──────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+.env
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

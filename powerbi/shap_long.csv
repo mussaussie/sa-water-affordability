@@ -1,0 +1,1009 @@
+SA2_CODE21,SA2_NAME21,burden_tier_rel,burden_tier_abs,shap_feature,shap_value,feature_label,abs_shap_value,tier_order_rel,tier_order_abs
+401011001,Adelaide,Moderate,Low,shap_irsd_score,-0.0097939776186653,IRSD (Disadvantage),0.0097939776186653,3,4
+401011002,North Adelaide,Low,Low,shap_irsd_score,-0.0657209248175804,IRSD (Disadvantage),0.0657209248175804,4,4
+401021003,Adelaide Hills,Low,Low,shap_irsd_score,-0.060360989330286,IRSD (Disadvantage),0.060360989330286,4,4
+401021004,Aldgate - Stirling,Low,Low,shap_irsd_score,-0.0512999904807221,IRSD (Disadvantage),0.0512999904807221,4,4
+401021005,Hahndorf - Echunga,Low,Low,shap_irsd_score,-0.0650104575816228,IRSD (Disadvantage),0.0650104575816228,4,4
+401021006,Lobethal - Woodside,Moderate,Low,shap_irsd_score,-0.0627563839636099,IRSD (Disadvantage),0.0627563839636099,3,4
+401021007,Mount Barker,Moderate,Low,shap_irsd_score,-0.0157641507228858,IRSD (Disadvantage),0.0157641507228858,3,4
+401021008,Mount Barker Surrounds,Low,Low,shap_irsd_score,-0.0485114732853982,IRSD (Disadvantage),0.0485114732853982,4,4
+401021009,Nairne,Low,Low,shap_irsd_score,-0.0409730859771067,IRSD (Disadvantage),0.0409730859771067,4,4
+401021010,Uraidla - Summertown,Low,Low,shap_irsd_score,-0.058968658347191,IRSD (Disadvantage),0.058968658347191,4,4
+401031011,Burnside - Wattle Park,Low,Low,shap_irsd_score,-0.0486021016762249,IRSD (Disadvantage),0.0486021016762249,4,4
+401031012,Beaumont - Glen Osmond,Low,Low,shap_irsd_score,-0.0586338389762097,IRSD (Disadvantage),0.0586338389762097,4,4
+401031013,Toorak Gardens,Low,Low,shap_irsd_score,-0.0464228681166499,IRSD (Disadvantage),0.0464228681166499,4,4
+401041014,Athelstone,Low,Low,shap_irsd_score,-0.0534690394754953,IRSD (Disadvantage),0.0534690394754953,4,4
+401041015,Paradise - Newton,Moderate,Low,shap_irsd_score,-0.0021663895651438,IRSD (Disadvantage),0.0021663895651438,3,4
+401041016,Rostrevor - Magill,Moderate,Low,shap_irsd_score,-0.0145901324559952,IRSD (Disadvantage),0.0145901324559952,3,4
+401051017,Norwood (SA),Moderate,Low,shap_irsd_score,-0.0327541020361567,IRSD (Disadvantage),0.0327541020361567,3,4
+401051018,Payneham - Felixstow,Moderate,Low,shap_irsd_score,-0.0097787163312454,IRSD (Disadvantage),0.0097787163312454,3,4
+401051019,St Peters - Marden,Low,Low,shap_irsd_score,-0.0517927443899898,IRSD (Disadvantage),0.0517927443899898,4,4
+401061020,Nailsworth - Broadview,Low,Low,shap_irsd_score,-0.0555418224290895,IRSD (Disadvantage),0.0555418224290895,4,4
+401061021,Prospect,Low,Low,shap_irsd_score,-0.050598182341936,IRSD (Disadvantage),0.050598182341936,4,4
+401061022,Walkerville,Low,Low,shap_irsd_score,-0.0524924875745693,IRSD (Disadvantage),0.0524924875745693,4,4
+401071023,Goodwood - Millswood,Low,Low,shap_irsd_score,-0.0464296589413574,IRSD (Disadvantage),0.0464296589413574,4,4
+401071024,Unley - Parkside,Low,Low,shap_irsd_score,-0.0454540449317449,IRSD (Disadvantage),0.0454540449317449,4,4
+402011025,Gawler - North,Low,Low,shap_irsd_score,-0.0335538261151213,IRSD (Disadvantage),0.0335538261151213,4,4
+402011026,Gawler - South,Moderate,Low,shap_irsd_score,0.0080423855890637,IRSD (Disadvantage),0.0080423855890637,3,4
+402011027,Lewiston - Two Wells,Low,Low,shap_irsd_score,-0.0090283719551532,IRSD (Disadvantage),0.0090283719551532,4,4
+402021028,Craigmore - Blakeview,Moderate,Low,shap_irsd_score,0.0151983265539682,IRSD (Disadvantage),0.0151983265539682,3,4
+402021029,Davoren Park,Moderate,Low,shap_irsd_score,0.0227931585924985,IRSD (Disadvantage),0.0227931585924985,3,4
+402021030,Elizabeth,Critical,Moderate,shap_irsd_score,0.0988992401966864,IRSD (Disadvantage),0.0988992401966864,1,3
+402021031,Elizabeth East,Moderate,Low,shap_irsd_score,0.0270902977968566,IRSD (Disadvantage),0.0270902977968566,3,4
+402021032,Munno Para West - Angle Vale,Moderate,Low,shap_irsd_score,-0.0083905116568801,IRSD (Disadvantage),0.0083905116568801,3,4
+402021033,One Tree Hill,Low,Low,shap_irsd_score,-0.063549684141068,IRSD (Disadvantage),0.063549684141068,4,4
+402021034,Smithfield - Elizabeth North,High,Moderate,shap_irsd_score,0.0539839764046471,IRSD (Disadvantage),0.0539839764046471,2,3
+402021035,Virginia - Waterloo Corner,Moderate,Low,shap_irsd_score,0.0200526132980919,IRSD (Disadvantage),0.0200526132980919,3,4
+402031036,Enfield - Blair Athol,Moderate,Low,shap_irsd_score,0.0131168875660112,IRSD (Disadvantage),0.0131168875660112,3,4
+402031038,Windsor Gardens,Moderate,Low,shap_irsd_score,-0.0006128076202685,IRSD (Disadvantage),0.0006128076202685,3,4
+402031175,Northgate - Northfield,Low,Low,shap_irsd_score,-0.0058281553985511,IRSD (Disadvantage),0.0058281553985511,4,4
+402031176,Valley View - Gilles Plains,Moderate,Low,shap_irsd_score,-0.0154116373886669,IRSD (Disadvantage),0.0154116373886669,3,4
+402041040,Ingle Farm,Moderate,Low,shap_irsd_score,0.0187928860080553,IRSD (Disadvantage),0.0187928860080553,3,4
+402041041,Para Hills,Moderate,Low,shap_irsd_score,0.0261097502255729,IRSD (Disadvantage),0.0261097502255729,3,4
+402041043,Parafield Gardens,Moderate,Low,shap_irsd_score,0.0189901270527863,IRSD (Disadvantage),0.0189901270527863,3,4
+402041044,Paralowie,Moderate,Low,shap_irsd_score,0.0131148035260219,IRSD (Disadvantage),0.0131148035260219,3,4
+402041046,Salisbury,High,Low,shap_irsd_score,0.0287939174934235,IRSD (Disadvantage),0.0287939174934235,2,4
+402041047,Salisbury East,Moderate,Low,shap_irsd_score,-0.0076072308630302,IRSD (Disadvantage),0.0076072308630302,3,4
+402041048,Salisbury North,Moderate,Low,shap_irsd_score,0.0229652466988946,IRSD (Disadvantage),0.0229652466988946,3,4
+402041171,Mawson Lakes - Globe Derby Park,Low,Low,shap_irsd_score,-0.033591187596447,IRSD (Disadvantage),0.033591187596447,4,4
+402041172,Pooraka - Cavan,Moderate,Low,shap_irsd_score,0.0131386680687065,IRSD (Disadvantage),0.0131386680687065,3,4
+402051049,Golden Grove,Moderate,Low,shap_irsd_score,-0.03234605703946,IRSD (Disadvantage),0.03234605703946,3,4
+402051050,Greenwith,Low,Low,shap_irsd_score,-0.0291859255798834,IRSD (Disadvantage),0.0291859255798834,4,4
+402051051,Highbury - Dernancourt,Low,Low,shap_irsd_score,-0.058259654470098,IRSD (Disadvantage),0.058259654470098,4,4
+402051052,Hope Valley - Modbury,Moderate,Low,shap_irsd_score,-0.0104511423620925,IRSD (Disadvantage),0.0104511423620925,3,4
+402051053,Modbury Heights,Moderate,Low,shap_irsd_score,-0.0142307468121768,IRSD (Disadvantage),0.0142307468121768,3,4
+402051054,Redwood Park,Low,Low,shap_irsd_score,-0.0535622796296229,IRSD (Disadvantage),0.0535622796296229,4,4
+402051055,St Agnes - Ridgehaven,Moderate,Low,shap_irsd_score,-0.0217660697613326,IRSD (Disadvantage),0.0217660697613326,3,4
+403011056,Brighton (SA),Moderate,Low,shap_irsd_score,-0.0469270911957055,IRSD (Disadvantage),0.0469270911957055,3,4
+403011057,Glenelg (SA),Moderate,Low,shap_irsd_score,-0.0379904296241069,IRSD (Disadvantage),0.0379904296241069,3,4
+403021058,Edwardstown,Moderate,Low,shap_irsd_score,-0.0042393231984196,IRSD (Disadvantage),0.0042393231984196,3,4
+403021059,Hallett Cove,Low,Low,shap_irsd_score,-0.0567189008460985,IRSD (Disadvantage),0.0567189008460985,4,4
+403021060,Marino - Seaview Downs,Low,Low,shap_irsd_score,-0.0606664078201592,IRSD (Disadvantage),0.0606664078201592,4,4
+403021061,Mitchell Park,Moderate,Low,shap_irsd_score,0.0090714364629865,IRSD (Disadvantage),0.0090714364629865,3,4
+403021062,Morphettville,Moderate,Low,shap_irsd_score,-0.0051021712863242,IRSD (Disadvantage),0.0051021712863242,3,4
+403021063,Sheidow Park - Trott Park,Low,Low,shap_irsd_score,-0.0626471572875092,IRSD (Disadvantage),0.0626471572875092,4,4
+403021064,Warradale,Moderate,Low,shap_irsd_score,-0.0064496101955189,IRSD (Disadvantage),0.0064496101955189,3,4
+403031065,Belair,Low,Low,shap_irsd_score,-0.0644533743026253,IRSD (Disadvantage),0.0644533743026253,4,4
+403031066,Bellevue Heights,Low,Low,shap_irsd_score,-0.0605643692280601,IRSD (Disadvantage),0.0605643692280601,4,4
+403031067,Blackwood,Low,Low,shap_irsd_score,-0.0563539635424465,IRSD (Disadvantage),0.0563539635424465,4,4
+403031068,Colonel Light Gardens,Low,Low,shap_irsd_score,-0.0486083346204975,IRSD (Disadvantage),0.0486083346204975,4,4
+403031069,Mitcham (SA),Low,Low,shap_irsd_score,-0.0509673824955867,IRSD (Disadvantage),0.0509673824955867,4,4
+403031070,Panorama,Moderate,Low,shap_irsd_score,-0.0319881793640754,IRSD (Disadvantage),0.0319881793640754,3,4
+403041071,Aberfoyle Park,Low,Low,shap_irsd_score,-0.056317939030434,IRSD (Disadvantage),0.056317939030434,4,4
+403041072,Aldinga,Moderate,Low,shap_irsd_score,-0.012597027751874,IRSD (Disadvantage),0.012597027751874,3,4
+403041073,Christie Downs,High,Low,shap_irsd_score,0.0726416972436867,IRSD (Disadvantage),0.0726416972436867,2,4
+403041074,Christies Beach,Moderate,Low,shap_irsd_score,0.0098760306118836,IRSD (Disadvantage),0.0098760306118836,3,4
+403041075,Clarendon,Low,Low,shap_irsd_score,-0.0622890771491429,IRSD (Disadvantage),0.0622890771491429,4,4
+403041076,Coromandel Valley,Low,Low,shap_irsd_score,-0.0606999256401843,IRSD (Disadvantage),0.0606999256401843,4,4
+403041077,Flagstaff Hill,Low,Low,shap_irsd_score,-0.0591179244482458,IRSD (Disadvantage),0.0591179244482458,4,4
+403041078,Hackham - Onkaparinga Hills,Moderate,Low,shap_irsd_score,-0.0253318443705416,IRSD (Disadvantage),0.0253318443705416,3,4
+403041079,Hackham West - Huntfield Heights,High,Low,shap_irsd_score,0.027028770981869,IRSD (Disadvantage),0.027028770981869,2,4
+403041080,Happy Valley,Moderate,Low,shap_irsd_score,-0.034479367746322,IRSD (Disadvantage),0.034479367746322,3,4
+403041081,Happy Valley Reservoir,Moderate,Low,shap_irsd_score,0.010393305863143,IRSD (Disadvantage),0.010393305863143,3,4
+403041082,Lonsdale,Critical,Moderate,shap_irsd_score,0.0297907903863555,IRSD (Disadvantage),0.0297907903863555,1,3
+403041083,McLaren Vale,Moderate,Low,shap_irsd_score,-0.047792548778386,IRSD (Disadvantage),0.047792548778386,3,4
+403041084,Morphett Vale - East,Moderate,Low,shap_irsd_score,0.0081459903480422,IRSD (Disadvantage),0.0081459903480422,3,4
+403041085,Morphett Vale - West,Moderate,Low,shap_irsd_score,0.0151161479374576,IRSD (Disadvantage),0.0151161479374576,3,4
+403041086,Reynella,Moderate,Low,shap_irsd_score,-0.0029533452229703,IRSD (Disadvantage),0.0029533452229703,3,4
+403041088,Willunga,Low,Low,shap_irsd_score,-0.0633249825293419,IRSD (Disadvantage),0.0633249825293419,4,4
+403041089,Woodcroft,Moderate,Low,shap_irsd_score,-0.0376892620169277,IRSD (Disadvantage),0.0376892620169277,3,4
+403041177,Seaford - Seaford Meadows,Moderate,Low,shap_irsd_score,0.0101090650996207,IRSD (Disadvantage),0.0101090650996207,3,4
+403041178,Seaford Rise - Moana,Moderate,Low,shap_irsd_score,-0.0128953065811781,IRSD (Disadvantage),0.0128953065811781,3,4
+404011090,Beverley,Moderate,Low,shap_irsd_score,-0.0074028618438019,IRSD (Disadvantage),0.0074028618438019,3,4
+404011091,Flinders Park,Moderate,Low,shap_irsd_score,-0.0085353115828876,IRSD (Disadvantage),0.0085353115828876,3,4
+404011092,Henley Beach,Low,Low,shap_irsd_score,-0.0481486077111411,IRSD (Disadvantage),0.0481486077111411,4,4
+404011093,Hindmarsh - Brompton,Moderate,Low,shap_irsd_score,0.0046665783111675,IRSD (Disadvantage),0.0046665783111675,3,4
+404011094,Royal Park - Hendon - Albert Park,Moderate,Low,shap_irsd_score,0.0093113309565592,IRSD (Disadvantage),0.0093113309565592,3,4
+404011095,Seaton - Grange,Moderate,Low,shap_irsd_score,0.0123579666573173,IRSD (Disadvantage),0.0123579666573173,3,4
+404011096,West Lakes,Moderate,Low,shap_irsd_score,-0.0132051740776431,IRSD (Disadvantage),0.0132051740776431,3,4
+404011097,Woodville - Cheltenham,Moderate,Low,shap_irsd_score,0.0116219897867666,IRSD (Disadvantage),0.0116219897867666,3,4
+404021099,Largs Bay - Semaphore,Moderate,Low,shap_irsd_score,-0.0077134260661032,IRSD (Disadvantage),0.0077134260661032,3,4
+404021100,North Haven,Moderate,Low,shap_irsd_score,-0.0144742610444417,IRSD (Disadvantage),0.0144742610444417,3,4
+404021101,Port Adelaide,Moderate,Low,shap_irsd_score,0.0151386315960834,IRSD (Disadvantage),0.0151386315960834,3,4
+404021102,The Parks,Moderate,Low,shap_irsd_score,0.0188611916616888,IRSD (Disadvantage),0.0188611916616888,3,4
+404021103,Torrens Island,Critical,Moderate,shap_irsd_score,0.020048897165374,IRSD (Disadvantage),0.020048897165374,1,3
+404031105,Fulham,Low,Low,shap_irsd_score,-0.0574006460292903,IRSD (Disadvantage),0.0574006460292903,4,4
+404031106,Lockleys,Moderate,Low,shap_irsd_score,-0.0157951308382343,IRSD (Disadvantage),0.0157951308382343,3,4
+404031107,Plympton,Moderate,Low,shap_irsd_score,-0.0082768481813811,IRSD (Disadvantage),0.0082768481813811,3,4
+404031108,Richmond (SA),Moderate,Low,shap_irsd_score,0.0068088367475285,IRSD (Disadvantage),0.0068088367475285,3,4
+404031109,West Beach,Low,Low,shap_irsd_score,-0.0598458553737267,IRSD (Disadvantage),0.0598458553737267,4,4
+405011110,Barossa - Angaston,Moderate,Low,shap_irsd_score,-0.0149069119832287,IRSD (Disadvantage),0.0149069119832287,3,4
+405011111,Light,Moderate,Low,shap_irsd_score,-0.0222534727103473,IRSD (Disadvantage),0.0222534727103473,3,4
+405011112,Lyndoch,Moderate,Low,shap_irsd_score,-0.0418686333190403,IRSD (Disadvantage),0.0418686333190403,3,4
+405011113,Mallala,Moderate,Low,shap_irsd_score,0.0109862464718834,IRSD (Disadvantage),0.0109862464718834,3,4
+405011114,Nuriootpa,Moderate,Low,shap_irsd_score,-0.0195795149345592,IRSD (Disadvantage),0.0195795149345592,3,4
+405011115,Tanunda,Moderate,Low,shap_irsd_score,-0.0244238947279565,IRSD (Disadvantage),0.0244238947279565,3,4
+405021116,Clare,Moderate,Low,shap_irsd_score,-0.0315568845539508,IRSD (Disadvantage),0.0315568845539508,3,4
+405021117,Gilbert Valley,High,Low,shap_irsd_score,-0.014778945792292,IRSD (Disadvantage),0.014778945792292,2,4
+405021118,Goyder,Critical,Moderate,shap_irsd_score,0.0813560336564287,IRSD (Disadvantage),0.0813560336564287,1,3
+405021119,Wakefield - Barunga West,High,Moderate,shap_irsd_score,-0.0406779723583949,IRSD (Disadvantage),0.0406779723583949,2,3
+405031120,Jamestown,High,Low,shap_irsd_score,-0.0264026489037963,IRSD (Disadvantage),0.0264026489037963,2,4
+405031121,Peterborough - Mount Remarkable,Critical,Moderate,shap_irsd_score,0.111217735653363,IRSD (Disadvantage),0.111217735653363,1,3
+405031122,Port Pirie,Critical,Moderate,shap_irsd_score,0.112275393198549,IRSD (Disadvantage),0.112275393198549,1,3
+405031123,Port Pirie Surrounds,High,Low,shap_irsd_score,-0.0261906952735621,IRSD (Disadvantage),0.0261906952735621,2,4
+405041124,Kadina,High,Low,shap_irsd_score,-0.0376202991842625,IRSD (Disadvantage),0.0376202991842625,2,4
+405041125,Moonta,Critical,Moderate,shap_irsd_score,0.0483870361827916,IRSD (Disadvantage),0.0483870361827916,1,3
+405041126,Wallaroo,Critical,Moderate,shap_irsd_score,0.1077080805060226,IRSD (Disadvantage),0.1077080805060226,1,3
+405041127,Yorke Peninsula - North,Critical,Moderate,shap_irsd_score,0.094255177737117,IRSD (Disadvantage),0.094255177737117,1,3
+405041128,Yorke Peninsula - South,Critical,Moderate,shap_irsd_score,0.0746600860102947,IRSD (Disadvantage),0.0746600860102947,1,3
+406011129,Ceduna,Moderate,Low,shap_irsd_score,0.0017133607995562,IRSD (Disadvantage),0.0017133607995562,3,4
+406011130,Eyre Peninsula,Moderate,Low,shap_irsd_score,-0.0282991690106805,IRSD (Disadvantage),0.0282991690106805,3,4
+406011131,Kimba - Cleve - Franklin Harbour,High,Low,shap_irsd_score,-0.0183659940659304,IRSD (Disadvantage),0.0183659940659304,2,4
+406011132,Le Hunte - Elliston,High,Low,shap_irsd_score,-0.0182592680662718,IRSD (Disadvantage),0.0182592680662718,2,4
+406011133,Port Lincoln,Moderate,Low,shap_irsd_score,-0.0016823596250029,IRSD (Disadvantage),0.0016823596250029,3,4
+406011134,West Coast (SA),High,Low,shap_irsd_score,0.0078078396033238,IRSD (Disadvantage),0.0078078396033238,2,4
+406011135,Western,Moderate,Low,shap_irsd_score,0.0722724792232669,IRSD (Disadvantage),0.0722724792232669,3,4
+406011136,Whyalla,High,Low,shap_irsd_score,0.0142737184439244,IRSD (Disadvantage),0.0142737184439244,2,4
+406021138,APY Lands,High,Low,shap_irsd_score,0.0932321164355434,IRSD (Disadvantage),0.0932321164355434,2,4
+406021140,Quorn - Lake Gilles,High,Moderate,shap_irsd_score,0.0016507738830585,IRSD (Disadvantage),0.0016507738830585,2,3
+406021141,Outback,High,Low,shap_irsd_score,-0.0024456998645631,IRSD (Disadvantage),0.0024456998645631,2,4
+406021142,Port Augusta,Moderate,Low,shap_irsd_score,0.0081741572009583,IRSD (Disadvantage),0.0081741572009583,3,4
+406021143,Roxby Downs,Low,Low,shap_irsd_score,-0.0798713160735645,IRSD (Disadvantage),0.0798713160735645,4,4
+407011144,Goolwa - Port Elliot,Critical,Moderate,shap_irsd_score,-0.0052557875313189,IRSD (Disadvantage),0.0052557875313189,1,3
+407011145,Kangaroo Island,High,Moderate,shap_irsd_score,-0.0113227957821106,IRSD (Disadvantage),0.0113227957821106,2,3
+407011146,Strathalbyn,Moderate,Low,shap_irsd_score,-0.0059269230682908,IRSD (Disadvantage),0.0059269230682908,3,4
+407011147,Strathalbyn Surrounds,Moderate,Low,shap_irsd_score,-0.0211837013410583,IRSD (Disadvantage),0.0211837013410583,3,4
+407011148,Victor Harbor,Critical,Moderate,shap_irsd_score,0.0835518634959493,IRSD (Disadvantage),0.0835518634959493,1,3
+407011149,Yankalilla,High,Moderate,shap_irsd_score,-0.0208400290844098,IRSD (Disadvantage),0.0208400290844098,2,3
+407021150,Grant,Moderate,Low,shap_irsd_score,-0.0192770503280369,IRSD (Disadvantage),0.0192770503280369,3,4
+407021151,Kingston - Robe,High,Low,shap_irsd_score,-0.019105396593159,IRSD (Disadvantage),0.019105396593159,2,4
+407021152,Millicent,Critical,Moderate,shap_irsd_score,0.094979644407041,IRSD (Disadvantage),0.094979644407041,1,3
+407021154,Naracoorte,Moderate,Low,shap_irsd_score,0.0063413037594565,IRSD (Disadvantage),0.0063413037594565,3,4
+407021155,Naracoorte Surrounds,Moderate,Low,shap_irsd_score,-0.0344577408519614,IRSD (Disadvantage),0.0344577408519614,3,4
+407021156,Penola,Moderate,Low,shap_irsd_score,0.009700612345352,IRSD (Disadvantage),0.009700612345352,3,4
+407021157,Tatiara,Moderate,Low,shap_irsd_score,-0.0204287080173662,IRSD (Disadvantage),0.0204287080173662,3,4
+407021158,Wattle Range,Moderate,Low,shap_irsd_score,-0.0120281997339478,IRSD (Disadvantage),0.0120281997339478,3,4
+407021173,Mount Gambier - East,Moderate,Low,shap_irsd_score,-0.0106029313657575,IRSD (Disadvantage),0.0106029313657575,3,4
+407021174,Mount Gambier - West,High,Low,shap_irsd_score,-0.0251454928791771,IRSD (Disadvantage),0.0251454928791771,2,4
+407031159,Barmera,High,Low,shap_irsd_score,-0.0365132974090836,IRSD (Disadvantage),0.0365132974090836,2,4
+407031160,Berri,Critical,Moderate,shap_irsd_score,0.1202443525483903,IRSD (Disadvantage),0.1202443525483903,1,3
+407031161,Karoonda - Lameroo,High,Low,shap_irsd_score,-0.021137730676702,IRSD (Disadvantage),0.021137730676702,2,4
+407031162,Loxton,High,Low,shap_irsd_score,-0.0196684331754432,IRSD (Disadvantage),0.0196684331754432,2,4
+407031163,Loxton Surrounds,Moderate,Low,shap_irsd_score,-0.0160359260678394,IRSD (Disadvantage),0.0160359260678394,3,4
+407031164,Mannum,Critical,Moderate,shap_irsd_score,0.0887907304926754,IRSD (Disadvantage),0.0887907304926754,1,3
+407031165,Murray Bridge,High,Moderate,shap_irsd_score,0.0295206917881912,IRSD (Disadvantage),0.0295206917881912,2,3
+407031166,Murray Bridge Surrounds,Moderate,Low,shap_irsd_score,-0.0153232521335462,IRSD (Disadvantage),0.0153232521335462,3,4
+407031167,Renmark,Critical,Moderate,shap_irsd_score,0.1285178124465605,IRSD (Disadvantage),0.1285178124465605,1,3
+407031168,Renmark Surrounds,Moderate,Low,shap_irsd_score,-0.0176542590808125,IRSD (Disadvantage),0.0176542590808125,3,4
+407031169,The Coorong,High,Moderate,shap_irsd_score,-0.0210047108290635,IRSD (Disadvantage),0.0210047108290635,2,3
+407031170,Waikerie,Critical,Moderate,shap_irsd_score,0.1040293051511088,IRSD (Disadvantage),0.1040293051511088,1,3
+401011001,Adelaide,Moderate,Low,shap_irsad_score,-0.0881116021518874,IRSAD (Adv & Disadv),0.0881116021518874,3,4
+401011002,North Adelaide,Low,Low,shap_irsad_score,-0.0736864691364791,IRSAD (Adv & Disadv),0.0736864691364791,4,4
+401021003,Adelaide Hills,Low,Low,shap_irsad_score,-0.0687444699781499,IRSAD (Adv & Disadv),0.0687444699781499,4,4
+401021004,Aldgate - Stirling,Low,Low,shap_irsad_score,-0.060979005947921,IRSAD (Adv & Disadv),0.060979005947921,4,4
+401021005,Hahndorf - Echunga,Low,Low,shap_irsad_score,-0.074876460331013,IRSAD (Adv & Disadv),0.074876460331013,4,4
+401021006,Lobethal - Woodside,Moderate,Low,shap_irsad_score,-0.0682677280560735,IRSAD (Adv & Disadv),0.0682677280560735,3,4
+401021007,Mount Barker,Moderate,Low,shap_irsad_score,-0.063108420792662,IRSAD (Adv & Disadv),0.063108420792662,3,4
+401021008,Mount Barker Surrounds,Low,Low,shap_irsad_score,-0.0707777318259946,IRSAD (Adv & Disadv),0.0707777318259946,4,4
+401021009,Nairne,Low,Low,shap_irsad_score,-0.0724854230849818,IRSAD (Adv & Disadv),0.0724854230849818,4,4
+401021010,Uraidla - Summertown,Low,Low,shap_irsad_score,-0.0672133057119317,IRSAD (Adv & Disadv),0.0672133057119317,4,4
+401031011,Burnside - Wattle Park,Low,Low,shap_irsad_score,-0.0590542928700061,IRSAD (Adv & Disadv),0.0590542928700061,4,4
+401031012,Beaumont - Glen Osmond,Low,Low,shap_irsad_score,-0.0721079274775723,IRSAD (Adv & Disadv),0.0721079274775723,4,4
+401031013,Toorak Gardens,Low,Low,shap_irsad_score,-0.0553295009905297,IRSAD (Adv & Disadv),0.0553295009905297,4,4
+401041014,Athelstone,Low,Low,shap_irsad_score,-0.0630075937468165,IRSAD (Adv & Disadv),0.0630075937468165,4,4
+401041015,Paradise - Newton,Moderate,Low,shap_irsad_score,-0.0683094949611967,IRSAD (Adv & Disadv),0.0683094949611967,3,4
+401041016,Rostrevor - Magill,Moderate,Low,shap_irsad_score,-0.0743891821365741,IRSAD (Adv & Disadv),0.0743891821365741,3,4
+401051017,Norwood (SA),Moderate,Low,shap_irsad_score,-0.0804836867004772,IRSAD (Adv & Disadv),0.0804836867004772,3,4
+401051018,Payneham - Felixstow,Moderate,Low,shap_irsad_score,-0.0850556058876609,IRSAD (Adv & Disadv),0.0850556058876609,3,4
+401051019,St Peters - Marden,Low,Low,shap_irsad_score,-0.0601133982443504,IRSAD (Adv & Disadv),0.0601133982443504,4,4
+401061020,Nailsworth - Broadview,Low,Low,shap_irsad_score,-0.0605079999009317,IRSAD (Adv & Disadv),0.0605079999009317,4,4
+401061021,Prospect,Low,Low,shap_irsad_score,-0.0592324714905739,IRSAD (Adv & Disadv),0.0592324714905739,4,4
+401061022,Walkerville,Low,Low,shap_irsad_score,-0.0613058089962254,IRSAD (Adv & Disadv),0.0613058089962254,4,4
+401071023,Goodwood - Millswood,Low,Low,shap_irsad_score,-0.0546062583969065,IRSAD (Adv & Disadv),0.0546062583969065,4,4
+401071024,Unley - Parkside,Low,Low,shap_irsad_score,-0.0537544257681847,IRSAD (Adv & Disadv),0.0537544257681847,4,4
+402011025,Gawler - North,Low,Low,shap_irsad_score,-0.081056847072532,IRSAD (Adv & Disadv),0.081056847072532,4,4
+402011026,Gawler - South,Moderate,Low,shap_irsad_score,-0.0460985918600641,IRSAD (Adv & Disadv),0.0460985918600641,3,4
+402011027,Lewiston - Two Wells,Low,Low,shap_irsad_score,-0.0330430319472889,IRSAD (Adv & Disadv),0.0330430319472889,4,4
+402021028,Craigmore - Blakeview,Moderate,Low,shap_irsad_score,0.0230356598083229,IRSAD (Adv & Disadv),0.0230356598083229,3,4
+402021029,Davoren Park,Moderate,Low,shap_irsad_score,-0.0137954163549036,IRSAD (Adv & Disadv),0.0137954163549036,3,4
+402021030,Elizabeth,Critical,Moderate,shap_irsad_score,0.0881306835173422,IRSAD (Adv & Disadv),0.0881306835173422,1,3
+402021031,Elizabeth East,Moderate,Low,shap_irsad_score,-0.0048284136128399,IRSAD (Adv & Disadv),0.0048284136128399,3,4
+402021032,Munno Para West - Angle Vale,Moderate,Low,shap_irsad_score,-0.0485405879865331,IRSAD (Adv & Disadv),0.0485405879865331,3,4
+402021033,One Tree Hill,Low,Low,shap_irsad_score,-0.0736765442987231,IRSAD (Adv & Disadv),0.0736765442987231,4,4
+402021034,Smithfield - Elizabeth North,High,Moderate,shap_irsad_score,0.0654649175111491,IRSAD (Adv & Disadv),0.0654649175111491,2,3
+402021035,Virginia - Waterloo Corner,Moderate,Low,shap_irsad_score,-0.0684387605628795,IRSAD (Adv & Disadv),0.0684387605628795,3,4
+402031036,Enfield - Blair Athol,Moderate,Low,shap_irsad_score,0.0030921759073195,IRSAD (Adv & Disadv),0.0030921759073195,3,4
+402031038,Windsor Gardens,Moderate,Low,shap_irsad_score,-0.0663720819624938,IRSAD (Adv & Disadv),0.0663720819624938,3,4
+402031175,Northgate - Northfield,Low,Low,shap_irsad_score,-0.0685805944995334,IRSAD (Adv & Disadv),0.0685805944995334,4,4
+402031176,Valley View - Gilles Plains,Moderate,Low,shap_irsad_score,-0.0310746054382431,IRSAD (Adv & Disadv),0.0310746054382431,3,4
+402041040,Ingle Farm,Moderate,Low,shap_irsad_score,-0.044351459253539,IRSAD (Adv & Disadv),0.044351459253539,3,4
+402041041,Para Hills,Moderate,Low,shap_irsad_score,-0.037154449250469,IRSAD (Adv & Disadv),0.037154449250469,3,4
+402041043,Parafield Gardens,Moderate,Low,shap_irsad_score,0.0258566910461559,IRSAD (Adv & Disadv),0.0258566910461559,3,4
+402041044,Paralowie,Moderate,Low,shap_irsad_score,0.0125877998567578,IRSAD (Adv & Disadv),0.0125877998567578,3,4
+402041046,Salisbury,High,Low,shap_irsad_score,-0.0115370185150535,IRSAD (Adv & Disadv),0.0115370185150535,2,4
+402041047,Salisbury East,Moderate,Low,shap_irsad_score,0.0140883536995302,IRSAD (Adv & Disadv),0.0140883536995302,3,4
+402041048,Salisbury North,Moderate,Low,shap_irsad_score,-0.0113578399047809,IRSAD (Adv & Disadv),0.0113578399047809,3,4
+402041171,Mawson Lakes - Globe Derby Park,Low,Low,shap_irsad_score,-0.0820804123311216,IRSAD (Adv & Disadv),0.0820804123311216,4,4
+402041172,Pooraka - Cavan,Moderate,Low,shap_irsad_score,0.0048894672456308,IRSAD (Adv & Disadv),0.0048894672456308,3,4
+402051049,Golden Grove,Moderate,Low,shap_irsad_score,-0.0781864270071172,IRSAD (Adv & Disadv),0.0781864270071172,3,4
+402051050,Greenwith,Low,Low,shap_irsad_score,-0.068706334129233,IRSAD (Adv & Disadv),0.068706334129233,4,4
+402051051,Highbury - Dernancourt,Low,Low,shap_irsad_score,-0.0702267717225214,IRSAD (Adv & Disadv),0.0702267717225214,4,4
+402051052,Hope Valley - Modbury,Moderate,Low,shap_irsad_score,-0.006142673004187,IRSAD (Adv & Disadv),0.006142673004187,3,4
+402051053,Modbury Heights,Moderate,Low,shap_irsad_score,-0.0630513031700973,IRSAD (Adv & Disadv),0.0630513031700973,3,4
+402051054,Redwood Park,Low,Low,shap_irsad_score,-0.0581517217121638,IRSAD (Adv & Disadv),0.0581517217121638,4,4
+402051055,St Agnes - Ridgehaven,Moderate,Low,shap_irsad_score,-0.0726525251916566,IRSAD (Adv & Disadv),0.0726525251916566,3,4
+403011056,Brighton (SA),Moderate,Low,shap_irsad_score,-0.0581188704322045,IRSAD (Adv & Disadv),0.0581188704322045,3,4
+403011057,Glenelg (SA),Moderate,Low,shap_irsad_score,-0.0610513379032879,IRSAD (Adv & Disadv),0.0610513379032879,3,4
+403021058,Edwardstown,Moderate,Low,shap_irsad_score,-0.0581136518935654,IRSAD (Adv & Disadv),0.0581136518935654,3,4
+403021059,Hallett Cove,Low,Low,shap_irsad_score,-0.0668132061444848,IRSAD (Adv & Disadv),0.0668132061444848,4,4
+403021060,Marino - Seaview Downs,Low,Low,shap_irsad_score,-0.0721563670285429,IRSAD (Adv & Disadv),0.0721563670285429,4,4
+403021061,Mitchell Park,Moderate,Low,shap_irsad_score,-0.027725140640702,IRSAD (Adv & Disadv),0.027725140640702,3,4
+403021062,Morphettville,Moderate,Low,shap_irsad_score,-0.069708073269428,IRSAD (Adv & Disadv),0.069708073269428,3,4
+403021063,Sheidow Park - Trott Park,Low,Low,shap_irsad_score,-0.0691115209195857,IRSAD (Adv & Disadv),0.0691115209195857,4,4
+403021064,Warradale,Moderate,Low,shap_irsad_score,-0.0398032996798077,IRSAD (Adv & Disadv),0.0398032996798077,3,4
+403031065,Belair,Low,Low,shap_irsad_score,-0.0754627635086204,IRSAD (Adv & Disadv),0.0754627635086204,4,4
+403031066,Bellevue Heights,Low,Low,shap_irsad_score,-0.0720153082275966,IRSAD (Adv & Disadv),0.0720153082275966,4,4
+403031067,Blackwood,Low,Low,shap_irsad_score,-0.0667912258265355,IRSAD (Adv & Disadv),0.0667912258265355,4,4
+403031068,Colonel Light Gardens,Low,Low,shap_irsad_score,-0.0583507992387548,IRSAD (Adv & Disadv),0.0583507992387548,4,4
+403031069,Mitcham (SA),Low,Low,shap_irsad_score,-0.0620440394397577,IRSAD (Adv & Disadv),0.0620440394397577,4,4
+403031070,Panorama,Moderate,Low,shap_irsad_score,-0.0740794937374528,IRSAD (Adv & Disadv),0.0740794937374528,3,4
+403041071,Aberfoyle Park,Low,Low,shap_irsad_score,-0.0647787689634632,IRSAD (Adv & Disadv),0.0647787689634632,4,4
+403041072,Aldinga,Moderate,Low,shap_irsad_score,-0.045426902237261,IRSAD (Adv & Disadv),0.045426902237261,3,4
+403041073,Christie Downs,High,Low,shap_irsad_score,0.0435595100967114,IRSAD (Adv & Disadv),0.0435595100967114,2,4
+403041074,Christies Beach,Moderate,Low,shap_irsad_score,0.0173838701885338,IRSAD (Adv & Disadv),0.0173838701885338,3,4
+403041075,Clarendon,Low,Low,shap_irsad_score,-0.0730218688640324,IRSAD (Adv & Disadv),0.0730218688640324,4,4
+403041076,Coromandel Valley,Low,Low,shap_irsad_score,-0.0681408178502308,IRSAD (Adv & Disadv),0.0681408178502308,4,4
+403041077,Flagstaff Hill,Low,Low,shap_irsad_score,-0.0705190398143465,IRSAD (Adv & Disadv),0.0705190398143465,4,4
+403041078,Hackham - Onkaparinga Hills,Moderate,Low,shap_irsad_score,-0.007572191262526,IRSAD (Adv & Disadv),0.007572191262526,3,4
+403041079,Hackham West - Huntfield Heights,High,Low,shap_irsad_score,-0.0112443234410798,IRSAD (Adv & Disadv),0.0112443234410798,2,4
+403041080,Happy Valley,Moderate,Low,shap_irsad_score,-0.0695795820179254,IRSAD (Adv & Disadv),0.0695795820179254,3,4
+403041081,Happy Valley Reservoir,Moderate,Low,shap_irsad_score,-0.0155132618699351,IRSAD (Adv & Disadv),0.0155132618699351,3,4
+403041082,Lonsdale,Critical,Moderate,shap_irsad_score,0.0187253322245562,IRSAD (Adv & Disadv),0.0187253322245562,1,3
+403041083,McLaren Vale,Moderate,Low,shap_irsad_score,-0.0726395172100839,IRSAD (Adv & Disadv),0.0726395172100839,3,4
+403041084,Morphett Vale - East,Moderate,Low,shap_irsad_score,0.0043547338230665,IRSAD (Adv & Disadv),0.0043547338230665,3,4
+403041085,Morphett Vale - West,Moderate,Low,shap_irsad_score,0.0235668842280595,IRSAD (Adv & Disadv),0.0235668842280595,3,4
+403041086,Reynella,Moderate,Low,shap_irsad_score,-0.0537419703785353,IRSAD (Adv & Disadv),0.0537419703785353,3,4
+403041088,Willunga,Low,Low,shap_irsad_score,-0.0738164719116468,IRSAD (Adv & Disadv),0.0738164719116468,4,4
+403041089,Woodcroft,Moderate,Low,shap_irsad_score,-0.067490975752994,IRSAD (Adv & Disadv),0.067490975752994,3,4
+403041177,Seaford - Seaford Meadows,Moderate,Low,shap_irsad_score,-0.0457404713497775,IRSAD (Adv & Disadv),0.0457404713497775,3,4
+403041178,Seaford Rise - Moana,Moderate,Low,shap_irsad_score,-0.0283247382647352,IRSAD (Adv & Disadv),0.0283247382647352,3,4
+404011090,Beverley,Moderate,Low,shap_irsad_score,-0.0692464774181172,IRSAD (Adv & Disadv),0.0692464774181172,3,4
+404011091,Flinders Park,Moderate,Low,shap_irsad_score,-0.0628875457223161,IRSAD (Adv & Disadv),0.0628875457223161,3,4
+404011092,Henley Beach,Low,Low,shap_irsad_score,-0.0577791272125571,IRSAD (Adv & Disadv),0.0577791272125571,4,4
+404011093,Hindmarsh - Brompton,Moderate,Low,shap_irsad_score,-0.0687661253883246,IRSAD (Adv & Disadv),0.0687661253883246,3,4
+404011094,Royal Park - Hendon - Albert Park,Moderate,Low,shap_irsad_score,-0.0567233514022954,IRSAD (Adv & Disadv),0.0567233514022954,3,4
+404011095,Seaton - Grange,Moderate,Low,shap_irsad_score,-0.0613037086298374,IRSAD (Adv & Disadv),0.0613037086298374,3,4
+404011096,West Lakes,Moderate,Low,shap_irsad_score,-0.071145528895009,IRSAD (Adv & Disadv),0.071145528895009,3,4
+404011097,Woodville - Cheltenham,Moderate,Low,shap_irsad_score,-0.0293134778372026,IRSAD (Adv & Disadv),0.0293134778372026,3,4
+404021099,Largs Bay - Semaphore,Moderate,Low,shap_irsad_score,-0.0703009376902363,IRSAD (Adv & Disadv),0.0703009376902363,3,4
+404021100,North Haven,Moderate,Low,shap_irsad_score,-0.0521082085279993,IRSAD (Adv & Disadv),0.0521082085279993,3,4
+404021101,Port Adelaide,Moderate,Low,shap_irsad_score,0.0067675741227251,IRSAD (Adv & Disadv),0.0067675741227251,3,4
+404021102,The Parks,Moderate,Low,shap_irsad_score,0.0269776861273341,IRSAD (Adv & Disadv),0.0269776861273341,3,4
+404021103,Torrens Island,Critical,Moderate,shap_irsad_score,-0.0031475655755759,IRSAD (Adv & Disadv),0.0031475655755759,1,3
+404031105,Fulham,Low,Low,shap_irsad_score,-0.0653240297565771,IRSAD (Adv & Disadv),0.0653240297565771,4,4
+404031106,Lockleys,Moderate,Low,shap_irsad_score,-0.0786580498158401,IRSAD (Adv & Disadv),0.0786580498158401,3,4
+404031107,Plympton,Moderate,Low,shap_irsad_score,-0.0784748522537793,IRSAD (Adv & Disadv),0.0784748522537793,3,4
+404031108,Richmond (SA),Moderate,Low,shap_irsad_score,-0.0782998719026388,IRSAD (Adv & Disadv),0.0782998719026388,3,4
+404031109,West Beach,Low,Low,shap_irsad_score,-0.0657442150674747,IRSAD (Adv & Disadv),0.0657442150674747,4,4
+405011110,Barossa - Angaston,Moderate,Low,shap_irsad_score,-0.064555737780316,IRSAD (Adv & Disadv),0.064555737780316,3,4
+405011111,Light,Moderate,Low,shap_irsad_score,-0.0514719838429137,IRSAD (Adv & Disadv),0.0514719838429137,3,4
+405011112,Lyndoch,Moderate,Low,shap_irsad_score,-0.0788431724057551,IRSAD (Adv & Disadv),0.0788431724057551,3,4
+405011113,Mallala,Moderate,Low,shap_irsad_score,0.0294066024946497,IRSAD (Adv & Disadv),0.0294066024946497,3,4
+405011114,Nuriootpa,Moderate,Low,shap_irsad_score,-0.0731073759622316,IRSAD (Adv & Disadv),0.0731073759622316,3,4
+405011115,Tanunda,Moderate,Low,shap_irsad_score,-0.0848552430802046,IRSAD (Adv & Disadv),0.0848552430802046,3,4
+405021116,Clare,Moderate,Low,shap_irsad_score,-0.0745553797256554,IRSAD (Adv & Disadv),0.0745553797256554,3,4
+405021117,Gilbert Valley,High,Low,shap_irsad_score,-0.0585063274162919,IRSAD (Adv & Disadv),0.0585063274162919,2,4
+405021118,Goyder,Critical,Moderate,shap_irsad_score,0.112889836327507,IRSAD (Adv & Disadv),0.112889836327507,1,3
+405021119,Wakefield - Barunga West,High,Moderate,shap_irsad_score,0.0198690178753608,IRSAD (Adv & Disadv),0.0198690178753608,2,3
+405031120,Jamestown,High,Low,shap_irsad_score,-0.0849821123366262,IRSAD (Adv & Disadv),0.0849821123366262,2,4
+405031121,Peterborough - Mount Remarkable,Critical,Moderate,shap_irsad_score,0.1210043770479588,IRSAD (Adv & Disadv),0.1210043770479588,1,3
+405031122,Port Pirie,Critical,Moderate,shap_irsad_score,0.1223280861585095,IRSAD (Adv & Disadv),0.1223280861585095,1,3
+405031123,Port Pirie Surrounds,High,Low,shap_irsad_score,-0.0800842762843027,IRSAD (Adv & Disadv),0.0800842762843027,2,4
+405041124,Kadina,High,Low,shap_irsad_score,0.021389498825262,IRSAD (Adv & Disadv),0.021389498825262,2,4
+405041125,Moonta,Critical,Moderate,shap_irsad_score,0.1073452633475497,IRSAD (Adv & Disadv),0.1073452633475497,1,3
+405041126,Wallaroo,Critical,Moderate,shap_irsad_score,0.1345607030858537,IRSAD (Adv & Disadv),0.1345607030858537,1,3
+405041127,Yorke Peninsula - North,Critical,Moderate,shap_irsad_score,0.1007074243506838,IRSAD (Adv & Disadv),0.1007074243506838,1,3
+405041128,Yorke Peninsula - South,Critical,Moderate,shap_irsad_score,0.1136533894014695,IRSAD (Adv & Disadv),0.1136533894014695,1,3
+406011129,Ceduna,Moderate,Low,shap_irsad_score,-0.0372441269559295,IRSAD (Adv & Disadv),0.0372441269559295,3,4
+406011130,Eyre Peninsula,Moderate,Low,shap_irsad_score,-0.0667348252352898,IRSAD (Adv & Disadv),0.0667348252352898,3,4
+406011131,Kimba - Cleve - Franklin Harbour,High,Low,shap_irsad_score,-0.0792908740446909,IRSAD (Adv & Disadv),0.0792908740446909,2,4
+406011132,Le Hunte - Elliston,High,Low,shap_irsad_score,-0.0259850492034389,IRSAD (Adv & Disadv),0.0259850492034389,2,4
+406011133,Port Lincoln,Moderate,Low,shap_irsad_score,-0.0473671124662253,IRSAD (Adv & Disadv),0.0473671124662253,3,4
+406011134,West Coast (SA),High,Low,shap_irsad_score,-0.0975211445165199,IRSAD (Adv & Disadv),0.0975211445165199,2,4
+406011135,Western,Moderate,Low,shap_irsad_score,0.0577993512957209,IRSAD (Adv & Disadv),0.0577993512957209,3,4
+406011136,Whyalla,High,Low,shap_irsad_score,0.0399779063108742,IRSAD (Adv & Disadv),0.0399779063108742,2,4
+406021138,APY Lands,High,Low,shap_irsad_score,0.0963255321898201,IRSAD (Adv & Disadv),0.0963255321898201,2,4
+406021140,Quorn - Lake Gilles,High,Moderate,shap_irsad_score,0.0566304247094502,IRSAD (Adv & Disadv),0.0566304247094502,2,3
+406021141,Outback,High,Low,shap_irsad_score,-0.081317743210337,IRSAD (Adv & Disadv),0.081317743210337,2,4
+406021142,Port Augusta,Moderate,Low,shap_irsad_score,0.0378899455998256,IRSAD (Adv & Disadv),0.0378899455998256,3,4
+406021143,Roxby Downs,Low,Low,shap_irsad_score,-0.0886463490476367,IRSAD (Adv & Disadv),0.0886463490476367,4,4
+407011144,Goolwa - Port Elliot,Critical,Moderate,shap_irsad_score,-0.0597113649427054,IRSAD (Adv & Disadv),0.0597113649427054,1,3
+407011145,Kangaroo Island,High,Moderate,shap_irsad_score,-0.0859804224079976,IRSAD (Adv & Disadv),0.0859804224079976,2,3
+407011146,Strathalbyn,Moderate,Low,shap_irsad_score,-0.0586757544286602,IRSAD (Adv & Disadv),0.0586757544286602,3,4
+407011147,Strathalbyn Surrounds,Moderate,Low,shap_irsad_score,-0.0689075680830413,IRSAD (Adv & Disadv),0.0689075680830413,3,4
+407011148,Victor Harbor,Critical,Moderate,shap_irsad_score,0.0823496571107163,IRSAD (Adv & Disadv),0.0823496571107163,1,3
+407011149,Yankalilla,High,Moderate,shap_irsad_score,-0.0693306060729688,IRSAD (Adv & Disadv),0.0693306060729688,2,3
+407021150,Grant,Moderate,Low,shap_irsad_score,-0.0719754034210014,IRSAD (Adv & Disadv),0.0719754034210014,3,4
+407021151,Kingston - Robe,High,Low,shap_irsad_score,-0.07524779235253,IRSAD (Adv & Disadv),0.07524779235253,2,4
+407021152,Millicent,Critical,Moderate,shap_irsad_score,0.1259303287980831,IRSAD (Adv & Disadv),0.1259303287980831,1,3
+407021154,Naracoorte,Moderate,Low,shap_irsad_score,-0.0233276781027621,IRSAD (Adv & Disadv),0.0233276781027621,3,4
+407021155,Naracoorte Surrounds,Moderate,Low,shap_irsad_score,-0.0765301168501296,IRSAD (Adv & Disadv),0.0765301168501296,3,4
+407021156,Penola,Moderate,Low,shap_irsad_score,-0.02743406915738,IRSAD (Adv & Disadv),0.02743406915738,3,4
+407021157,Tatiara,Moderate,Low,shap_irsad_score,-0.071918324805043,IRSAD (Adv & Disadv),0.071918324805043,3,4
+407021158,Wattle Range,Moderate,Low,shap_irsad_score,-0.0703504076953357,IRSAD (Adv & Disadv),0.0703504076953357,3,4
+407021173,Mount Gambier - East,Moderate,Low,shap_irsad_score,0.0055957815271376,IRSAD (Adv & Disadv),0.0055957815271376,3,4
+407021174,Mount Gambier - West,High,Low,shap_irsad_score,0.0165330802145505,IRSAD (Adv & Disadv),0.0165330802145505,2,4
+407031159,Barmera,High,Low,shap_irsad_score,0.0164209769580404,IRSAD (Adv & Disadv),0.0164209769580404,2,4
+407031160,Berri,Critical,Moderate,shap_irsad_score,0.1343037059293355,IRSAD (Adv & Disadv),0.1343037059293355,1,3
+407031161,Karoonda - Lameroo,High,Low,shap_irsad_score,-0.0727620821475595,IRSAD (Adv & Disadv),0.0727620821475595,2,4
+407031162,Loxton,High,Low,shap_irsad_score,-0.0836980287832014,IRSAD (Adv & Disadv),0.0836980287832014,2,4
+407031163,Loxton Surrounds,Moderate,Low,shap_irsad_score,-0.0593249953718427,IRSAD (Adv & Disadv),0.0593249953718427,3,4
+407031164,Mannum,Critical,Moderate,shap_irsad_score,0.1058027778365929,IRSAD (Adv & Disadv),0.1058027778365929,1,3
+407031165,Murray Bridge,High,Moderate,shap_irsad_score,0.0115708492373613,IRSAD (Adv & Disadv),0.0115708492373613,2,3
+407031166,Murray Bridge Surrounds,Moderate,Low,shap_irsad_score,-0.0748274657572026,IRSAD (Adv & Disadv),0.0748274657572026,3,4
+407031167,Renmark,Critical,Moderate,shap_irsad_score,0.1365638443287247,IRSAD (Adv & Disadv),0.1365638443287247,1,3
+407031168,Renmark Surrounds,Moderate,Low,shap_irsad_score,-0.0765367015273384,IRSAD (Adv & Disadv),0.0765367015273384,3,4
+407031169,The Coorong,High,Moderate,shap_irsad_score,0.0403253448261919,IRSAD (Adv & Disadv),0.0403253448261919,2,3
+407031170,Waikerie,Critical,Moderate,shap_irsad_score,0.1162086853955765,IRSAD (Adv & Disadv),0.1162086853955765,1,3
+401011001,Adelaide,Moderate,Low,shap_ier_score,0.0168025979994883,IER (Econ Resources),0.0168025979994883,3,4
+401011002,North Adelaide,Low,Low,shap_ier_score,0.0090586320000595,IER (Econ Resources),0.0090586320000595,4,4
+401021003,Adelaide Hills,Low,Low,shap_ier_score,-0.0682611139069248,IER (Econ Resources),0.0682611139069248,4,4
+401021004,Aldgate - Stirling,Low,Low,shap_ier_score,-0.0569580688674633,IER (Econ Resources),0.0569580688674633,4,4
+401021005,Hahndorf - Echunga,Low,Low,shap_ier_score,-0.0725316470892782,IER (Econ Resources),0.0725316470892782,4,4
+401021006,Lobethal - Woodside,Moderate,Low,shap_ier_score,-0.0693866757847108,IER (Econ Resources),0.0693866757847108,3,4
+401021007,Mount Barker,Moderate,Low,shap_ier_score,-0.0608105597247965,IER (Econ Resources),0.0608105597247965,3,4
+401021008,Mount Barker Surrounds,Low,Low,shap_ier_score,-0.0728454041170205,IER (Econ Resources),0.0728454041170205,4,4
+401021009,Nairne,Low,Low,shap_ier_score,-0.0778335142396998,IER (Econ Resources),0.0778335142396998,4,4
+401021010,Uraidla - Summertown,Low,Low,shap_ier_score,-0.0673707289838166,IER (Econ Resources),0.0673707289838166,4,4
+401031011,Burnside - Wattle Park,Low,Low,shap_ier_score,-0.0525209068768172,IER (Econ Resources),0.0525209068768172,4,4
+401031012,Beaumont - Glen Osmond,Low,Low,shap_ier_score,-0.0669657479679982,IER (Econ Resources),0.0669657479679982,4,4
+401031013,Toorak Gardens,Low,Low,shap_ier_score,-0.0470942070010271,IER (Econ Resources),0.0470942070010271,4,4
+401041014,Athelstone,Low,Low,shap_ier_score,-0.05972309494207,IER (Econ Resources),0.05972309494207,4,4
+401041015,Paradise - Newton,Moderate,Low,shap_ier_score,0.0123885777041847,IER (Econ Resources),0.0123885777041847,3,4
+401041016,Rostrevor - Magill,Moderate,Low,shap_ier_score,-0.0237451088825888,IER (Econ Resources),0.0237451088825888,3,4
+401051017,Norwood (SA),Moderate,Low,shap_ier_score,0.0039378438312492,IER (Econ Resources),0.0039378438312492,3,4
+401051018,Payneham - Felixstow,Moderate,Low,shap_ier_score,0.0107190087829544,IER (Econ Resources),0.0107190087829544,3,4
+401051019,St Peters - Marden,Low,Low,shap_ier_score,-0.0471276912935243,IER (Econ Resources),0.0471276912935243,4,4
+401061020,Nailsworth - Broadview,Low,Low,shap_ier_score,-0.0516004053141362,IER (Econ Resources),0.0516004053141362,4,4
+401061021,Prospect,Low,Low,shap_ier_score,-0.0419327959270192,IER (Econ Resources),0.0419327959270192,4,4
+401061022,Walkerville,Low,Low,shap_ier_score,-0.0591113268912018,IER (Econ Resources),0.0591113268912018,4,4
+401071023,Goodwood - Millswood,Low,Low,shap_ier_score,-0.0452981558426958,IER (Econ Resources),0.0452981558426958,4,4
+401071024,Unley - Parkside,Low,Low,shap_ier_score,-0.0455588196586003,IER (Econ Resources),0.0455588196586003,4,4
+402011025,Gawler - North,Low,Low,shap_ier_score,-0.0997073173187657,IER (Econ Resources),0.0997073173187657,4,4
+402011026,Gawler - South,Moderate,Low,shap_ier_score,0.0024594993644627,IER (Econ Resources),0.0024594993644627,3,4
+402011027,Lewiston - Two Wells,Low,Low,shap_ier_score,-0.1258615571990238,IER (Econ Resources),0.1258615571990238,4,4
+402021028,Craigmore - Blakeview,Moderate,Low,shap_ier_score,-0.0568539899855336,IER (Econ Resources),0.0568539899855336,3,4
+402021029,Davoren Park,Moderate,Low,shap_ier_score,0.0315188754767956,IER (Econ Resources),0.0315188754767956,3,4
+402021030,Elizabeth,Critical,Moderate,shap_ier_score,0.0973452686218612,IER (Econ Resources),0.0973452686218612,1,3
+402021031,Elizabeth East,Moderate,Low,shap_ier_score,-0.0053609206838499,IER (Econ Resources),0.0053609206838499,3,4
+402021032,Munno Para West - Angle Vale,Moderate,Low,shap_ier_score,-0.0682290166204547,IER (Econ Resources),0.0682290166204547,3,4
+402021033,One Tree Hill,Low,Low,shap_ier_score,-0.0729106006935926,IER (Econ Resources),0.0729106006935926,4,4
+402021034,Smithfield - Elizabeth North,High,Moderate,shap_ier_score,0.0707491387488308,IER (Econ Resources),0.0707491387488308,2,3
+402021035,Virginia - Waterloo Corner,Moderate,Low,shap_ier_score,-0.1378135788349372,IER (Econ Resources),0.1378135788349372,3,4
+402031036,Enfield - Blair Athol,Moderate,Low,shap_ier_score,-0.0191372239937364,IER (Econ Resources),0.0191372239937364,3,4
+402031038,Windsor Gardens,Moderate,Low,shap_ier_score,0.0026431697515337,IER (Econ Resources),0.0026431697515337,3,4
+402031175,Northgate - Northfield,Low,Low,shap_ier_score,0.0028408791825108,IER (Econ Resources),0.0028408791825108,4,4
+402031176,Valley View - Gilles Plains,Moderate,Low,shap_ier_score,-0.0014653451026903,IER (Econ Resources),0.0014653451026903,3,4
+402041040,Ingle Farm,Moderate,Low,shap_ier_score,-0.0031385369434501,IER (Econ Resources),0.0031385369434501,3,4
+402041041,Para Hills,Moderate,Low,shap_ier_score,1.9825551975457143e-05,IER (Econ Resources),1.9825551975457143e-05,3,4
+402041043,Parafield Gardens,Moderate,Low,shap_ier_score,-0.0002993333717964,IER (Econ Resources),0.0002993333717964,3,4
+402041044,Paralowie,Moderate,Low,shap_ier_score,0.0002470153387589,IER (Econ Resources),0.0002470153387589,3,4
+402041046,Salisbury,High,Low,shap_ier_score,0.0270224939365248,IER (Econ Resources),0.0270224939365248,2,4
+402041047,Salisbury East,Moderate,Low,shap_ier_score,-0.0126356962782824,IER (Econ Resources),0.0126356962782824,3,4
+402041048,Salisbury North,Moderate,Low,shap_ier_score,-0.0123230781978162,IER (Econ Resources),0.0123230781978162,3,4
+402041171,Mawson Lakes - Globe Derby Park,Low,Low,shap_ier_score,-0.0450942814660413,IER (Econ Resources),0.0450942814660413,4,4
+402041172,Pooraka - Cavan,Moderate,Low,shap_ier_score,-0.017878088079383,IER (Econ Resources),0.017878088079383,3,4
+402051049,Golden Grove,Moderate,Low,shap_ier_score,-0.0723328996017055,IER (Econ Resources),0.0723328996017055,3,4
+402051050,Greenwith,Low,Low,shap_ier_score,-0.065524677956992,IER (Econ Resources),0.065524677956992,4,4
+402051051,Highbury - Dernancourt,Low,Low,shap_ier_score,-0.0637716363805578,IER (Econ Resources),0.0637716363805578,4,4
+402051052,Hope Valley - Modbury,Moderate,Low,shap_ier_score,0.006606377367833,IER (Econ Resources),0.006606377367833,3,4
+402051053,Modbury Heights,Moderate,Low,shap_ier_score,-0.0592708821402329,IER (Econ Resources),0.0592708821402329,3,4
+402051054,Redwood Park,Low,Low,shap_ier_score,-0.0604489341790325,IER (Econ Resources),0.0604489341790325,4,4
+402051055,St Agnes - Ridgehaven,Moderate,Low,shap_ier_score,-0.0744542468045855,IER (Econ Resources),0.0744542468045855,3,4
+403011056,Brighton (SA),Moderate,Low,shap_ier_score,-0.0482433501195785,IER (Econ Resources),0.0482433501195785,3,4
+403011057,Glenelg (SA),Moderate,Low,shap_ier_score,-0.0154355534431062,IER (Econ Resources),0.0154355534431062,3,4
+403021058,Edwardstown,Moderate,Low,shap_ier_score,-0.0054971520692795,IER (Econ Resources),0.0054971520692795,3,4
+403021059,Hallett Cove,Low,Low,shap_ier_score,-0.063183462404428,IER (Econ Resources),0.063183462404428,4,4
+403021060,Marino - Seaview Downs,Low,Low,shap_ier_score,-0.0696042907095184,IER (Econ Resources),0.0696042907095184,4,4
+403021061,Mitchell Park,Moderate,Low,shap_ier_score,-0.0146979619512145,IER (Econ Resources),0.0146979619512145,3,4
+403021062,Morphettville,Moderate,Low,shap_ier_score,0.0047579144930004,IER (Econ Resources),0.0047579144930004,3,4
+403021063,Sheidow Park - Trott Park,Low,Low,shap_ier_score,-0.0721645154231017,IER (Econ Resources),0.0721645154231017,4,4
+403021064,Warradale,Moderate,Low,shap_ier_score,-0.0050501004990883,IER (Econ Resources),0.0050501004990883,3,4
+403031065,Belair,Low,Low,shap_ier_score,-0.0699353567381346,IER (Econ Resources),0.0699353567381346,4,4
+403031066,Bellevue Heights,Low,Low,shap_ier_score,-0.0694370764519583,IER (Econ Resources),0.0694370764519583,4,4
+403031067,Blackwood,Low,Low,shap_ier_score,-0.060413331138165,IER (Econ Resources),0.060413331138165,4,4
+403031068,Colonel Light Gardens,Low,Low,shap_ier_score,-0.0501117992355837,IER (Econ Resources),0.0501117992355837,4,4
+403031069,Mitcham (SA),Low,Low,shap_ier_score,-0.0548017777251164,IER (Econ Resources),0.0548017777251164,4,4
+403031070,Panorama,Moderate,Low,shap_ier_score,-0.0436139928756832,IER (Econ Resources),0.0436139928756832,3,4
+403041071,Aberfoyle Park,Low,Low,shap_ier_score,-0.0648786080812829,IER (Econ Resources),0.0648786080812829,4,4
+403041072,Aldinga,Moderate,Low,shap_ier_score,-0.0582737773770857,IER (Econ Resources),0.0582737773770857,3,4
+403041073,Christie Downs,High,Low,shap_ier_score,0.0628476828511698,IER (Econ Resources),0.0628476828511698,2,4
+403041074,Christies Beach,Moderate,Low,shap_ier_score,-0.0194304837619157,IER (Econ Resources),0.0194304837619157,3,4
+403041075,Clarendon,Low,Low,shap_ier_score,-0.0719212930547625,IER (Econ Resources),0.0719212930547625,4,4
+403041076,Coromandel Valley,Low,Low,shap_ier_score,-0.0633989747250464,IER (Econ Resources),0.0633989747250464,4,4
+403041077,Flagstaff Hill,Low,Low,shap_ier_score,-0.0663862479199836,IER (Econ Resources),0.0663862479199836,4,4
+403041078,Hackham - Onkaparinga Hills,Moderate,Low,shap_ier_score,-0.0859822725543889,IER (Econ Resources),0.0859822725543889,3,4
+403041079,Hackham West - Huntfield Heights,High,Low,shap_ier_score,0.0008247906492451,IER (Econ Resources),0.0008247906492451,2,4
+403041080,Happy Valley,Moderate,Low,shap_ier_score,-0.0700451525952759,IER (Econ Resources),0.0700451525952759,3,4
+403041081,Happy Valley Reservoir,Moderate,Low,shap_ier_score,0.0093351297591496,IER (Econ Resources),0.0093351297591496,3,4
+403041082,Lonsdale,Critical,Moderate,shap_ier_score,0.0310162090618539,IER (Econ Resources),0.0310162090618539,1,3
+403041083,McLaren Vale,Moderate,Low,shap_ier_score,-0.0765072268389534,IER (Econ Resources),0.0765072268389534,3,4
+403041084,Morphett Vale - East,Moderate,Low,shap_ier_score,-0.005970769495449,IER (Econ Resources),0.005970769495449,3,4
+403041085,Morphett Vale - West,Moderate,Low,shap_ier_score,-0.0097262189409673,IER (Econ Resources),0.0097262189409673,3,4
+403041086,Reynella,Moderate,Low,shap_ier_score,-0.0008902847535802,IER (Econ Resources),0.0008902847535802,3,4
+403041088,Willunga,Low,Low,shap_ier_score,-0.0723330694414521,IER (Econ Resources),0.0723330694414521,4,4
+403041089,Woodcroft,Moderate,Low,shap_ier_score,-0.0906274112203921,IER (Econ Resources),0.0906274112203921,3,4
+403041177,Seaford - Seaford Meadows,Moderate,Low,shap_ier_score,-0.0427098766771608,IER (Econ Resources),0.0427098766771608,3,4
+403041178,Seaford Rise - Moana,Moderate,Low,shap_ier_score,-0.113836526772888,IER (Econ Resources),0.113836526772888,3,4
+404011090,Beverley,Moderate,Low,shap_ier_score,0.0082873781267827,IER (Econ Resources),0.0082873781267827,3,4
+404011091,Flinders Park,Moderate,Low,shap_ier_score,0.0004996391850521,IER (Econ Resources),0.0004996391850521,3,4
+404011092,Henley Beach,Low,Low,shap_ier_score,-0.0491666774343689,IER (Econ Resources),0.0491666774343689,4,4
+404011093,Hindmarsh - Brompton,Moderate,Low,shap_ier_score,-0.0023320456120592,IER (Econ Resources),0.0023320456120592,3,4
+404011094,Royal Park - Hendon - Albert Park,Moderate,Low,shap_ier_score,-0.0134484480185336,IER (Econ Resources),0.0134484480185336,3,4
+404011095,Seaton - Grange,Moderate,Low,shap_ier_score,0.0065787142701494,IER (Econ Resources),0.0065787142701494,3,4
+404011096,West Lakes,Moderate,Low,shap_ier_score,-0.0551249903366045,IER (Econ Resources),0.0551249903366045,3,4
+404011097,Woodville - Cheltenham,Moderate,Low,shap_ier_score,-0.0144799868176993,IER (Econ Resources),0.0144799868176993,3,4
+404021099,Largs Bay - Semaphore,Moderate,Low,shap_ier_score,0.0004115872142932,IER (Econ Resources),0.0004115872142932,3,4
+404021100,North Haven,Moderate,Low,shap_ier_score,-0.0117759786972383,IER (Econ Resources),0.0117759786972383,3,4
+404021101,Port Adelaide,Moderate,Low,shap_ier_score,-0.0209688865184728,IER (Econ Resources),0.0209688865184728,3,4
+404021102,The Parks,Moderate,Low,shap_ier_score,-0.0108308886900349,IER (Econ Resources),0.0108308886900349,3,4
+404021103,Torrens Island,Critical,Moderate,shap_ier_score,0.0210020362472056,IER (Econ Resources),0.0210020362472056,1,3
+404031105,Fulham,Low,Low,shap_ier_score,-0.0599396056764368,IER (Econ Resources),0.0599396056764368,4,4
+404031106,Lockleys,Moderate,Low,shap_ier_score,0.002518426177377,IER (Econ Resources),0.002518426177377,3,4
+404031107,Plympton,Moderate,Low,shap_ier_score,0.0052264414510106,IER (Econ Resources),0.0052264414510106,3,4
+404031108,Richmond (SA),Moderate,Low,shap_ier_score,-0.0053487327163313,IER (Econ Resources),0.0053487327163313,3,4
+404031109,West Beach,Low,Low,shap_ier_score,-0.0601039728748114,IER (Econ Resources),0.0601039728748114,4,4
+405011110,Barossa - Angaston,Moderate,Low,shap_ier_score,-0.0996994494908234,IER (Econ Resources),0.0996994494908234,3,4
+405011111,Light,Moderate,Low,shap_ier_score,-0.1115228113109171,IER (Econ Resources),0.1115228113109171,3,4
+405011112,Lyndoch,Moderate,Low,shap_ier_score,-0.0823129993248403,IER (Econ Resources),0.0823129993248403,3,4
+405011113,Mallala,Moderate,Low,shap_ier_score,-0.1078306178863453,IER (Econ Resources),0.1078306178863453,3,4
+405011114,Nuriootpa,Moderate,Low,shap_ier_score,-0.0918143038710213,IER (Econ Resources),0.0918143038710213,3,4
+405011115,Tanunda,Moderate,Low,shap_ier_score,-0.0815548685066634,IER (Econ Resources),0.0815548685066634,3,4
+405021116,Clare,Moderate,Low,shap_ier_score,-0.0036687461744057,IER (Econ Resources),0.0036687461744057,3,4
+405021117,Gilbert Valley,High,Low,shap_ier_score,-0.096600288531145,IER (Econ Resources),0.096600288531145,2,4
+405021118,Goyder,Critical,Moderate,shap_ier_score,0.0655852198108049,IER (Econ Resources),0.0655852198108049,1,3
+405021119,Wakefield - Barunga West,High,Moderate,shap_ier_score,0.0053226306184871,IER (Econ Resources),0.0053226306184871,2,3
+405031120,Jamestown,High,Low,shap_ier_score,-0.0144803027845514,IER (Econ Resources),0.0144803027845514,2,4
+405031121,Peterborough - Mount Remarkable,Critical,Moderate,shap_ier_score,0.0764154149509896,IER (Econ Resources),0.0764154149509896,1,3
+405031122,Port Pirie,Critical,Moderate,shap_ier_score,0.0805251602505481,IER (Econ Resources),0.0805251602505481,1,3
+405031123,Port Pirie Surrounds,High,Low,shap_ier_score,-0.0209722680181457,IER (Econ Resources),0.0209722680181457,2,4
+405041124,Kadina,High,Low,shap_ier_score,0.0042760025879825,IER (Econ Resources),0.0042760025879825,2,4
+405041125,Moonta,Critical,Moderate,shap_ier_score,0.0643514067768617,IER (Econ Resources),0.0643514067768617,1,3
+405041126,Wallaroo,Critical,Moderate,shap_ier_score,0.0458955669090967,IER (Econ Resources),0.0458955669090967,1,3
+405041127,Yorke Peninsula - North,Critical,Moderate,shap_ier_score,0.0715877296863116,IER (Econ Resources),0.0715877296863116,1,3
+405041128,Yorke Peninsula - South,Critical,Moderate,shap_ier_score,0.0827741203294751,IER (Econ Resources),0.0827741203294751,1,3
+406011129,Ceduna,Moderate,Low,shap_ier_score,-0.011941560546904,IER (Econ Resources),0.011941560546904,3,4
+406011130,Eyre Peninsula,Moderate,Low,shap_ier_score,-0.0998872076985192,IER (Econ Resources),0.0998872076985192,3,4
+406011131,Kimba - Cleve - Franklin Harbour,High,Low,shap_ier_score,-0.0511812079342801,IER (Econ Resources),0.0511812079342801,2,4
+406011132,Le Hunte - Elliston,High,Low,shap_ier_score,-0.0028989533551244,IER (Econ Resources),0.0028989533551244,2,4
+406011133,Port Lincoln,Moderate,Low,shap_ier_score,-0.0063609218718229,IER (Econ Resources),0.0063609218718229,3,4
+406011134,West Coast (SA),High,Low,shap_ier_score,0.0043246889323654,IER (Econ Resources),0.0043246889323654,2,4
+406011135,Western,Moderate,Low,shap_ier_score,0.0580290132632469,IER (Econ Resources),0.0580290132632469,3,4
+406011136,Whyalla,High,Low,shap_ier_score,0.0214447543639069,IER (Econ Resources),0.0214447543639069,2,4
+406021138,APY Lands,High,Low,shap_ier_score,0.0688482534198572,IER (Econ Resources),0.0688482534198572,2,4
+406021140,Quorn - Lake Gilles,High,Moderate,shap_ier_score,0.03221825245638,IER (Econ Resources),0.03221825245638,2,3
+406021141,Outback,High,Low,shap_ier_score,-0.0041214265994311,IER (Econ Resources),0.0041214265994311,2,4
+406021142,Port Augusta,Moderate,Low,shap_ier_score,-0.0163736744237104,IER (Econ Resources),0.0163736744237104,3,4
+406021143,Roxby Downs,Low,Low,shap_ier_score,-0.0887259160623672,IER (Econ Resources),0.0887259160623672,4,4
+407011144,Goolwa - Port Elliot,Critical,Moderate,shap_ier_score,0.0016241133033669,IER (Econ Resources),0.0016241133033669,1,3
+407011145,Kangaroo Island,High,Moderate,shap_ier_score,-0.0118720341331344,IER (Econ Resources),0.0118720341331344,2,3
+407011146,Strathalbyn,Moderate,Low,shap_ier_score,-0.1176535308872965,IER (Econ Resources),0.1176535308872965,3,4
+407011147,Strathalbyn Surrounds,Moderate,Low,shap_ier_score,-0.0995440711703609,IER (Econ Resources),0.0995440711703609,3,4
+407011148,Victor Harbor,Critical,Moderate,shap_ier_score,0.0644571234423789,IER (Econ Resources),0.0644571234423789,1,3
+407011149,Yankalilla,High,Moderate,shap_ier_score,-0.0788027960318497,IER (Econ Resources),0.0788027960318497,2,3
+407021150,Grant,Moderate,Low,shap_ier_score,-0.1191434599756793,IER (Econ Resources),0.1191434599756793,3,4
+407021151,Kingston - Robe,High,Low,shap_ier_score,-0.0653882811235327,IER (Econ Resources),0.0653882811235327,2,4
+407021152,Millicent,Critical,Moderate,shap_ier_score,0.0425288075975084,IER (Econ Resources),0.0425288075975084,1,3
+407021154,Naracoorte,Moderate,Low,shap_ier_score,0.0188531962450526,IER (Econ Resources),0.0188531962450526,3,4
+407021155,Naracoorte Surrounds,Moderate,Low,shap_ier_score,-0.0734216294846945,IER (Econ Resources),0.0734216294846945,3,4
+407021156,Penola,Moderate,Low,shap_ier_score,-0.0266520210505407,IER (Econ Resources),0.0266520210505407,3,4
+407021157,Tatiara,Moderate,Low,shap_ier_score,-0.109228189626581,IER (Econ Resources),0.109228189626581,3,4
+407021158,Wattle Range,Moderate,Low,shap_ier_score,-0.1291285729727105,IER (Econ Resources),0.1291285729727105,3,4
+407021173,Mount Gambier - East,Moderate,Low,shap_ier_score,-0.0100576373124108,IER (Econ Resources),0.0100576373124108,3,4
+407021174,Mount Gambier - West,High,Low,shap_ier_score,-0.0146193340329569,IER (Econ Resources),0.0146193340329569,2,4
+407031159,Barmera,High,Low,shap_ier_score,0.0128004985175906,IER (Econ Resources),0.0128004985175906,2,4
+407031160,Berri,Critical,Moderate,shap_ier_score,0.0950784578844139,IER (Econ Resources),0.0950784578844139,1,3
+407031161,Karoonda - Lameroo,High,Low,shap_ier_score,-0.01010938709294,IER (Econ Resources),0.01010938709294,2,4
+407031162,Loxton,High,Low,shap_ier_score,0.0058122585427968,IER (Econ Resources),0.0058122585427968,2,4
+407031163,Loxton Surrounds,Moderate,Low,shap_ier_score,-0.0929519059981534,IER (Econ Resources),0.0929519059981534,3,4
+407031164,Mannum,Critical,Moderate,shap_ier_score,0.0628912795956694,IER (Econ Resources),0.0628912795956694,1,3
+407031165,Murray Bridge,High,Moderate,shap_ier_score,-0.0028576006386999,IER (Econ Resources),0.0028576006386999,2,3
+407031166,Murray Bridge Surrounds,Moderate,Low,shap_ier_score,-0.1223589903974345,IER (Econ Resources),0.1223589903974345,3,4
+407031167,Renmark,Critical,Moderate,shap_ier_score,0.0869437973388711,IER (Econ Resources),0.0869437973388711,1,3
+407031168,Renmark Surrounds,Moderate,Low,shap_ier_score,-0.1333269936892112,IER (Econ Resources),0.1333269936892112,3,4
+407031169,The Coorong,High,Moderate,shap_ier_score,0.0130536191173449,IER (Econ Resources),0.0130536191173449,2,3
+407031170,Waikerie,Critical,Moderate,shap_ier_score,0.0654776237624093,IER (Econ Resources),0.0654776237624093,1,3
+401011001,Adelaide,Moderate,Low,shap_ieo_score,-0.0783921897212248,IEO (Education & Occ),0.0783921897212248,3,4
+401011002,North Adelaide,Low,Low,shap_ieo_score,-0.0699103855540233,IEO (Education & Occ),0.0699103855540233,4,4
+401021003,Adelaide Hills,Low,Low,shap_ieo_score,-0.0507860094455491,IEO (Education & Occ),0.0507860094455491,4,4
+401021004,Aldgate - Stirling,Low,Low,shap_ieo_score,-0.0450806710377069,IEO (Education & Occ),0.0450806710377069,4,4
+401021005,Hahndorf - Echunga,Low,Low,shap_ieo_score,-0.0576572610331256,IEO (Education & Occ),0.0576572610331256,4,4
+401021006,Lobethal - Woodside,Moderate,Low,shap_ieo_score,-0.0522532214226492,IEO (Education & Occ),0.0522532214226492,3,4
+401021007,Mount Barker,Moderate,Low,shap_ieo_score,-0.0553276118081999,IEO (Education & Occ),0.0553276118081999,3,4
+401021008,Mount Barker Surrounds,Low,Low,shap_ieo_score,-0.0540526148369698,IEO (Education & Occ),0.0540526148369698,4,4
+401021009,Nairne,Low,Low,shap_ieo_score,-0.0696009459654324,IEO (Education & Occ),0.0696009459654324,4,4
+401021010,Uraidla - Summertown,Low,Low,shap_ieo_score,-0.0531014808229607,IEO (Education & Occ),0.0531014808229607,4,4
+401031011,Burnside - Wattle Park,Low,Low,shap_ieo_score,-0.0440648154291992,IEO (Education & Occ),0.0440648154291992,4,4
+401031012,Beaumont - Glen Osmond,Low,Low,shap_ieo_score,-0.0530854187795101,IEO (Education & Occ),0.0530854187795101,4,4
+401031013,Toorak Gardens,Low,Low,shap_ieo_score,-0.0428340144140045,IEO (Education & Occ),0.0428340144140045,4,4
+401041014,Athelstone,Low,Low,shap_ieo_score,-0.0481023346499031,IEO (Education & Occ),0.0481023346499031,4,4
+401041015,Paradise - Newton,Moderate,Low,shap_ieo_score,-0.0915750650872707,IEO (Education & Occ),0.0915750650872707,3,4
+401041016,Rostrevor - Magill,Moderate,Low,shap_ieo_score,-0.0693582339247809,IEO (Education & Occ),0.0693582339247809,3,4
+401051017,Norwood (SA),Moderate,Low,shap_ieo_score,-0.0803823257408683,IEO (Education & Occ),0.0803823257408683,3,4
+401051018,Payneham - Felixstow,Moderate,Low,shap_ieo_score,-0.0863138798049261,IEO (Education & Occ),0.0863138798049261,3,4
+401051019,St Peters - Marden,Low,Low,shap_ieo_score,-0.0460875534267024,IEO (Education & Occ),0.0460875534267024,4,4
+401061020,Nailsworth - Broadview,Low,Low,shap_ieo_score,-0.0496263722179845,IEO (Education & Occ),0.0496263722179845,4,4
+401061021,Prospect,Low,Low,shap_ieo_score,-0.0455962177107081,IEO (Education & Occ),0.0455962177107081,4,4
+401061022,Walkerville,Low,Low,shap_ieo_score,-0.0489030035336175,IEO (Education & Occ),0.0489030035336175,4,4
+401071023,Goodwood - Millswood,Low,Low,shap_ieo_score,-0.043462375514535,IEO (Education & Occ),0.043462375514535,4,4
+401071024,Unley - Parkside,Low,Low,shap_ieo_score,-0.0421977775705396,IEO (Education & Occ),0.0421977775705396,4,4
+402011025,Gawler - North,Low,Low,shap_ieo_score,-0.0301563879718776,IEO (Education & Occ),0.0301563879718776,4,4
+402011026,Gawler - South,Moderate,Low,shap_ieo_score,-0.0333370151501303,IEO (Education & Occ),0.0333370151501303,3,4
+402011027,Lewiston - Two Wells,Low,Low,shap_ieo_score,-0.0092908778033639,IEO (Education & Occ),0.0092908778033639,4,4
+402021028,Craigmore - Blakeview,Moderate,Low,shap_ieo_score,-0.0118186404573441,IEO (Education & Occ),0.0118186404573441,3,4
+402021029,Davoren Park,Moderate,Low,shap_ieo_score,0.0172146018735605,IEO (Education & Occ),0.0172146018735605,3,4
+402021030,Elizabeth,Critical,Moderate,shap_ieo_score,0.0917542740123647,IEO (Education & Occ),0.0917542740123647,1,3
+402021031,Elizabeth East,Moderate,Low,shap_ieo_score,0.0303342930865634,IEO (Education & Occ),0.0303342930865634,3,4
+402021032,Munno Para West - Angle Vale,Moderate,Low,shap_ieo_score,-0.016562952617094,IEO (Education & Occ),0.016562952617094,3,4
+402021033,One Tree Hill,Low,Low,shap_ieo_score,-0.0545874571767419,IEO (Education & Occ),0.0545874571767419,4,4
+402021034,Smithfield - Elizabeth North,High,Moderate,shap_ieo_score,0.0697120643835568,IEO (Education & Occ),0.0697120643835568,2,3
+402021035,Virginia - Waterloo Corner,Moderate,Low,shap_ieo_score,-0.0123241661994257,IEO (Education & Occ),0.0123241661994257,3,4
+402031036,Enfield - Blair Athol,Moderate,Low,shap_ieo_score,-0.0553584870614447,IEO (Education & Occ),0.0553584870614447,3,4
+402031038,Windsor Gardens,Moderate,Low,shap_ieo_score,-0.0807790346230873,IEO (Education & Occ),0.0807790346230873,3,4
+402031175,Northgate - Northfield,Low,Low,shap_ieo_score,-0.0782472213686006,IEO (Education & Occ),0.0782472213686006,4,4
+402031176,Valley View - Gilles Plains,Moderate,Low,shap_ieo_score,-0.0643107786307883,IEO (Education & Occ),0.0643107786307883,3,4
+402041040,Ingle Farm,Moderate,Low,shap_ieo_score,0.0088333593665709,IEO (Education & Occ),0.0088333593665709,3,4
+402041041,Para Hills,Moderate,Low,shap_ieo_score,-0.0023697625718056,IEO (Education & Occ),0.0023697625718056,3,4
+402041043,Parafield Gardens,Moderate,Low,shap_ieo_score,-0.0039801114306567,IEO (Education & Occ),0.0039801114306567,3,4
+402041044,Paralowie,Moderate,Low,shap_ieo_score,0.0265992846717964,IEO (Education & Occ),0.0265992846717964,3,4
+402041046,Salisbury,High,Low,shap_ieo_score,0.0387348951243054,IEO (Education & Occ),0.0387348951243054,2,4
+402041047,Salisbury East,Moderate,Low,shap_ieo_score,-0.0190983687225145,IEO (Education & Occ),0.0190983687225145,3,4
+402041048,Salisbury North,Moderate,Low,shap_ieo_score,0.0276085704015491,IEO (Education & Occ),0.0276085704015491,3,4
+402041171,Mawson Lakes - Globe Derby Park,Low,Low,shap_ieo_score,-0.0653747939548881,IEO (Education & Occ),0.0653747939548881,4,4
+402041172,Pooraka - Cavan,Moderate,Low,shap_ieo_score,-0.0029558543114657,IEO (Education & Occ),0.0029558543114657,3,4
+402051049,Golden Grove,Moderate,Low,shap_ieo_score,-0.0610654331519294,IEO (Education & Occ),0.0610654331519294,3,4
+402051050,Greenwith,Low,Low,shap_ieo_score,-0.0584153631581564,IEO (Education & Occ),0.0584153631581564,4,4
+402051051,Highbury - Dernancourt,Low,Low,shap_ieo_score,-0.0515528426387364,IEO (Education & Occ),0.0515528426387364,4,4
+402051052,Hope Valley - Modbury,Moderate,Low,shap_ieo_score,-0.0608068446199661,IEO (Education & Occ),0.0608068446199661,3,4
+402051053,Modbury Heights,Moderate,Low,shap_ieo_score,-0.0563306013212907,IEO (Education & Occ),0.0563306013212907,3,4
+402051054,Redwood Park,Low,Low,shap_ieo_score,-0.0388588285406178,IEO (Education & Occ),0.0388588285406178,4,4
+402051055,St Agnes - Ridgehaven,Moderate,Low,shap_ieo_score,-0.0594975727485873,IEO (Education & Occ),0.0594975727485873,3,4
+403011056,Brighton (SA),Moderate,Low,shap_ieo_score,-0.0443732563975224,IEO (Education & Occ),0.0443732563975224,3,4
+403011057,Glenelg (SA),Moderate,Low,shap_ieo_score,-0.0579660107540943,IEO (Education & Occ),0.0579660107540943,3,4
+403021058,Edwardstown,Moderate,Low,shap_ieo_score,-0.0819022701017649,IEO (Education & Occ),0.0819022701017649,3,4
+403021059,Hallett Cove,Low,Low,shap_ieo_score,-0.0496868017649217,IEO (Education & Occ),0.0496868017649217,4,4
+403021060,Marino - Seaview Downs,Low,Low,shap_ieo_score,-0.0531285385172679,IEO (Education & Occ),0.0531285385172679,4,4
+403021061,Mitchell Park,Moderate,Low,shap_ieo_score,-0.077720568574167,IEO (Education & Occ),0.077720568574167,3,4
+403021062,Morphettville,Moderate,Low,shap_ieo_score,-0.0792986202423398,IEO (Education & Occ),0.0792986202423398,3,4
+403021063,Sheidow Park - Trott Park,Low,Low,shap_ieo_score,-0.0527852104418217,IEO (Education & Occ),0.0527852104418217,4,4
+403021064,Warradale,Moderate,Low,shap_ieo_score,-0.0783715410143486,IEO (Education & Occ),0.0783715410143486,3,4
+403031065,Belair,Low,Low,shap_ieo_score,-0.0578480837293714,IEO (Education & Occ),0.0578480837293714,4,4
+403031066,Bellevue Heights,Low,Low,shap_ieo_score,-0.0529911912783264,IEO (Education & Occ),0.0529911912783264,4,4
+403031067,Blackwood,Low,Low,shap_ieo_score,-0.0488422853722333,IEO (Education & Occ),0.0488422853722333,4,4
+403031068,Colonel Light Gardens,Low,Low,shap_ieo_score,-0.0440088841482757,IEO (Education & Occ),0.0440088841482757,4,4
+403031069,Mitcham (SA),Low,Low,shap_ieo_score,-0.0456852825597151,IEO (Education & Occ),0.0456852825597151,4,4
+403031070,Panorama,Moderate,Low,shap_ieo_score,-0.0650520147827158,IEO (Education & Occ),0.0650520147827158,3,4
+403041071,Aberfoyle Park,Low,Low,shap_ieo_score,-0.0523962018521344,IEO (Education & Occ),0.0523962018521344,4,4
+403041072,Aldinga,Moderate,Low,shap_ieo_score,-0.0351683376817116,IEO (Education & Occ),0.0351683376817116,3,4
+403041073,Christie Downs,High,Low,shap_ieo_score,0.050136929018622,IEO (Education & Occ),0.050136929018622,2,4
+403041074,Christies Beach,Moderate,Low,shap_ieo_score,-0.032210432453977,IEO (Education & Occ),0.032210432453977,3,4
+403041075,Clarendon,Low,Low,shap_ieo_score,-0.0550192056755508,IEO (Education & Occ),0.0550192056755508,4,4
+403041076,Coromandel Valley,Low,Low,shap_ieo_score,-0.0530283257100631,IEO (Education & Occ),0.0530283257100631,4,4
+403041077,Flagstaff Hill,Low,Low,shap_ieo_score,-0.0522377703501978,IEO (Education & Occ),0.0522377703501978,4,4
+403041078,Hackham - Onkaparinga Hills,Moderate,Low,shap_ieo_score,-0.0219250014446267,IEO (Education & Occ),0.0219250014446267,3,4
+403041079,Hackham West - Huntfield Heights,High,Low,shap_ieo_score,0.0279269290210919,IEO (Education & Occ),0.0279269290210919,2,4
+403041080,Happy Valley,Moderate,Low,shap_ieo_score,-0.0569179175976619,IEO (Education & Occ),0.0569179175976619,3,4
+403041081,Happy Valley Reservoir,Moderate,Low,shap_ieo_score,-0.0178110458644843,IEO (Education & Occ),0.0178110458644843,3,4
+403041082,Lonsdale,Critical,Moderate,shap_ieo_score,0.1043476473381245,IEO (Education & Occ),0.1043476473381245,1,3
+403041083,McLaren Vale,Moderate,Low,shap_ieo_score,-0.0600542814930754,IEO (Education & Occ),0.0600542814930754,3,4
+403041084,Morphett Vale - East,Moderate,Low,shap_ieo_score,-0.0139848448758807,IEO (Education & Occ),0.0139848448758807,3,4
+403041085,Morphett Vale - West,Moderate,Low,shap_ieo_score,0.0344339223169506,IEO (Education & Occ),0.0344339223169506,3,4
+403041086,Reynella,Moderate,Low,shap_ieo_score,-0.0435445228782636,IEO (Education & Occ),0.0435445228782636,3,4
+403041088,Willunga,Low,Low,shap_ieo_score,-0.0555527636448578,IEO (Education & Occ),0.0555527636448578,4,4
+403041089,Woodcroft,Moderate,Low,shap_ieo_score,-0.0231496441419111,IEO (Education & Occ),0.0231496441419111,3,4
+403041177,Seaford - Seaford Meadows,Moderate,Low,shap_ieo_score,-0.0433556762680424,IEO (Education & Occ),0.0433556762680424,3,4
+403041178,Seaford Rise - Moana,Moderate,Low,shap_ieo_score,-0.0307895958956222,IEO (Education & Occ),0.0307895958956222,3,4
+404011090,Beverley,Moderate,Low,shap_ieo_score,-0.0979828688691586,IEO (Education & Occ),0.0979828688691586,3,4
+404011091,Flinders Park,Moderate,Low,shap_ieo_score,-0.0855433147794108,IEO (Education & Occ),0.0855433147794108,3,4
+404011092,Henley Beach,Low,Low,shap_ieo_score,-0.0436455472133954,IEO (Education & Occ),0.0436455472133954,4,4
+404011093,Hindmarsh - Brompton,Moderate,Low,shap_ieo_score,-0.0769461564333254,IEO (Education & Occ),0.0769461564333254,3,4
+404011094,Royal Park - Hendon - Albert Park,Moderate,Low,shap_ieo_score,-0.0431218557199386,IEO (Education & Occ),0.0431218557199386,3,4
+404011095,Seaton - Grange,Moderate,Low,shap_ieo_score,-0.0834014882955614,IEO (Education & Occ),0.0834014882955614,3,4
+404011096,West Lakes,Moderate,Low,shap_ieo_score,-0.0606887806654241,IEO (Education & Occ),0.0606887806654241,3,4
+404011097,Woodville - Cheltenham,Moderate,Low,shap_ieo_score,-0.0659877636744077,IEO (Education & Occ),0.0659877636744077,3,4
+404021099,Largs Bay - Semaphore,Moderate,Low,shap_ieo_score,-0.0872077530593563,IEO (Education & Occ),0.0872077530593563,3,4
+404021100,North Haven,Moderate,Low,shap_ieo_score,-0.0490883283316577,IEO (Education & Occ),0.0490883283316577,3,4
+404021101,Port Adelaide,Moderate,Low,shap_ieo_score,-0.0578803539622038,IEO (Education & Occ),0.0578803539622038,3,4
+404021102,The Parks,Moderate,Low,shap_ieo_score,-0.0426311074096877,IEO (Education & Occ),0.0426311074096877,3,4
+404021103,Torrens Island,Critical,Moderate,shap_ieo_score,-0.0158776384945857,IEO (Education & Occ),0.0158776384945857,1,3
+404031105,Fulham,Low,Low,shap_ieo_score,-0.0510092648998146,IEO (Education & Occ),0.0510092648998146,4,4
+404031106,Lockleys,Moderate,Low,shap_ieo_score,-0.0837701123572068,IEO (Education & Occ),0.0837701123572068,3,4
+404031107,Plympton,Moderate,Low,shap_ieo_score,-0.0805632980379466,IEO (Education & Occ),0.0805632980379466,3,4
+404031108,Richmond (SA),Moderate,Low,shap_ieo_score,-0.0896072569137979,IEO (Education & Occ),0.0896072569137979,3,4
+404031109,West Beach,Low,Low,shap_ieo_score,-0.051988762799744,IEO (Education & Occ),0.051988762799744,4,4
+405011110,Barossa - Angaston,Moderate,Low,shap_ieo_score,-0.042498826432026,IEO (Education & Occ),0.042498826432026,3,4
+405011111,Light,Moderate,Low,shap_ieo_score,-0.0350990640342611,IEO (Education & Occ),0.0350990640342611,3,4
+405011112,Lyndoch,Moderate,Low,shap_ieo_score,-0.0449324872348287,IEO (Education & Occ),0.0449324872348287,3,4
+405011113,Mallala,Moderate,Low,shap_ieo_score,0.0397040727933948,IEO (Education & Occ),0.0397040727933948,3,4
+405011114,Nuriootpa,Moderate,Low,shap_ieo_score,-0.0130692926206265,IEO (Education & Occ),0.0130692926206265,3,4
+405011115,Tanunda,Moderate,Low,shap_ieo_score,-0.0763119786535078,IEO (Education & Occ),0.0763119786535078,3,4
+405021116,Clare,Moderate,Low,shap_ieo_score,-0.0760979805598388,IEO (Education & Occ),0.0760979805598388,3,4
+405021117,Gilbert Valley,High,Low,shap_ieo_score,-0.0599333119507488,IEO (Education & Occ),0.0599333119507488,2,4
+405021118,Goyder,Critical,Moderate,shap_ieo_score,0.0601091381691783,IEO (Education & Occ),0.0601091381691783,1,3
+405021119,Wakefield - Barunga West,High,Moderate,shap_ieo_score,-0.0261192485396223,IEO (Education & Occ),0.0261192485396223,2,3
+405031120,Jamestown,High,Low,shap_ieo_score,-0.0917992016592251,IEO (Education & Occ),0.0917992016592251,2,4
+405031121,Peterborough - Mount Remarkable,Critical,Moderate,shap_ieo_score,0.0761465989418957,IEO (Education & Occ),0.0761465989418957,1,3
+405031122,Port Pirie,Critical,Moderate,shap_ieo_score,0.1064608000262026,IEO (Education & Occ),0.1064608000262026,1,3
+405031123,Port Pirie Surrounds,High,Low,shap_ieo_score,-0.0555313544676212,IEO (Education & Occ),0.0555313544676212,2,4
+405041124,Kadina,High,Low,shap_ieo_score,0.0256418686171581,IEO (Education & Occ),0.0256418686171581,2,4
+405041125,Moonta,Critical,Moderate,shap_ieo_score,0.089063322153776,IEO (Education & Occ),0.089063322153776,1,3
+405041126,Wallaroo,Critical,Moderate,shap_ieo_score,0.1237421689291395,IEO (Education & Occ),0.1237421689291395,1,3
+405041127,Yorke Peninsula - North,Critical,Moderate,shap_ieo_score,0.0719673224886607,IEO (Education & Occ),0.0719673224886607,1,3
+405041128,Yorke Peninsula - South,Critical,Moderate,shap_ieo_score,0.0582031029865349,IEO (Education & Occ),0.0582031029865349,1,3
+406011129,Ceduna,Moderate,Low,shap_ieo_score,-0.0195334565737763,IEO (Education & Occ),0.0195334565737763,3,4
+406011130,Eyre Peninsula,Moderate,Low,shap_ieo_score,-0.0337216103395179,IEO (Education & Occ),0.0337216103395179,3,4
+406011131,Kimba - Cleve - Franklin Harbour,High,Low,shap_ieo_score,-0.0609884476696592,IEO (Education & Occ),0.0609884476696592,2,4
+406011132,Le Hunte - Elliston,High,Low,shap_ieo_score,-0.0865614009159779,IEO (Education & Occ),0.0865614009159779,2,4
+406011133,Port Lincoln,Moderate,Low,shap_ieo_score,-0.0213777674270331,IEO (Education & Occ),0.0213777674270331,3,4
+406011134,West Coast (SA),High,Low,shap_ieo_score,-0.0726435442024395,IEO (Education & Occ),0.0726435442024395,2,4
+406011135,Western,Moderate,Low,shap_ieo_score,-0.1308749452007753,IEO (Education & Occ),0.1308749452007753,3,4
+406011136,Whyalla,High,Low,shap_ieo_score,0.0346060183095889,IEO (Education & Occ),0.0346060183095889,2,4
+406021138,APY Lands,High,Low,shap_ieo_score,0.0268535815944345,IEO (Education & Occ),0.0268535815944345,2,4
+406021140,Quorn - Lake Gilles,High,Moderate,shap_ieo_score,0.0132402207707821,IEO (Education & Occ),0.0132402207707821,2,3
+406021141,Outback,High,Low,shap_ieo_score,-0.0187102370792165,IEO (Education & Occ),0.0187102370792165,2,4
+406021142,Port Augusta,Moderate,Low,shap_ieo_score,0.0294991207138352,IEO (Education & Occ),0.0294991207138352,3,4
+406021143,Roxby Downs,Low,Low,shap_ieo_score,-0.0006157932299717,IEO (Education & Occ),0.0006157932299717,4,4
+407011144,Goolwa - Port Elliot,Critical,Moderate,shap_ieo_score,-0.0358760897691834,IEO (Education & Occ),0.0358760897691834,1,3
+407011145,Kangaroo Island,High,Moderate,shap_ieo_score,-0.0782452762153602,IEO (Education & Occ),0.0782452762153602,2,3
+407011146,Strathalbyn,Moderate,Low,shap_ieo_score,-0.0402750298162591,IEO (Education & Occ),0.0402750298162591,3,4
+407011147,Strathalbyn Surrounds,Moderate,Low,shap_ieo_score,-0.0471118156372715,IEO (Education & Occ),0.0471118156372715,3,4
+407011148,Victor Harbor,Critical,Moderate,shap_ieo_score,0.0805256440601535,IEO (Education & Occ),0.0805256440601535,1,3
+407011149,Yankalilla,High,Moderate,shap_ieo_score,-0.0387187565927558,IEO (Education & Occ),0.0387187565927558,2,3
+407021150,Grant,Moderate,Low,shap_ieo_score,0.001889466630873,IEO (Education & Occ),0.001889466630873,3,4
+407021151,Kingston - Robe,High,Low,shap_ieo_score,-0.060231345038916,IEO (Education & Occ),0.060231345038916,2,4
+407021152,Millicent,Critical,Moderate,shap_ieo_score,0.1160936814762683,IEO (Education & Occ),0.1160936814762683,1,3
+407021154,Naracoorte,Moderate,Low,shap_ieo_score,-0.0286670239084216,IEO (Education & Occ),0.0286670239084216,3,4
+407021155,Naracoorte Surrounds,Moderate,Low,shap_ieo_score,-0.0604668098253086,IEO (Education & Occ),0.0604668098253086,3,4
+407021156,Penola,Moderate,Low,shap_ieo_score,-0.0130486609772496,IEO (Education & Occ),0.0130486609772496,3,4
+407021157,Tatiara,Moderate,Low,shap_ieo_score,-0.027454237305968,IEO (Education & Occ),0.027454237305968,3,4
+407021158,Wattle Range,Moderate,Low,shap_ieo_score,0.0062916049578402,IEO (Education & Occ),0.0062916049578402,3,4
+407021173,Mount Gambier - East,Moderate,Low,shap_ieo_score,-0.0181554142209282,IEO (Education & Occ),0.0181554142209282,3,4
+407021174,Mount Gambier - West,High,Low,shap_ieo_score,-0.0190032149736457,IEO (Education & Occ),0.0190032149736457,2,4
+407031159,Barmera,High,Low,shap_ieo_score,-0.0044206236781894,IEO (Education & Occ),0.0044206236781894,2,4
+407031160,Berri,Critical,Moderate,shap_ieo_score,0.0992584675673744,IEO (Education & Occ),0.0992584675673744,1,3
+407031161,Karoonda - Lameroo,High,Low,shap_ieo_score,-0.069767932784154,IEO (Education & Occ),0.069767932784154,2,4
+407031162,Loxton,High,Low,shap_ieo_score,-0.0142023980340597,IEO (Education & Occ),0.0142023980340597,2,4
+407031163,Loxton Surrounds,Moderate,Low,shap_ieo_score,-0.0484673339066995,IEO (Education & Occ),0.0484673339066995,3,4
+407031164,Mannum,Critical,Moderate,shap_ieo_score,0.0614914332987035,IEO (Education & Occ),0.0614914332987035,1,3
+407031165,Murray Bridge,High,Moderate,shap_ieo_score,0.025237035610912,IEO (Education & Occ),0.025237035610912,2,3
+407031166,Murray Bridge Surrounds,Moderate,Low,shap_ieo_score,-0.0157873522389204,IEO (Education & Occ),0.0157873522389204,3,4
+407031167,Renmark,Critical,Moderate,shap_ieo_score,0.1283637269427597,IEO (Education & Occ),0.1283637269427597,1,3
+407031168,Renmark Surrounds,Moderate,Low,shap_ieo_score,0.0005920301956627,IEO (Education & Occ),0.0005920301956627,3,4
+407031169,The Coorong,High,Moderate,shap_ieo_score,-0.0254655457038308,IEO (Education & Occ),0.0254655457038308,2,3
+407031170,Waikerie,Critical,Moderate,shap_ieo_score,0.0900809627011385,IEO (Education & Occ),0.0900809627011385,1,3
+401011001,Adelaide,Moderate,Low,shap_population,-0.0824866727990419,Population,0.0824866727990419,3,4
+401011002,North Adelaide,Low,Low,shap_population,0.0040901186278775,Population,0.0040901186278775,4,4
+401021003,Adelaide Hills,Low,Low,shap_population,0.0030795354525683,Population,0.0030795354525683,4,4
+401021004,Aldgate - Stirling,Low,Low,shap_population,-0.0389887710685633,Population,0.0389887710685633,4,4
+401021005,Hahndorf - Echunga,Low,Low,shap_population,0.0161062985858639,Population,0.0161062985858639,4,4
+401021006,Lobethal - Woodside,Moderate,Low,shap_population,0.0012392429941375,Population,0.0012392429941375,3,4
+401021007,Mount Barker,Moderate,Low,shap_population,-0.0503995132686078,Population,0.0503995132686078,3,4
+401021008,Mount Barker Surrounds,Low,Low,shap_population,0.0028053337824746,Population,0.0028053337824746,4,4
+401021009,Nairne,Low,Low,shap_population,0.008634525723417,Population,0.008634525723417,4,4
+401021010,Uraidla - Summertown,Low,Low,shap_population,-0.0067388112187124,Population,0.0067388112187124,4,4
+401031011,Burnside - Wattle Park,Low,Low,shap_population,-0.0439260647505103,Population,0.0439260647505103,4,4
+401031012,Beaumont - Glen Osmond,Low,Low,shap_population,-0.0036020305978846,Population,0.0036020305978846,4,4
+401031013,Toorak Gardens,Low,Low,shap_population,-0.0322798571826389,Population,0.0322798571826389,4,4
+401041014,Athelstone,Low,Low,shap_population,0.001009342369738,Population,0.001009342369738,4,4
+401041015,Paradise - Newton,Moderate,Low,shap_population,-0.0881501952035191,Population,0.0881501952035191,3,4
+401041016,Rostrevor - Magill,Moderate,Low,shap_population,-0.0642175747581483,Population,0.0642175747581483,3,4
+401051017,Norwood (SA),Moderate,Low,shap_population,-0.0141858367270156,Population,0.0141858367270156,3,4
+401051018,Payneham - Felixstow,Moderate,Low,shap_population,-0.0296375656960007,Population,0.0296375656960007,3,4
+401051019,St Peters - Marden,Low,Low,shap_population,-0.0162259497455243,Population,0.0162259497455243,4,4
+401061020,Nailsworth - Broadview,Low,Low,shap_population,-0.0044932318997742,Population,0.0044932318997742,4,4
+401061021,Prospect,Low,Low,shap_population,-0.0228121343440561,Population,0.0228121343440561,4,4
+401061022,Walkerville,Low,Low,shap_population,0.0003319907729446,Population,0.0003319907729446,4,4
+401071023,Goodwood - Millswood,Low,Low,shap_population,-0.0366760178106857,Population,0.0366760178106857,4,4
+401071024,Unley - Parkside,Low,Low,shap_population,-0.0395765405974731,Population,0.0395765405974731,4,4
+402011025,Gawler - North,Low,Low,shap_population,0.003890368327009,Population,0.003890368327009,4,4
+402011026,Gawler - South,Moderate,Low,shap_population,-0.0861313688492416,Population,0.0861313688492416,3,4
+402011027,Lewiston - Two Wells,Low,Low,shap_population,-0.0120416588467347,Population,0.0120416588467347,4,4
+402021028,Craigmore - Blakeview,Moderate,Low,shap_population,-0.123680306291927,Population,0.123680306291927,3,4
+402021029,Davoren Park,Moderate,Low,shap_population,-0.2027148982674223,Population,0.2027148982674223,3,4
+402021030,Elizabeth,Critical,Moderate,shap_population,0.0095589043661063,Population,0.0095589043661063,1,3
+402021031,Elizabeth East,Moderate,Low,shap_population,-0.0842980861561915,Population,0.0842980861561915,3,4
+402021032,Munno Para West - Angle Vale,Moderate,Low,shap_population,-0.072267592975808,Population,0.072267592975808,3,4
+402021033,One Tree Hill,Low,Low,shap_population,0.005419827108472,Population,0.005419827108472,4,4
+402021034,Smithfield - Elizabeth North,High,Moderate,shap_population,-0.0524173834751743,Population,0.0524173834751743,2,3
+402021035,Virginia - Waterloo Corner,Moderate,Low,shap_population,-0.0219561068580565,Population,0.0219561068580565,3,4
+402031036,Enfield - Blair Athol,Moderate,Low,shap_population,-0.1238086901221615,Population,0.1238086901221615,3,4
+402031038,Windsor Gardens,Moderate,Low,shap_population,-0.0766413775409839,Population,0.0766413775409839,3,4
+402031175,Northgate - Northfield,Low,Low,shap_population,-0.0611175083835896,Population,0.0611175083835896,4,4
+402031176,Valley View - Gilles Plains,Moderate,Low,shap_population,-0.0173049815445599,Population,0.0173049815445599,3,4
+402041040,Ingle Farm,Moderate,Low,shap_population,-0.0674226094200651,Population,0.0674226094200651,3,4
+402041041,Para Hills,Moderate,Low,shap_population,-0.062060361686364,Population,0.062060361686364,3,4
+402041043,Parafield Gardens,Moderate,Low,shap_population,-0.1554412492379205,Population,0.1554412492379205,3,4
+402041044,Paralowie,Moderate,Low,shap_population,-0.174179695251165,Population,0.174179695251165,3,4
+402041046,Salisbury,High,Low,shap_population,-0.2146354736711529,Population,0.2146354736711529,2,4
+402041047,Salisbury East,Moderate,Low,shap_population,-0.142268251418914,Population,0.142268251418914,3,4
+402041048,Salisbury North,Moderate,Low,shap_population,-0.1997781387275034,Population,0.1997781387275034,3,4
+402041171,Mawson Lakes - Globe Derby Park,Low,Low,shap_population,-0.021509084411175,Population,0.021509084411175,4,4
+402041172,Pooraka - Cavan,Moderate,Low,shap_population,-0.0391266858393333,Population,0.0391266858393333,3,4
+402051049,Golden Grove,Moderate,Low,shap_population,-0.0052348398575821,Population,0.0052348398575821,3,4
+402051050,Greenwith,Low,Low,shap_population,5.395481477531024e-05,Population,5.395481477531024e-05,4,4
+402051051,Highbury - Dernancourt,Low,Low,shap_population,-0.0085023414659157,Population,0.0085023414659157,4,4
+402051052,Hope Valley - Modbury,Moderate,Low,shap_population,-0.1007174981794703,Population,0.1007174981794703,3,4
+402051053,Modbury Heights,Moderate,Low,shap_population,-0.0547018098059935,Population,0.0547018098059935,3,4
+402051054,Redwood Park,Low,Low,shap_population,-0.0383520595964198,Population,0.0383520595964198,4,4
+402051055,St Agnes - Ridgehaven,Moderate,Low,shap_population,-0.0249171682230844,Population,0.0249171682230844,3,4
+403011056,Brighton (SA),Moderate,Low,shap_population,-0.0232803449321947,Population,0.0232803449321947,3,4
+403011057,Glenelg (SA),Moderate,Low,shap_population,-0.049540508649881,Population,0.049540508649881,3,4
+403021058,Edwardstown,Moderate,Low,shap_population,-0.0475972845958262,Population,0.0475972845958262,3,4
+403021059,Hallett Cove,Low,Low,shap_population,-0.0165019854470387,Population,0.0165019854470387,4,4
+403021060,Marino - Seaview Downs,Low,Low,shap_population,0.0017584860662893,Population,0.0017584860662893,4,4
+403021061,Mitchell Park,Moderate,Low,shap_population,-0.0704625776576448,Population,0.0704625776576448,3,4
+403021062,Morphettville,Moderate,Low,shap_population,-0.0562116516726642,Population,0.0562116516726642,3,4
+403021063,Sheidow Park - Trott Park,Low,Low,shap_population,0.0027109055192629,Population,0.0027109055192629,4,4
+403021064,Warradale,Moderate,Low,shap_population,-0.0638480721074853,Population,0.0638480721074853,3,4
+403031065,Belair,Low,Low,shap_population,0.0159997555354964,Population,0.0159997555354964,4,4
+403031066,Bellevue Heights,Low,Low,shap_population,0.0042047510389274,Population,0.0042047510389274,4,4
+403031067,Blackwood,Low,Low,shap_population,-0.016033133711688,Population,0.016033133711688,4,4
+403031068,Colonel Light Gardens,Low,Low,shap_population,-0.0216346631159268,Population,0.0216346631159268,4,4
+403031069,Mitcham (SA),Low,Low,shap_population,-0.0356956141917954,Population,0.0356956141917954,4,4
+403031070,Panorama,Moderate,Low,shap_population,0.0014569298968776,Population,0.0014569298968776,3,4
+403041071,Aberfoyle Park,Low,Low,shap_population,-0.0124580559255369,Population,0.0124580559255369,4,4
+403041072,Aldinga,Moderate,Low,shap_population,-0.041433888164297,Population,0.041433888164297,3,4
+403041073,Christie Downs,High,Low,shap_population,-0.0202572661377909,Population,0.0202572661377909,2,4
+403041074,Christies Beach,Moderate,Low,shap_population,-0.0369059167614423,Population,0.0369059167614423,3,4
+403041075,Clarendon,Low,Low,shap_population,0.0056733902747876,Population,0.0056733902747876,4,4
+403041076,Coromandel Valley,Low,Low,shap_population,0.0217156379407848,Population,0.0217156379407848,4,4
+403041077,Flagstaff Hill,Low,Low,shap_population,-0.0064006638805681,Population,0.0064006638805681,4,4
+403041078,Hackham - Onkaparinga Hills,Moderate,Low,shap_population,-0.0147322913952087,Population,0.0147322913952087,3,4
+403041079,Hackham West - Huntfield Heights,High,Low,shap_population,-0.0264517113928254,Population,0.0264517113928254,2,4
+403041080,Happy Valley,Moderate,Low,shap_population,-0.0188901629498827,Population,0.0188901629498827,3,4
+403041081,Happy Valley Reservoir,Moderate,Low,shap_population,0.0228605839259036,Population,0.0228605839259036,3,4
+403041082,Lonsdale,Critical,Moderate,shap_population,0.0792417327887027,Population,0.0792417327887027,1,3
+403041083,McLaren Vale,Moderate,Low,shap_population,0.0032360101544419,Population,0.0032360101544419,3,4
+403041084,Morphett Vale - East,Moderate,Low,shap_population,-0.0914097294454716,Population,0.0914097294454716,3,4
+403041085,Morphett Vale - West,Moderate,Low,shap_population,-0.0617788995625617,Population,0.0617788995625617,3,4
+403041086,Reynella,Moderate,Low,shap_population,-0.0076941037933726,Population,0.0076941037933726,3,4
+403041088,Willunga,Low,Low,shap_population,0.0100024707998288,Population,0.0100024707998288,4,4
+403041089,Woodcroft,Moderate,Low,shap_population,-0.017110966526823,Population,0.017110966526823,3,4
+403041177,Seaford - Seaford Meadows,Moderate,Low,shap_population,-0.0593710073752863,Population,0.0593710073752863,3,4
+403041178,Seaford Rise - Moana,Moderate,Low,shap_population,-0.0104304263066248,Population,0.0104304263066248,3,4
+404011090,Beverley,Moderate,Low,shap_population,0.007156220565291,Population,0.007156220565291,3,4
+404011091,Flinders Park,Moderate,Low,shap_population,-0.0543628479392318,Population,0.0543628479392318,3,4
+404011092,Henley Beach,Low,Low,shap_population,-0.022174319263875,Population,0.022174319263875,4,4
+404011093,Hindmarsh - Brompton,Moderate,Low,shap_population,-0.0706449521607492,Population,0.0706449521607492,3,4
+404011094,Royal Park - Hendon - Albert Park,Moderate,Low,shap_population,-0.0132934746127158,Population,0.0132934746127158,3,4
+404011095,Seaton - Grange,Moderate,Low,shap_population,-0.0728912417270144,Population,0.0728912417270144,3,4
+404011096,West Lakes,Moderate,Low,shap_population,-0.0316933960278326,Population,0.0316933960278326,3,4
+404011097,Woodville - Cheltenham,Moderate,Low,shap_population,-0.1054260821095984,Population,0.1054260821095984,3,4
+404021099,Largs Bay - Semaphore,Moderate,Low,shap_population,-0.0400102799263092,Population,0.0400102799263092,3,4
+404021100,North Haven,Moderate,Low,shap_population,-0.0623242778446271,Population,0.0623242778446271,3,4
+404021101,Port Adelaide,Moderate,Low,shap_population,-0.0720877176591053,Population,0.0720877176591053,3,4
+404021102,The Parks,Moderate,Low,shap_population,-0.1588859292484444,Population,0.1588859292484444,3,4
+404021103,Torrens Island,Critical,Moderate,shap_population,0.0370891425862664,Population,0.0370891425862664,1,3
+404031105,Fulham,Low,Low,shap_population,0.0085677298198243,Population,0.0085677298198243,4,4
+404031106,Lockleys,Moderate,Low,shap_population,-0.0275794062206165,Population,0.0275794062206165,3,4
+404031107,Plympton,Moderate,Low,shap_population,-0.0748505635408594,Population,0.0748505635408594,3,4
+404031108,Richmond (SA),Moderate,Low,shap_population,-0.074582075714951,Population,0.074582075714951,3,4
+404031109,West Beach,Low,Low,shap_population,0.0144205897190265,Population,0.0144205897190265,4,4
+405011110,Barossa - Angaston,Moderate,Low,shap_population,-0.0102394036024009,Population,0.0102394036024009,3,4
+405011111,Light,Moderate,Low,shap_population,0.0057118560238036,Population,0.0057118560238036,3,4
+405011112,Lyndoch,Moderate,Low,shap_population,-0.0032071211918786,Population,0.0032071211918786,3,4
+405011113,Mallala,Moderate,Low,shap_population,-0.0044814856344342,Population,0.0044814856344342,3,4
+405011114,Nuriootpa,Moderate,Low,shap_population,-0.0042174706395337,Population,0.0042174706395337,3,4
+405011115,Tanunda,Moderate,Low,shap_population,0.0219540205185826,Population,0.0219540205185826,3,4
+405021116,Clare,Moderate,Low,shap_population,0.0204921192878785,Population,0.0204921192878785,3,4
+405021117,Gilbert Valley,High,Low,shap_population,0.0106662296967181,Population,0.0106662296967181,2,4
+405021118,Goyder,Critical,Moderate,shap_population,0.0920805389954477,Population,0.0920805389954477,1,3
+405021119,Wakefield - Barunga West,High,Moderate,shap_population,-0.0466619635524396,Population,0.0466619635524396,2,3
+405031120,Jamestown,High,Low,shap_population,0.0126202527401055,Population,0.0126202527401055,2,4
+405031121,Peterborough - Mount Remarkable,Critical,Moderate,shap_population,0.0676461419531763,Population,0.0676461419531763,1,3
+405031122,Port Pirie,Critical,Moderate,shap_population,-0.0361621488232434,Population,0.0361621488232434,1,3
+405031123,Port Pirie Surrounds,High,Low,shap_population,-0.0188544326455289,Population,0.0188544326455289,2,4
+405041124,Kadina,High,Low,shap_population,-0.0431015738575612,Population,0.0431015738575612,2,4
+405041125,Moonta,Critical,Moderate,shap_population,0.0942303440708893,Population,0.0942303440708893,1,3
+405041126,Wallaroo,Critical,Moderate,shap_population,0.1340827769324214,Population,0.1340827769324214,1,3
+405041127,Yorke Peninsula - North,Critical,Moderate,shap_population,0.040255101243666,Population,0.040255101243666,1,3
+405041128,Yorke Peninsula - South,Critical,Moderate,shap_population,0.1132364302433473,Population,0.1132364302433473,1,3
+406011129,Ceduna,Moderate,Low,shap_population,-0.031778612375931,Population,0.031778612375931,3,4
+406011130,Eyre Peninsula,Moderate,Low,shap_population,0.0007805573067745,Population,0.0007805573067745,3,4
+406011131,Kimba - Cleve - Franklin Harbour,High,Low,shap_population,0.0200195662664954,Population,0.0200195662664954,2,4
+406011132,Le Hunte - Elliston,High,Low,shap_population,-0.0087298525097076,Population,0.0087298525097076,2,4
+406011133,Port Lincoln,Moderate,Low,shap_population,-0.0924214066969438,Population,0.0924214066969438,3,4
+406011134,West Coast (SA),High,Low,shap_population,0.0010733784657417,Population,0.0010733784657417,2,4
+406011135,Western,Moderate,Low,shap_population,0.0242764687247449,Population,0.0242764687247449,3,4
+406011136,Whyalla,High,Low,shap_population,-0.2380277801711688,Population,0.2380277801711688,2,4
+406021138,APY Lands,High,Low,shap_population,0.0346334323660174,Population,0.0346334323660174,2,4
+406021140,Quorn - Lake Gilles,High,Moderate,shap_population,0.0272844095938415,Population,0.0272844095938415,2,3
+406021141,Outback,High,Low,shap_population,-0.0021641385144513,Population,0.0021641385144513,2,4
+406021142,Port Augusta,Moderate,Low,shap_population,-0.1188051941358773,Population,0.1188051941358773,3,4
+406021143,Roxby Downs,Low,Low,shap_population,0.0220145401407419,Population,0.0220145401407419,4,4
+407011144,Goolwa - Port Elliot,Critical,Moderate,shap_population,-0.0143215506485101,Population,0.0143215506485101,1,3
+407011145,Kangaroo Island,High,Moderate,shap_population,0.0064377555265004,Population,0.0064377555265004,2,3
+407011146,Strathalbyn,Moderate,Low,shap_population,0.0041693281634285,Population,0.0041693281634285,3,4
+407011147,Strathalbyn Surrounds,Moderate,Low,shap_population,0.0032187756948216,Population,0.0032187756948216,3,4
+407011148,Victor Harbor,Critical,Moderate,shap_population,0.01199739574523,Population,0.01199739574523,1,3
+407011149,Yankalilla,High,Moderate,shap_population,-0.0160708285348155,Population,0.0160708285348155,2,3
+407021150,Grant,Moderate,Low,shap_population,-0.0139308608420785,Population,0.0139308608420785,3,4
+407021151,Kingston - Robe,High,Low,shap_population,0.0070753882943113,Population,0.0070753882943113,2,4
+407021152,Millicent,Critical,Moderate,shap_population,0.1031051589609589,Population,0.1031051589609589,1,3
+407021154,Naracoorte,Moderate,Low,shap_population,-0.061464917385323,Population,0.061464917385323,3,4
+407021155,Naracoorte Surrounds,Moderate,Low,shap_population,0.0027192800723021,Population,0.0027192800723021,3,4
+407021156,Penola,Moderate,Low,shap_population,-0.0491941529403317,Population,0.0491941529403317,3,4
+407021157,Tatiara,Moderate,Low,shap_population,0.002717701521805,Population,0.002717701521805,3,4
+407021158,Wattle Range,Moderate,Low,shap_population,0.0006400237186444,Population,0.0006400237186444,3,4
+407021173,Mount Gambier - East,Moderate,Low,shap_population,-0.122709016057586,Population,0.122709016057586,3,4
+407021174,Mount Gambier - West,High,Low,shap_population,-0.1192593378141135,Population,0.1192593378141135,2,4
+407031159,Barmera,High,Low,shap_population,-0.0596092686328208,Population,0.0596092686328208,2,4
+407031160,Berri,Critical,Moderate,shap_population,0.135915090179932,Population,0.135915090179932,1,3
+407031161,Karoonda - Lameroo,High,Low,shap_population,-0.0099608316581693,Population,0.0099608316581693,2,4
+407031162,Loxton,High,Low,shap_population,-0.031705549836751,Population,0.031705549836751,2,4
+407031163,Loxton Surrounds,Moderate,Low,shap_population,-0.0027859692260653,Population,0.0027859692260653,3,4
+407031164,Mannum,Critical,Moderate,shap_population,0.0100765854948124,Population,0.0100765854948124,1,3
+407031165,Murray Bridge,High,Moderate,shap_population,-0.2063121501639811,Population,0.2063121501639811,2,3
+407031166,Murray Bridge Surrounds,Moderate,Low,shap_population,0.0087027133973721,Population,0.0087027133973721,3,4
+407031167,Renmark,Critical,Moderate,shap_population,0.121837137697038,Population,0.121837137697038,1,3
+407031168,Renmark Surrounds,Moderate,Low,shap_population,0.0139387568974073,Population,0.0139387568974073,3,4
+407031169,The Coorong,High,Moderate,shap_population,-0.0456776014954469,Population,0.0456776014954469,2,3
+407031170,Waikerie,Critical,Moderate,shap_population,0.0201367864364467,Population,0.0201367864364467,1,3
+401011001,Adelaide,Moderate,Low,shap_AREASQKM21,-0.0039825648615877,Area (km²),0.0039825648615877,3,4
+401011002,North Adelaide,Low,Low,shap_AREASQKM21,-0.0397953802727731,Area (km²),0.0397953802727731,4,4
+401021003,Adelaide Hills,Low,Low,shap_AREASQKM21,-0.0042246952779104,Area (km²),0.0042246952779104,4,4
+401021004,Aldgate - Stirling,Low,Low,shap_AREASQKM21,0.0040087649161245,Area (km²),0.0040087649161245,4,4
+401021005,Hahndorf - Echunga,Low,Low,shap_AREASQKM21,0.0046717849629235,Area (km²),0.0046717849629235,4,4
+401021006,Lobethal - Woodside,Moderate,Low,shap_AREASQKM21,0.0021270237466539,Area (km²),0.0021270237466539,3,4
+401021007,Mount Barker,Moderate,Low,shap_AREASQKM21,-0.0038874861691,Area (km²),0.0038874861691,3,4
+401021008,Mount Barker Surrounds,Low,Low,shap_AREASQKM21,-0.0059158522033434,Area (km²),0.0059158522033434,4,4
+401021009,Nairne,Low,Low,shap_AREASQKM21,0.0029607010575518,Area (km²),0.0029607010575518,4,4
+401021010,Uraidla - Summertown,Low,Low,shap_AREASQKM21,0.0040952425983605,Area (km²),0.0040952425983605,4,4
+401031011,Burnside - Wattle Park,Low,Low,shap_AREASQKM21,-0.0011295608834942,Area (km²),0.0011295608834942,4,4
+401031012,Beaumont - Glen Osmond,Low,Low,shap_AREASQKM21,0.0050972213129228,Area (km²),0.0050972213129228,4,4
+401031013,Toorak Gardens,Low,Low,shap_AREASQKM21,-0.0253372947814021,Area (km²),0.0253372947814021,4,4
+401041014,Athelstone,Low,Low,shap_AREASQKM21,-0.0260050220417053,Area (km²),0.0260050220417053,4,4
+401041015,Paradise - Newton,Moderate,Low,shap_AREASQKM21,0.0051814912933602,Area (km²),0.0051814912933602,3,4
+401041016,Rostrevor - Magill,Moderate,Low,shap_AREASQKM21,0.0003358230051686,Area (km²),0.0003358230051686,3,4
+401051017,Norwood (SA),Moderate,Low,shap_AREASQKM21,-0.0454296351129836,Area (km²),0.0454296351129836,3,4
+401051018,Payneham - Felixstow,Moderate,Low,shap_AREASQKM21,-0.0492309835493735,Area (km²),0.0492309835493735,3,4
+401051019,St Peters - Marden,Low,Low,shap_AREASQKM21,-0.027950405386161,Area (km²),0.027950405386161,4,4
+401061020,Nailsworth - Broadview,Low,Low,shap_AREASQKM21,-0.0275279107243359,Area (km²),0.0275279107243359,4,4
+401061021,Prospect,Low,Low,shap_AREASQKM21,-0.0291259406719589,Area (km²),0.0291259406719589,4,4
+401061022,Walkerville,Low,Low,shap_AREASQKM21,-0.0278171062635829,Area (km²),0.0278171062635829,4,4
+401071023,Goodwood - Millswood,Low,Low,shap_AREASQKM21,-0.0228252759800718,Area (km²),0.0228252759800718,4,4
+401071024,Unley - Parkside,Low,Low,shap_AREASQKM21,-0.0227561339597097,Area (km²),0.0227561339597097,4,4
+402011025,Gawler - North,Low,Low,shap_AREASQKM21,-0.0020470656682979,Area (km²),0.0020470656682979,4,4
+402011026,Gawler - South,Moderate,Low,shap_AREASQKM21,0.0091006817529905,Area (km²),0.0091006817529905,3,4
+402011027,Lewiston - Two Wells,Low,Low,shap_AREASQKM21,0.0033010885986456,Area (km²),0.0033010885986456,4,4
+402021028,Craigmore - Blakeview,Moderate,Low,shap_AREASQKM21,-0.0451787921137386,Area (km²),0.0451787921137386,3,4
+402021029,Davoren Park,Moderate,Low,shap_AREASQKM21,-0.0376473971401143,Area (km²),0.0376473971401143,3,4
+402021030,Elizabeth,Critical,Moderate,shap_AREASQKM21,0.0116805534660536,Area (km²),0.0116805534660536,1,3
+402021031,Elizabeth East,Moderate,Low,shap_AREASQKM21,-0.1389015795834575,Area (km²),0.1389015795834575,3,4
+402021032,Munno Para West - Angle Vale,Moderate,Low,shap_AREASQKM21,-0.0186404139628153,Area (km²),0.0186404139628153,3,4
+402021033,One Tree Hill,Low,Low,shap_AREASQKM21,0.0100067167154014,Area (km²),0.0100067167154014,4,4
+402021034,Smithfield - Elizabeth North,High,Moderate,shap_AREASQKM21,-0.123457122725929,Area (km²),0.123457122725929,2,3
+402021035,Virginia - Waterloo Corner,Moderate,Low,shap_AREASQKM21,0.0011822566709548,Area (km²),0.0011822566709548,3,4
+402031036,Enfield - Blair Athol,Moderate,Low,shap_AREASQKM21,-0.0305357381155736,Area (km²),0.0305357381155736,3,4
+402031038,Windsor Gardens,Moderate,Low,shap_AREASQKM21,-0.0275356104909523,Area (km²),0.0275356104909523,3,4
+402031175,Northgate - Northfield,Low,Low,shap_AREASQKM21,-0.0350318086851549,Area (km²),0.0350318086851549,4,4
+402031176,Valley View - Gilles Plains,Moderate,Low,shap_AREASQKM21,-0.0663970610479701,Area (km²),0.0663970610479701,3,4
+402041040,Ingle Farm,Moderate,Low,shap_AREASQKM21,-0.1153447155771577,Area (km²),0.1153447155771577,3,4
+402041041,Para Hills,Moderate,Low,shap_AREASQKM21,-0.0071760780884952,Area (km²),0.0071760780884952,3,4
+402041043,Parafield Gardens,Moderate,Low,shap_AREASQKM21,-0.1177571998781543,Area (km²),0.1177571998781543,3,4
+402041044,Paralowie,Moderate,Low,shap_AREASQKM21,-0.1076669506284227,Area (km²),0.1076669506284227,3,4
+402041046,Salisbury,High,Low,shap_AREASQKM21,-0.0343432235209662,Area (km²),0.0343432235209662,2,4
+402041047,Salisbury East,Moderate,Low,shap_AREASQKM21,-0.0484432155697077,Area (km²),0.0484432155697077,3,4
+402041048,Salisbury North,Moderate,Low,shap_AREASQKM21,-0.0430791694232622,Area (km²),0.0430791694232622,3,4
+402041171,Mawson Lakes - Globe Derby Park,Low,Low,shap_AREASQKM21,0.0050186839400875,Area (km²),0.0050186839400875,4,4
+402041172,Pooraka - Cavan,Moderate,Low,shap_AREASQKM21,-0.1573652495704075,Area (km²),0.1573652495704075,3,4
+402051049,Golden Grove,Moderate,Low,shap_AREASQKM21,-0.000132085828458,Area (km²),0.000132085828458,3,4
+402051050,Greenwith,Low,Low,shap_AREASQKM21,-0.0275193964767626,Area (km²),0.0275193964767626,4,4
+402051051,Highbury - Dernancourt,Low,Low,shap_AREASQKM21,0.0030155041915773,Area (km²),0.0030155041915773,4,4
+402051052,Hope Valley - Modbury,Moderate,Low,shap_AREASQKM21,0.0022140383116309,Area (km²),0.0022140383116309,3,4
+402051053,Modbury Heights,Moderate,Low,shap_AREASQKM21,0.0016209340968726,Area (km²),0.0016209340968726,3,4
+402051054,Redwood Park,Low,Low,shap_AREASQKM21,7.608117160461514e-05,Area (km²),7.608117160461514e-05,4,4
+402051055,St Agnes - Ridgehaven,Moderate,Low,shap_AREASQKM21,0.0039898402429943,Area (km²),0.0039898402429943,3,4
+403011056,Brighton (SA),Moderate,Low,shap_AREASQKM21,-0.0283548294090466,Area (km²),0.0283548294090466,3,4
+403011057,Glenelg (SA),Moderate,Low,shap_AREASQKM21,-0.0239805687784425,Area (km²),0.0239805687784425,3,4
+403021058,Edwardstown,Moderate,Low,shap_AREASQKM21,-0.0486147272940632,Area (km²),0.0486147272940632,3,4
+403021059,Hallett Cove,Low,Low,shap_AREASQKM21,0.0036066141207196,Area (km²),0.0036066141207196,4,4
+403021060,Marino - Seaview Downs,Low,Low,shap_AREASQKM21,0.004499375522947,Area (km²),0.004499375522947,4,4
+403021061,Mitchell Park,Moderate,Low,shap_AREASQKM21,-0.0610962634588437,Area (km²),0.0610962634588437,3,4
+403021062,Morphettville,Moderate,Low,shap_AREASQKM21,-0.0437351405084964,Area (km²),0.0437351405084964,3,4
+403021063,Sheidow Park - Trott Park,Low,Low,shap_AREASQKM21,0.0080330893998364,Area (km²),0.0080330893998364,4,4
+403021064,Warradale,Moderate,Low,shap_AREASQKM21,-0.0491084523233365,Area (km²),0.0491084523233365,3,4
+403031065,Belair,Low,Low,shap_AREASQKM21,0.0024020802570031,Area (km²),0.0024020802570031,4,4
+403031066,Bellevue Heights,Low,Low,shap_AREASQKM21,0.0015054516607618,Area (km²),0.0015054516607618,4,4
+403031067,Blackwood,Low,Low,shap_AREASQKM21,-0.0008638028951835,Area (km²),0.0008638028951835,4,4
+403031068,Colonel Light Gardens,Low,Low,shap_AREASQKM21,-0.0265832621272137,Area (km²),0.0265832621272137,4,4
+403031069,Mitcham (SA),Low,Low,shap_AREASQKM21,-0.0001036460742807,Area (km²),0.0001036460742807,4,4
+403031070,Panorama,Moderate,Low,shap_AREASQKM21,-0.0293543249565358,Area (km²),0.0293543249565358,3,4
+403041071,Aberfoyle Park,Low,Low,shap_AREASQKM21,0.0015318313665994,Area (km²),0.0015318313665994,4,4
+403041072,Aldinga,Moderate,Low,shap_AREASQKM21,-0.0030644759406893,Area (km²),0.0030644759406893,3,4
+403041073,Christie Downs,High,Low,shap_AREASQKM21,-0.104892962225318,Area (km²),0.104892962225318,2,4
+403041074,Christies Beach,Moderate,Low,shap_AREASQKM21,-0.1213441436426681,Area (km²),0.1213441436426681,3,4
+403041075,Clarendon,Low,Low,shap_AREASQKM21,0.0072803119824488,Area (km²),0.0072803119824488,4,4
+403041076,Coromandel Valley,Low,Low,shap_AREASQKM21,-0.0257453365015122,Area (km²),0.0257453365015122,4,4
+403041077,Flagstaff Hill,Low,Low,shap_AREASQKM21,0.0053639039270898,Area (km²),0.0053639039270898,4,4
+403041078,Hackham - Onkaparinga Hills,Moderate,Low,shap_AREASQKM21,-0.0404208081256269,Area (km²),0.0404208081256269,3,4
+403041079,Hackham West - Huntfield Heights,High,Low,shap_AREASQKM21,-0.1673821983045534,Area (km²),0.1673821983045534,2,4
+403041080,Happy Valley,Moderate,Low,shap_AREASQKM21,0.0006144404208159,Area (km²),0.0006144404208159,3,4
+403041081,Happy Valley Reservoir,Moderate,Low,shap_AREASQKM21,-0.0418957876333624,Area (km²),0.0418957876333624,3,4
+403041082,Lonsdale,Critical,Moderate,shap_AREASQKM21,0.0809138790474878,Area (km²),0.0809138790474878,1,3
+403041083,McLaren Vale,Moderate,Low,shap_AREASQKM21,0.0044598216798045,Area (km²),0.0044598216798045,3,4
+403041084,Morphett Vale - East,Moderate,Low,shap_AREASQKM21,-0.1204331228405596,Area (km²),0.1204331228405596,3,4
+403041085,Morphett Vale - West,Moderate,Low,shap_AREASQKM21,-0.1775762451318575,Area (km²),0.1775762451318575,3,4
+403041086,Reynella,Moderate,Low,shap_AREASQKM21,-0.0504735154595301,Area (km²),0.0504735154595301,3,4
+403041088,Willunga,Low,Low,shap_AREASQKM21,0.0057270742412177,Area (km²),0.0057270742412177,4,4
+403041089,Woodcroft,Moderate,Low,shap_AREASQKM21,0.0034371838394625,Area (km²),0.0034371838394625,3,4
+403041177,Seaford - Seaford Meadows,Moderate,Low,shap_AREASQKM21,0.0117702240843941,Area (km²),0.0117702240843941,3,4
+403041178,Seaford Rise - Moana,Moderate,Low,shap_AREASQKM21,0.0203121846681294,Area (km²),0.0203121846681294,3,4
+404011090,Beverley,Moderate,Low,shap_AREASQKM21,-0.0401091330472483,Area (km²),0.0401091330472483,3,4
+404011091,Flinders Park,Moderate,Low,shap_AREASQKM21,-0.0384683616474581,Area (km²),0.0384683616474581,3,4
+404011092,Henley Beach,Low,Low,shap_AREASQKM21,-0.0283834636509147,Area (km²),0.0283834636509147,4,4
+404011093,Hindmarsh - Brompton,Moderate,Low,shap_AREASQKM21,-0.0352750412029613,Area (km²),0.0352750412029613,3,4
+404011094,Royal Park - Hendon - Albert Park,Moderate,Low,shap_AREASQKM21,-0.0686886103559946,Area (km²),0.0686886103559946,3,4
+404011095,Seaton - Grange,Moderate,Low,shap_AREASQKM21,-0.0406379847613058,Area (km²),0.0406379847613058,3,4
+404011096,West Lakes,Moderate,Low,shap_AREASQKM21,-0.0174398724837388,Area (km²),0.0174398724837388,3,4
+404011097,Woodville - Cheltenham,Moderate,Low,shap_AREASQKM21,-0.0090457551674439,Area (km²),0.0090457551674439,3,4
+404021099,Largs Bay - Semaphore,Moderate,Low,shap_AREASQKM21,-0.0411435996252069,Area (km²),0.0411435996252069,3,4
+404021100,North Haven,Moderate,Low,shap_AREASQKM21,-0.0128600213736212,Area (km²),0.0128600213736212,3,4
+404021101,Port Adelaide,Moderate,Low,shap_AREASQKM21,-0.0436003233986121,Area (km²),0.0436003233986121,3,4
+404021102,The Parks,Moderate,Low,shap_AREASQKM21,-0.0427886949271081,Area (km²),0.0427886949271081,3,4
+404021103,Torrens Island,Critical,Moderate,shap_AREASQKM21,0.0749207189183965,Area (km²),0.0749207189183965,1,3
+404031105,Fulham,Low,Low,shap_AREASQKM21,-0.0241919259439575,Area (km²),0.0241919259439575,4,4
+404031106,Lockleys,Moderate,Low,shap_AREASQKM21,-0.042680136098398,Area (km²),0.042680136098398,3,4
+404031107,Plympton,Moderate,Low,shap_AREASQKM21,-0.0056919552566296,Area (km²),0.0056919552566296,3,4
+404031108,Richmond (SA),Moderate,Low,shap_AREASQKM21,0.0050646913472714,Area (km²),0.0050646913472714,3,4
+404031109,West Beach,Low,Low,shap_AREASQKM21,-0.0260355260895217,Area (km²),0.0260355260895217,4,4
+405011110,Barossa - Angaston,Moderate,Low,shap_AREASQKM21,-0.017397413197457,Area (km²),0.017397413197457,3,4
+405011111,Light,Moderate,Low,shap_AREASQKM21,-0.0279955999449501,Area (km²),0.0279955999449501,3,4
+405011112,Lyndoch,Moderate,Low,shap_AREASQKM21,0.0018666709900908,Area (km²),0.0018666709900908,3,4
+405011113,Mallala,Moderate,Low,shap_AREASQKM21,-0.0404158940587343,Area (km²),0.0404158940587343,3,4
+405011114,Nuriootpa,Moderate,Low,shap_AREASQKM21,-0.0175097844582797,Area (km²),0.0175097844582797,3,4
+405011115,Tanunda,Moderate,Low,shap_AREASQKM21,0.0058942219634974,Area (km²),0.0058942219634974,3,4
+405021116,Clare,Moderate,Low,shap_AREASQKM21,0.0060891292397199,Area (km²),0.0060891292397199,3,4
+405021117,Gilbert Valley,High,Low,shap_AREASQKM21,-0.0234784318258259,Area (km²),0.0234784318258259,2,4
+405021118,Goyder,Critical,Moderate,shap_AREASQKM21,0.0620148238877144,Area (km²),0.0620148238877144,1,3
+405021119,Wakefield - Barunga West,High,Moderate,shap_AREASQKM21,0.0056364601370232,Area (km²),0.0056364601370232,2,3
+405031120,Jamestown,High,Low,shap_AREASQKM21,-0.0142537295421587,Area (km²),0.0142537295421587,2,4
+405031121,Peterborough - Mount Remarkable,Critical,Moderate,shap_AREASQKM21,0.0516053222996969,Area (km²),0.0516053222996969,1,3
+405031122,Port Pirie,Critical,Moderate,shap_AREASQKM21,0.048608300036515,Area (km²),0.048608300036515,1,3
+405031123,Port Pirie Surrounds,High,Low,shap_AREASQKM21,-0.0309980491304247,Area (km²),0.0309980491304247,2,4
+405041124,Kadina,High,Low,shap_AREASQKM21,-0.0332165728081647,Area (km²),0.0332165728081647,2,4
+405041125,Moonta,Critical,Moderate,shap_AREASQKM21,0.0473248849818793,Area (km²),0.0473248849818793,1,3
+405041126,Wallaroo,Critical,Moderate,shap_AREASQKM21,0.04137962781788,Area (km²),0.04137962781788,1,3
+405041127,Yorke Peninsula - North,Critical,Moderate,shap_AREASQKM21,0.0785961686739748,Area (km²),0.0785961686739748,1,3
+405041128,Yorke Peninsula - South,Critical,Moderate,shap_AREASQKM21,0.0615084618759593,Area (km²),0.0615084618759593,1,3
+406011129,Ceduna,Moderate,Low,shap_AREASQKM21,-0.0338466801666009,Area (km²),0.0338466801666009,3,4
+406011130,Eyre Peninsula,Moderate,Low,shap_AREASQKM21,-0.0147688208423526,Area (km²),0.0147688208423526,3,4
+406011131,Kimba - Cleve - Franklin Harbour,High,Low,shap_AREASQKM21,-0.0461574517048534,Area (km²),0.0461574517048534,2,4
+406011132,Le Hunte - Elliston,High,Low,shap_AREASQKM21,-0.0601965517690648,Area (km²),0.0601965517690648,2,4
+406011133,Port Lincoln,Moderate,Low,shap_AREASQKM21,0.0065784922674426,Area (km²),0.0065784922674426,3,4
+406011134,West Coast (SA),High,Low,shap_AREASQKM21,-0.0490056274353904,Area (km²),0.0490056274353904,2,4
+406011135,Western,Moderate,Low,shap_AREASQKM21,-0.02413344312579,Area (km²),0.02413344312579,3,4
+406011136,Whyalla,High,Low,shap_AREASQKM21,-0.0349056930767116,Area (km²),0.0349056930767116,2,4
+406021138,APY Lands,High,Low,shap_AREASQKM21,-0.0325239918252586,Area (km²),0.0325239918252586,2,4
+406021140,Quorn - Lake Gilles,High,Moderate,shap_AREASQKM21,-0.0269884905664315,Area (km²),0.0269884905664315,2,3
+406021141,Outback,High,Low,shap_AREASQKM21,-0.0572051638849197,Area (km²),0.0572051638849197,2,4
+406021142,Port Augusta,Moderate,Low,shap_AREASQKM21,-0.0163487641079502,Area (km²),0.0163487641079502,3,4
+406021143,Roxby Downs,Low,Low,shap_AREASQKM21,-0.0034529082134542,Area (km²),0.0034529082134542,4,4
+407011144,Goolwa - Port Elliot,Critical,Moderate,shap_AREASQKM21,0.0175762704354321,Area (km²),0.0175762704354321,1,3
+407011145,Kangaroo Island,High,Moderate,shap_AREASQKM21,-0.0383149694741497,Area (km²),0.0383149694741497,2,3
+407011146,Strathalbyn,Moderate,Low,shap_AREASQKM21,-0.0042691657825075,Area (km²),0.0042691657825075,3,4
+407011147,Strathalbyn Surrounds,Moderate,Low,shap_AREASQKM21,-0.0157693619493418,Area (km²),0.0157693619493418,3,4
+407011148,Victor Harbor,Critical,Moderate,shap_AREASQKM21,0.0778205736593195,Area (km²),0.0778205736593195,1,3
+407011149,Yankalilla,High,Moderate,shap_AREASQKM21,-0.0222013928361191,Area (km²),0.0222013928361191,2,3
+407021150,Grant,Moderate,Low,shap_AREASQKM21,-0.0168604345503291,Area (km²),0.0168604345503291,3,4
+407021151,Kingston - Robe,High,Low,shap_AREASQKM21,-0.0297336490057588,Area (km²),0.0297336490057588,2,4
+407021152,Millicent,Critical,Moderate,shap_AREASQKM21,0.0347313029405544,Area (km²),0.0347313029405544,1,3
+407021154,Naracoorte,Moderate,Low,shap_AREASQKM21,-0.024365956427588,Area (km²),0.024365956427588,3,4
+407021155,Naracoorte Surrounds,Moderate,Low,shap_AREASQKM21,-0.0038073922131269,Area (km²),0.0038073922131269,3,4
+407021156,Penola,Moderate,Low,shap_AREASQKM21,-0.0393361173727688,Area (km²),0.0393361173727688,3,4
+407021157,Tatiara,Moderate,Low,shap_AREASQKM21,-0.0063193175864322,Area (km²),0.0063193175864322,3,4
+407021158,Wattle Range,Moderate,Low,shap_AREASQKM21,-0.0113888574274097,Area (km²),0.0113888574274097,3,4
+407021173,Mount Gambier - East,Moderate,Low,shap_AREASQKM21,-0.0333685250567071,Area (km²),0.0333685250567071,3,4
+407021174,Mount Gambier - West,High,Low,shap_AREASQKM21,0.0021965569990906,Area (km²),0.0021965569990906,2,4
+407031159,Barmera,High,Low,shap_AREASQKM21,-0.0279760282417895,Area (km²),0.0279760282417895,2,4
+407031160,Berri,Critical,Moderate,shap_AREASQKM21,0.0359021834043011,Area (km²),0.0359021834043011,1,3
+407031161,Karoonda - Lameroo,High,Low,shap_AREASQKM21,-0.0622264447933939,Area (km²),0.0622264447933939,2,4
+407031162,Loxton,High,Low,shap_AREASQKM21,-0.0058355911995937,Area (km²),0.0058355911995937,2,4
+407031163,Loxton Surrounds,Moderate,Low,shap_AREASQKM21,-0.0297316119156517,Area (km²),0.0297316119156517,3,4
+407031164,Mannum,Critical,Moderate,shap_AREASQKM21,0.0549827841286271,Area (km²),0.0549827841286271,1,3
+407031165,Murray Bridge,High,Moderate,shap_AREASQKM21,0.0002100983466309,Area (km²),0.0002100983466309,2,3
+407031166,Murray Bridge Surrounds,Moderate,Low,shap_AREASQKM21,-0.0197033953565206,Area (km²),0.0197033953565206,3,4
+407031167,Renmark,Critical,Moderate,shap_AREASQKM21,0.0251426054264599,Area (km²),0.0251426054264599,1,3
+407031168,Renmark Surrounds,Moderate,Low,shap_AREASQKM21,-0.0296439086152936,Area (km²),0.0296439086152936,3,4
+407031169,The Coorong,High,Moderate,shap_AREASQKM21,-0.0105288484014477,Area (km²),0.0105288484014477,2,3
+407031170,Waikerie,Critical,Moderate,shap_AREASQKM21,0.0714355607337342,Area (km²),0.0714355607337342,1,3

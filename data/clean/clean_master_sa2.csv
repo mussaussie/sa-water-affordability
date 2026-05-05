@@ -1,0 +1,177 @@
+SA2_CODE21,SA2_NAME21,SA3_NAME21,SA4_NAME21,population,AREASQKM21,irsd_score,irsd_decile,irsad_score,irsad_decile,ier_score,ier_decile,ieo_score,ieo_decile,estimated_annual_water_bill,water_stress_index,stress_pct_rank,stress_tier
+401011001,Adelaide,Adelaide City,Adelaide - Central and Hills,18202.0,10.4824,980.0,4.0,1045.0,7.0,814.0,1.0,1134.0,10.0,2248.04,2761.7199,0.9205,Critical
+401011002,North Adelaide,Adelaide City,Adelaide - Central and Hills,6823.0,5.0909,1058.0,8.0,1088.0,9.0,960.0,3.0,1145.0,10.0,2248.04,2341.7083,0.6307,High
+401021003,Adelaide Hills,Adelaide Hills,Adelaide - Central and Hills,7051.0,364.439,1062.0,8.0,1029.0,7.0,1077.0,9.0,1009.0,6.0,2248.04,2087.3166,0.0511,Low
+401021004,Aldgate - Stirling,Adelaide Hills,Adelaide - Central and Hills,18208.0,117.2141,1100.0,10.0,1098.0,9.0,1101.0,10.0,1116.0,9.0,2248.04,2041.8165,0.0114,Low
+401021005,Hahndorf - Echunga,Adelaide Hills,Adelaide - Central and Hills,4726.0,110.1516,1066.0,9.0,1047.0,8.0,1069.0,9.0,1042.0,7.0,2248.04,2102.9373,0.0568,Low
+401021006,Lobethal - Woodside,Adelaide Hills,Adelaide - Central and Hills,9448.0,202.4981,1054.0,8.0,1019.0,6.0,1051.0,8.0,1012.0,6.0,2248.04,2138.9534,0.1307,Low
+401021007,Mount Barker,Adelaide Hills,Adelaide - Central and Hills,22113.0,54.1038,1028.0,6.0,997.0,6.0,1022.0,7.0,999.0,6.0,2248.04,2199.6477,0.2443,Low
+401021008,Mount Barker Surrounds,Adelaide Hills,Adelaide - Central and Hills,6825.0,395.6659,1047.0,7.0,1006.0,6.0,1068.0,9.0,989.0,6.0,2248.04,2104.9064,0.0653,Low
+401021009,Nairne,Adelaide Hills,Adelaide - Central and Hills,5327.0,24.8562,1034.0,7.0,991.0,5.0,1035.0,7.0,990.0,6.0,2248.04,2172.0193,0.1818,Low
+401021010,Uraidla - Summertown,Adelaide Hills,Adelaide - Central and Hills,6042.0,119.1882,1087.0,10.0,1081.0,9.0,1083.0,9.0,1090.0,9.0,2248.04,2075.7525,0.0398,Low
+401031011,Burnside - Wattle Park,Burnside,Adelaide - Central and Hills,19066.0,11.305,1082.0,9.0,1099.0,9.0,1055.0,8.0,1124.0,9.0,2248.04,2130.8436,0.1051,Low
+401031012,Beaumont - Glen Osmond,Burnside,Adelaide - Central and Hills,10328.0,9.5264,1095.0,10.0,1118.0,10.0,1085.0,9.0,1139.0,10.0,2248.04,2071.9263,0.0341,Low
+401031013,Toorak Gardens,Burnside,Adelaide - Central and Hills,16635.0,6.6869,1075.0,9.0,1095.0,9.0,1023.0,7.0,1133.0,10.0,2248.04,2197.4976,0.2386,Low
+401041014,Athelstone,Campbelltown (SA),Adelaide - Central and Hills,9601.0,6.204,1064.0,9.0,1037.0,7.0,1054.0,8.0,1029.0,7.0,2248.04,2132.8653,0.1136,Low
+401041015,Paradise - Newton,Campbelltown (SA),Adelaide - Central and Hills,21601.0,9.2256,998.0,5.0,986.0,5.0,963.0,3.0,1005.0,6.0,2248.04,2334.4133,0.5994,High
+401041016,Rostrevor - Magill,Campbelltown (SA),Adelaide - Central and Hills,23968.0,9.9383,1027.0,6.0,1027.0,7.0,990.0,5.0,1054.0,8.0,2248.04,2270.7475,0.4261,Moderate
+401051017,Norwood (SA),Norwood - Payneham - St Peters,Adelaide - Central and Hills,10849.0,3.8926,1038.0,7.0,1060.0,8.0,946.0,3.0,1114.0,9.0,2248.04,2376.3636,0.7244,High
+401051018,Payneham - Felixstow,Norwood - Payneham - St Peters,Adelaide - Central and Hills,13122.0,5.2284,1019.0,6.0,1020.0,6.0,965.0,3.0,1049.0,8.0,2248.04,2329.5751,0.5881,High
+401051019,St Peters - Marden,Norwood - Payneham - St Peters,Adelaide - Central and Hills,13515.0,5.9826,1058.0,8.0,1077.0,9.0,1005.0,6.0,1111.0,9.0,2248.04,2236.8557,0.3324,Moderate
+401061020,Nailsworth - Broadview,Prospect - Walkerville,Adelaide - Central and Hills,6484.0,2.3161,1053.0,8.0,1053.0,8.0,1001.0,5.0,1081.0,8.0,2248.04,2245.7942,0.3608,Moderate
+401061021,Prospect,Prospect - Walkerville,Adelaide - Central and Hills,15785.0,5.4754,1055.0,8.0,1060.0,8.0,1000.0,5.0,1086.0,9.0,2248.04,2248.04,0.3722,Moderate
+401061022,Walkerville,Prospect - Walkerville,Adelaide - Central and Hills,8023.0,3.53,1075.0,9.0,1097.0,9.0,1035.0,7.0,1123.0,9.0,2248.04,2172.0193,0.1818,Low
+401071023,Goodwood - Millswood,Unley,Adelaide - Central and Hills,17650.0,7.1977,1066.0,9.0,1078.0,9.0,1011.0,6.0,1112.0,9.0,2248.04,2223.5806,0.2926,Moderate
+401071024,Unley - Parkside,Unley,Adelaide - Central and Hills,20998.0,7.0726,1068.0,9.0,1089.0,9.0,1016.0,6.0,1124.0,9.0,2248.04,2212.6378,0.2614,Moderate
+402011025,Gawler - North,Gawler - Two Wells,Adelaide - North,9545.0,145.5294,1024.0,6.0,979.0,5.0,1045.0,8.0,949.0,4.0,2248.04,2151.2344,0.1562,Low
+402011026,Gawler - South,Gawler - Two Wells,Adelaide - North,21662.0,76.7139,962.0,3.0,934.0,3.0,971.0,4.0,930.0,3.0,2248.04,2315.1802,0.5426,High
+402011027,Lewiston - Two Wells,Gawler - Two Wells,Adelaide - North,6505.0,84.6217,1009.0,5.0,958.0,4.0,1068.0,9.0,900.0,2.0,2248.04,2104.9064,0.0653,Low
+402021028,Craigmore - Blakeview,Playford,Adelaide - North,19920.0,11.8809,953.0,3.0,919.0,2.0,992.0,5.0,897.0,2.0,2248.04,2266.1694,0.4148,Moderate
+402021029,Davoren Park,Playford,Adelaide - North,18313.0,9.4649,792.0,1.0,799.0,1.0,862.0,1.0,811.0,1.0,2248.04,2607.935,0.9091,Critical
+402021030,Elizabeth,Playford,Adelaide - North,10829.0,9.2607,646.0,1.0,717.0,1.0,758.0,1.0,773.0,1.0,2248.04,2965.752,0.9318,Critical
+402021031,Elizabeth East,Playford,Adelaide - North,14047.0,8.1823,834.0,1.0,838.0,1.0,894.0,1.0,845.0,1.0,2248.04,2514.5861,0.8523,Critical
+402021032,Munno Para West - Angle Vale,Playford,Adelaide - North,16215.0,44.3107,963.0,3.0,930.0,3.0,995.0,5.0,907.0,2.0,2248.04,2259.3367,0.4006,Moderate
+402021033,One Tree Hill,Playford,Adelaide - North,2473.0,130.1511,1082.0,9.0,1042.0,7.0,1113.0,10.0,1001.0,6.0,2248.04,2019.8023,0.0057,Low
+402021034,Smithfield - Elizabeth North,Playford,Adelaide - North,12446.0,7.987,732.0,1.0,756.0,1.0,804.0,1.0,780.0,1.0,2248.04,2796.0697,0.9261,Critical
+402021035,Virginia - Waterloo Corner,Playford,Adelaide - North,5693.0,135.5661,958.0,3.0,939.0,3.0,1015.0,6.0,917.0,2.0,2248.04,2214.8177,0.2699,Moderate
+402031036,Enfield - Blair Athol,Port Adelaide - East,Adelaide - North,25578.0,15.1765,904.0,2.0,924.0,2.0,902.0,1.0,966.0,5.0,2248.04,2492.2838,0.8409,Critical
+402031038,Windsor Gardens,Port Adelaide - East,Adelaide - North,22587.0,8.4298,998.0,5.0,992.0,5.0,953.0,3.0,1025.0,7.0,2248.04,2358.9087,0.6818,High
+402031175,Northgate - Northfield,Port Adelaide - East,Adelaide - North,18188.0,6.5508,1010.0,5.0,1007.0,6.0,983.0,4.0,1035.0,7.0,2248.04,2286.9176,0.4716,Moderate
+402031176,Valley View - Gilles Plains,Port Adelaide - East,Adelaide - North,10504.0,4.683,978.0,4.0,957.0,4.0,967.0,4.0,964.0,5.0,2248.04,2324.757,0.5682,High
+402041039,Dry Creek - North,Salisbury,Adelaide - North,,38.5669,,,,,,,,,2248.04,,0.9744,Critical
+402041040,Ingle Farm,Salisbury,Adelaide - North,15681.0,7.4263,954.0,3.0,929.0,3.0,959.0,3.0,923.0,3.0,2248.04,2344.1502,0.6449,High
+402041041,Para Hills,Salisbury,Adelaide - North,15094.0,10.173,959.0,3.0,931.0,3.0,983.0,4.0,919.0,3.0,2248.04,2286.9176,0.4716,Moderate
+402041042,Parafield,Salisbury,Adelaide - North,,4.6289,,,,,,,,,2248.04,,0.9744,Critical
+402041043,Parafield Gardens,Salisbury,Adelaide - North,18467.0,7.0272,880.0,1.0,884.0,1.0,946.0,3.0,891.0,2.0,2248.04,2376.3636,0.7244,High
+402041044,Paralowie,Salisbury,Adelaide - North,17816.0,8.3213,888.0,1.0,878.0,1.0,959.0,3.0,867.0,1.0,2248.04,2344.1502,0.6449,High
+402041046,Salisbury,Salisbury,Adelaide - North,18594.0,10.7696,803.0,1.0,827.0,1.0,876.0,1.0,851.0,1.0,2248.04,2566.2557,0.892,Critical
+402041047,Salisbury East,Salisbury,Adelaide - North,18454.0,14.8505,940.0,2.0,916.0,2.0,973.0,4.0,905.0,2.0,2248.04,2310.4214,0.5256,High
+402041048,Salisbury North,Salisbury,Adelaide - North,18487.0,31.3003,829.0,1.0,836.0,1.0,908.0,1.0,846.0,1.0,2248.04,2475.815,0.8295,Critical
+402041171,Mawson Lakes - Globe Derby Park,Salisbury,Adelaide - North,13855.0,9.6165,1033.0,7.0,1026.0,7.0,997.0,5.0,1046.0,7.0,2248.04,2254.8044,0.3892,Moderate
+402041172,Pooraka - Cavan,Salisbury,Adelaide - North,8080.0,7.4904,911.0,2.0,906.0,2.0,932.0,2.0,924.0,3.0,2248.04,2412.0601,0.7699,Critical
+402051049,Golden Grove,Tea Tree Gully,Adelaide - North,10406.0,26.6144,1043.0,7.0,1016.0,6.0,1035.0,7.0,1004.0,6.0,2248.04,2172.0193,0.1818,Low
+402051050,Greenwith,Tea Tree Gully,Adelaide - North,9017.0,6.0371,1039.0,7.0,1004.0,6.0,1033.0,7.0,991.0,6.0,2248.04,2176.2246,0.196,Low
+402051051,Highbury - Dernancourt,Tea Tree Gully,Adelaide - North,11048.0,12.001,1068.0,9.0,1042.0,7.0,1055.0,8.0,1041.0,7.0,2248.04,2130.8436,0.1051,Low
+402051052,Hope Valley - Modbury,Tea Tree Gully,Adelaide - North,17496.0,10.3125,987.0,4.0,960.0,4.0,962.0,3.0,959.0,4.0,2248.04,2336.8399,0.6108,High
+402051053,Modbury Heights,Tea Tree Gully,Adelaide - North,19248.0,9.9089,1030.0,6.0,992.0,5.0,1013.0,6.0,983.0,5.0,2248.04,2219.1905,0.2812,Moderate
+402051054,Redwood Park,Tea Tree Gully,Adelaide - North,16276.0,14.1403,1048.0,8.0,1000.0,6.0,1038.0,8.0,974.0,5.0,2248.04,2165.7418,0.1705,Low
+402051055,St Agnes - Ridgehaven,Tea Tree Gully,Adelaide - North,13161.0,12.2999,1024.0,6.0,986.0,5.0,1005.0,6.0,977.0,5.0,2248.04,2236.8557,0.3324,Moderate
+403011056,Brighton (SA),Holdfast Bay,Adelaide - South,15191.0,5.9168,1048.0,7.0,1043.0,7.0,1013.0,6.0,1065.0,8.0,2248.04,2219.1905,0.2812,Moderate
+403011057,Glenelg (SA),Holdfast Bay,Adelaide - South,20522.0,7.2232,1047.0,7.0,1046.0,7.0,988.0,5.0,1062.0,8.0,2248.04,2275.3441,0.4403,Moderate
+403021058,Edwardstown,Marion,Adelaide - South,14563.0,5.5375,985.0,4.0,983.0,5.0,924.0,2.0,1022.0,7.0,2248.04,2432.9437,0.7983,Critical
+403021059,Hallett Cove,Marion,Adelaide - South,12609.0,9.2762,1057.0,8.0,1025.0,7.0,1052.0,8.0,1011.0,6.0,2248.04,2136.9202,0.125,Low
+403021060,Marino - Seaview Downs,Marion,Adelaide - South,9703.0,12.2123,1060.0,8.0,1038.0,7.0,1042.0,8.0,1041.0,7.0,2248.04,2157.428,0.1648,Low
+403021061,Mitchell Park,Marion,Adelaide - South,16516.0,7.5686,959.0,3.0,957.0,4.0,914.0,2.0,999.0,6.0,2248.04,2459.5624,0.8182,Critical
+403021062,Morphettville,Marion,Adelaide - South,16531.0,6.2005,1005.0,5.0,1000.0,6.0,960.0,3.0,1022.0,7.0,2248.04,2341.7083,0.6307,High
+403021063,Sheidow Park - Trott Park,Marion,Adelaide - South,10211.0,9.3899,1058.0,8.0,1011.0,6.0,1057.0,8.0,987.0,5.0,2248.04,2126.8117,0.0966,Low
+403021064,Warradale,Marion,Adelaide - South,16190.0,6.0145,984.0,4.0,977.0,5.0,939.0,2.0,1013.0,6.0,2248.04,2394.0788,0.7443,High
+403031065,Belair,Mitcham,Adelaide - South,4896.0,24.7761,1106.0,10.0,1102.0,9.0,1097.0,10.0,1123.0,9.0,2248.04,2049.2616,0.0284,Low
+403031066,Bellevue Heights,Mitcham,Adelaide - South,7608.0,8.7154,1060.0,8.0,1048.0,8.0,1026.0,7.0,1071.0,8.0,2248.04,2191.0721,0.2244,Low
+403031067,Blackwood,Mitcham,Adelaide - South,12963.0,16.928,1094.0,10.0,1085.0,9.0,1082.0,9.0,1104.0,9.0,2248.04,2077.671,0.0455,Low
+403031068,Colonel Light Gardens,Mitcham,Adelaide - South,15842.0,6.761,1064.0,8.0,1063.0,8.0,1033.0,7.0,1081.0,8.0,2248.04,2176.2246,0.196,Low
+403031069,Mitcham (SA),Mitcham,Adelaide - South,16506.0,11.4472,1087.0,10.0,1100.0,9.0,1059.0,8.0,1125.0,9.0,2248.04,2122.7951,0.0909,Low
+403031070,Panorama,Mitcham,Adelaide - South,8475.0,5.7425,1033.0,7.0,1023.0,7.0,998.0,5.0,1048.0,8.0,2248.04,2252.5451,0.3807,Moderate
+403041071,Aberfoyle Park,Onkaparinga,Adelaide - South,11911.0,13.8426,1049.0,8.0,1012.0,6.0,1046.0,8.0,1007.0,6.0,2248.04,2149.1778,0.1477,Low
+403041072,Aldinga,Onkaparinga,Adelaide - South,15923.0,35.3303,970.0,3.0,931.0,3.0,988.0,5.0,931.0,3.0,2248.04,2275.3441,0.4403,Moderate
+403041073,Christie Downs,Onkaparinga,Adelaide - South,9475.0,8.5727,862.0,1.0,850.0,1.0,872.0,1.0,870.0,1.0,2248.04,2578.0275,0.8977,Critical
+403041074,Christies Beach,Onkaparinga,Adelaide - South,11050.0,7.2165,946.0,2.0,920.0,2.0,930.0,2.0,928.0,3.0,2248.04,2417.2473,0.7784,Critical
+403041075,Clarendon,Onkaparinga,Adelaide - South,2729.0,123.3732,1086.0,10.0,1056.0,8.0,1098.0,10.0,1038.0,7.0,2248.04,2047.3953,0.0227,Low
+403041076,Coromandel Valley,Onkaparinga,Adelaide - South,4469.0,4.4154,1099.0,10.0,1077.0,9.0,1099.0,10.0,1087.0,9.0,2248.04,2045.5323,0.017,Low
+403041077,Flagstaff Hill,Onkaparinga,Adelaide - South,10784.0,9.7527,1068.0,9.0,1043.0,7.0,1065.0,9.0,1039.0,7.0,2248.04,2110.8357,0.0767,Low
+403041078,Hackham - Onkaparinga Hills,Onkaparinga,Adelaide - South,6875.0,23.6436,965.0,3.0,922.0,2.0,990.0,5.0,898.0,2.0,2248.04,2270.7475,0.4261,Moderate
+403041079,Hackham West - Huntfield Heights,Onkaparinga,Adelaide - South,7818.0,4.374,850.0,1.0,831.0,1.0,888.0,1.0,847.0,1.0,2248.04,2531.5766,0.8693,Critical
+403041080,Happy Valley,Onkaparinga,Adelaide - South,13864.0,10.17,1045.0,7.0,997.0,6.0,1031.0,7.0,985.0,5.0,2248.04,2180.4462,0.2102,Low
+403041081,Happy Valley Reservoir,Onkaparinga,Adelaide - South,,6.5089,,,,,,,,,2248.04,,0.9744,Critical
+403041082,Lonsdale,Onkaparinga,Adelaide - South,23.0,9.8401,,,,,,,882.0,1.0,2248.04,,0.9744,Critical
+403041083,McLaren Vale,Onkaparinga,Adelaide - South,7344.0,119.5749,1047.0,7.0,1010.0,6.0,1048.0,8.0,992.0,6.0,2248.04,2145.0763,0.142,Low
+403041084,Morphett Vale - East,Onkaparinga,Adelaide - South,13863.0,7.6836,950.0,3.0,908.0,2.0,953.0,3.0,892.0,2.0,2248.04,2358.9087,0.6818,High
+403041085,Morphett Vale - West,Onkaparinga,Adelaide - South,10138.0,5.0775,912.0,2.0,876.0,1.0,923.0,2.0,875.0,1.0,2248.04,2435.5796,0.8097,Critical
+403041086,Reynella,Onkaparinga,Adelaide - South,10286.0,7.7053,990.0,4.0,944.0,3.0,983.0,4.0,931.0,3.0,2248.04,2286.9176,0.4716,Moderate
+403041088,Willunga,Onkaparinga,Adelaide - South,3604.0,85.1868,1056.0,8.0,1026.0,7.0,1065.0,9.0,1028.0,7.0,2248.04,2110.8357,0.0767,Low
+403041089,Woodcroft,Onkaparinga,Adelaide - South,11552.0,13.5274,1033.0,7.0,985.0,5.0,1030.0,7.0,954.0,4.0,2248.04,2182.5631,0.2159,Low
+403041177,Seaford - Seaford Meadows,Onkaparinga,Adelaide - South,14177.0,11.4713,991.0,4.0,951.0,4.0,987.0,5.0,942.0,4.0,2248.04,2277.6494,0.4517,Moderate
+403041178,Seaford Rise - Moana,Onkaparinga,Adelaide - South,10629.0,12.1052,1002.0,5.0,962.0,4.0,1008.0,6.0,950.0,4.0,2248.04,2230.1984,0.3153,Moderate
+404011090,Beverley,Charles Sturt,Adelaide - West,8897.0,4.2061,1006.0,5.0,987.0,5.0,970.0,4.0,995.0,6.0,2248.04,2317.567,0.5511,High
+404011091,Flinders Park,Charles Sturt,Adelaide - West,16361.0,6.3972,1004.0,5.0,989.0,5.0,973.0,4.0,993.0,6.0,2248.04,2310.4214,0.5256,High
+404011092,Henley Beach,Charles Sturt,Adelaide - West,15634.0,5.9563,1049.0,8.0,1043.0,7.0,1015.0,6.0,1043.0,7.0,2248.04,2214.8177,0.2699,Moderate
+404011093,Hindmarsh - Brompton,Charles Sturt,Adelaide - West,19076.0,7.896,995.0,5.0,1004.0,6.0,936.0,2.0,1049.0,8.0,2248.04,2401.7521,0.7557,Critical
+404011094,Royal Park - Hendon - Albert Park,Charles Sturt,Adelaide - West,6499.0,3.246,958.0,3.0,940.0,3.0,937.0,2.0,946.0,4.0,2248.04,2399.1889,0.75,Critical
+404011095,Seaton - Grange,Charles Sturt,Adelaide - West,17501.0,8.2533,991.0,4.0,979.0,5.0,966.0,3.0,986.0,5.0,2248.04,2327.1636,0.5767,High
+404011096,West Lakes,Charles Sturt,Adelaide - West,15205.0,8.5515,1027.0,6.0,1011.0,6.0,1003.0,6.0,1006.0,6.0,2248.04,2241.3161,0.3494,Moderate
+404011097,Woodville - Cheltenham,Charles Sturt,Adelaide - West,19269.0,8.8122,956.0,3.0,955.0,4.0,942.0,2.0,976.0,5.0,2248.04,2386.4544,0.7386,High
+404021098,Dry Creek - South,Port Adelaide - West,Adelaide - West,,6.1446,,,,,,,,,2248.04,,0.9744,Critical
+404021099,Largs Bay - Semaphore,Port Adelaide - West,Adelaide - West,14807.0,6.7241,1009.0,5.0,993.0,5.0,974.0,4.0,1001.0,6.0,2248.04,2308.0493,0.5085,High
+404021100,North Haven,Port Adelaide - West,Adelaide - West,14800.0,14.8433,969.0,3.0,942.0,3.0,957.0,3.0,934.0,3.0,2248.04,2349.0491,0.6648,High
+404021101,Port Adelaide,Port Adelaide - West,Adelaide - West,11589.0,12.972,917.0,2.0,913.0,2.0,909.0,2.0,927.0,3.0,2248.04,2473.0913,0.8239,Critical
+404021102,The Parks,Port Adelaide - West,Adelaide - West,19645.0,18.2633,876.0,1.0,902.0,2.0,892.0,1.0,942.0,4.0,2248.04,2520.2242,0.858,Critical
+404021103,Torrens Island,Port Adelaide - West,Adelaide - West,,8.8253,,,,,,,,,2248.04,,0.9744,Critical
+404031104,Adelaide Airport,West Torrens,Adelaide - West,,7.2952,,,,,,,,,2248.04,,0.9744,Critical
+404031105,Fulham,West Torrens,Adelaide - West,2920.0,1.3212,1051.0,8.0,1039.0,7.0,1019.0,6.0,1034.0,7.0,2248.04,2206.1237,0.25,Moderate
+404031106,Lockleys,West Torrens,Adelaide - West,13452.0,5.702,1026.0,6.0,1018.0,6.0,981.0,4.0,1023.0,7.0,2248.04,2291.58,0.4943,Moderate
+404031107,Plympton,West Torrens,Adelaide - West,26480.0,10.6969,1015.0,6.0,1006.0,6.0,952.0,3.0,1027.0,7.0,2248.04,2361.3866,0.6932,High
+404031108,Richmond (SA),West Torrens,Adelaide - West,17022.0,8.9253,995.0,5.0,999.0,6.0,935.0,2.0,1038.0,7.0,2248.04,2404.3209,0.7614,Critical
+404031109,West Beach,West Torrens,Adelaide - West,5175.0,4.5068,1059.0,8.0,1050.0,8.0,1025.0,7.0,1042.0,7.0,2248.04,2193.2098,0.233,Low
+405011110,Barossa - Angaston,Barossa,Barossa - Yorke - Mid North,6486.0,633.8622,1003.0,5.0,969.0,4.0,1026.0,7.0,957.0,4.0,2248.04,2191.0721,0.2244,Low
+405011111,Light,Barossa,Barossa - Yorke - Mid North,9797.0,1111.6724,1005.0,5.0,959.0,4.0,1032.0,7.0,935.0,3.0,2248.04,2178.3333,0.2045,Low
+405011112,Lyndoch,Barossa,Barossa - Yorke - Mid North,6544.0,175.7742,1044.0,7.0,1001.0,6.0,1064.0,9.0,971.0,5.0,2248.04,2112.8195,0.0852,Low
+405011113,Mallala,Barossa,Barossa - Yorke - Mid North,3335.0,847.8696,946.0,2.0,914.0,2.0,987.0,5.0,881.0,1.0,2248.04,2277.6494,0.4517,Moderate
+405011114,Nuriootpa,Barossa,Barossa - Yorke - Mid North,7157.0,50.6409,985.0,4.0,941.0,3.0,995.0,5.0,914.0,2.0,2248.04,2259.3367,0.4006,Moderate
+405011115,Tanunda,Barossa,Barossa - Yorke - Mid North,4666.0,17.3326,1029.0,6.0,996.0,5.0,1009.0,6.0,984.0,5.0,2248.04,2227.9881,0.3068,Moderate
+405021116,Clare,Lower North,Barossa - Yorke - Mid North,4096.0,74.203,1008.0,5.0,970.0,4.0,985.0,4.0,957.0,4.0,2248.04,2282.2741,0.4602,Moderate
+405021117,Gilbert Valley,Lower North,Barossa - Yorke - Mid North,5016.0,1675.3597,989.0,4.0,957.0,4.0,1001.0,5.0,963.0,5.0,2248.04,2245.7942,0.3608,Moderate
+405021118,Goyder,Lower North,Barossa - Yorke - Mid North,4079.0,6748.1529,947.0,2.0,914.0,2.0,958.0,3.0,920.0,3.0,2248.04,2346.5971,0.6562,High
+405021119,Wakefield - Barunga West,Lower North,Barossa - Yorke - Mid North,9500.0,5231.2432,930.0,2.0,907.0,2.0,960.0,3.0,908.0,2.0,2248.04,2341.7083,0.6307,High
+405031120,Jamestown,Mid North,Barossa - Yorke - Mid North,4596.0,3107.037,980.0,4.0,949.0,3.0,976.0,4.0,958.0,4.0,2248.04,2303.3197,0.5,High
+405031121,Peterborough - Mount Remarkable,Mid North,Barossa - Yorke - Mid North,5341.0,9643.884,917.0,2.0,903.0,2.0,949.0,3.0,922.0,3.0,2248.04,2368.8514,0.7159,High
+405031122,Port Pirie,Mid North,Barossa - Yorke - Mid North,13896.0,75.2928,870.0,1.0,853.0,1.0,884.0,1.0,851.0,1.0,2248.04,2543.0317,0.875,Critical
+405031123,Port Pirie Surrounds,Mid North,Barossa - Yorke - Mid North,3335.0,1583.2661,967.0,3.0,932.0,3.0,974.0,4.0,926.0,3.0,2248.04,2308.0493,0.5085,High
+405041124,Kadina,Yorke Peninsula,Barossa - Yorke - Mid North,5414.0,394.1203,937.0,2.0,897.0,2.0,958.0,3.0,877.0,1.0,2248.04,2346.5971,0.6562,High
+405041125,Moonta,Yorke Peninsula,Barossa - Yorke - Mid North,5217.0,271.9202,938.0,2.0,904.0,2.0,965.0,3.0,884.0,1.0,2248.04,2329.5751,0.5881,High
+405041126,Wallaroo,Yorke Peninsula,Barossa - Yorke - Mid North,4426.0,146.5314,891.0,1.0,871.0,1.0,923.0,2.0,856.0,1.0,2248.04,2435.5796,0.8097,Critical
+405041127,Yorke Peninsula - North,Yorke Peninsula,Barossa - Yorke - Mid North,7458.0,3654.3884,955.0,3.0,921.0,2.0,961.0,3.0,915.0,2.0,2248.04,2339.2716,0.6193,High
+405041128,Yorke Peninsula - South,Yorke Peninsula,Barossa - Yorke - Mid North,4142.0,2273.834,946.0,2.0,911.0,2.0,962.0,3.0,900.0,2.0,2248.04,2336.8399,0.6108,High
+406011129,Ceduna,Eyre Peninsula and South West,South Australia - Outback,2697.0,413.3374,946.0,2.0,924.0,2.0,929.0,2.0,918.0,2.0,2248.04,2419.8493,0.7841,Critical
+406011130,Eyre Peninsula,Eyre Peninsula and South West,South Australia - Outback,6824.0,7228.3655,1008.0,5.0,965.0,4.0,1000.0,5.0,955.0,4.0,2248.04,2248.04,0.3722,Moderate
+406011131,Kimba - Cleve - Franklin Harbour,Eyre Peninsula and South West,South Australia - Outback,4201.0,15184.3968,990.0,4.0,953.0,4.0,990.0,5.0,948.0,4.0,2248.04,2270.7475,0.4261,Moderate
+406011132,Le Hunte - Elliston,Eyre Peninsula and South West,South Australia - Outback,2122.0,11387.2463,984.0,4.0,961.0,4.0,973.0,4.0,971.0,5.0,2248.04,2310.4214,0.5256,High
+406011133,Port Lincoln,Eyre Peninsula and South West,South Australia - Outback,16307.0,136.2831,962.0,3.0,926.0,2.0,953.0,3.0,906.0,2.0,2248.04,2358.9087,0.6818,High
+406011134,West Coast (SA),Eyre Peninsula and South West,South Australia - Outback,3646.0,31877.8466,949.0,3.0,934.0,3.0,924.0,2.0,930.0,3.0,2248.04,2432.9437,0.7983,Critical
+406011135,Western,Eyre Peninsula and South West,South Australia - Outback,136.0,168946.0226,644.0,1.0,823.0,1.0,641.0,1.0,1043.0,7.0,2248.04,3507.0827,0.9375,Critical
+406011136,Whyalla,Eyre Peninsula and South West,South Australia - Outback,21154.0,40.8706,882.0,1.0,868.0,1.0,879.0,1.0,865.0,1.0,2248.04,2557.4972,0.8864,Critical
+406011137,Whyalla - North,Eyre Peninsula and South West,South Australia - Outback,,80.449,,,,,,,,,2248.04,,0.9744,Critical
+406021138,APY Lands,Outback - North and East,South Australia - Outback,2333.0,102359.1511,496.0,1.0,706.0,1.0,519.0,1.0,889.0,1.0,2248.04,4331.4836,0.9432,Critical
+406021139,Coober Pedy,Outback - North and East,South Australia - Outback,1566.0,77.6795,868.0,1.0,868.0,1.0,832.0,1.0,868.0,1.0,2248.04,2701.9712,0.9148,Critical
+406021140,Quorn - Lake Gilles,Outback - North and East,South Australia - Outback,2142.0,26107.329,940.0,2.0,914.0,2.0,945.0,3.0,897.0,2.0,2248.04,2378.8783,0.733,High
+406021141,Outback,Outback - North and East,South Australia - Outback,2030.0,513391.3333,942.0,2.0,926.0,3.0,901.0,1.0,912.0,2.0,2248.04,2495.0499,0.8466,Critical
+406021142,Port Augusta,Outback - North and East,South Australia - Outback,13515.0,253.9025,885.0,1.0,874.0,1.0,889.0,1.0,869.0,1.0,2248.04,2528.7289,0.8636,Critical
+406021143,Roxby Downs,Outback - North and East,South Australia - Outback,3976.0,288.3624,1048.0,7.0,1004.0,6.0,1010.0,6.0,919.0,3.0,2248.04,2225.7822,0.3011,Moderate
+407011144,Goolwa - Port Elliot,Fleurieu - Kangaroo Island,South Australia - South East,12516.0,180.8689,965.0,3.0,928.0,3.0,971.0,4.0,928.0,3.0,2248.04,2315.1802,0.5426,High
+407011145,Kangaroo Island,Fleurieu - Kangaroo Island,South Australia - South East,4894.0,4400.7382,991.0,4.0,952.0,4.0,982.0,4.0,945.0,4.0,2248.04,2289.2464,0.4858,Moderate
+407011146,Strathalbyn,Fleurieu - Kangaroo Island,South Australia - South East,7871.0,155.7859,995.0,5.0,952.0,4.0,1018.0,6.0,939.0,3.0,2248.04,2208.2908,0.2557,Moderate
+407011147,Strathalbyn Surrounds,Fleurieu - Kangaroo Island,South Australia - South East,7969.0,1517.7954,1015.0,6.0,978.0,5.0,1053.0,8.0,960.0,4.0,2248.04,2134.8908,0.1193,Low
+407011148,Victor Harbor,Fleurieu - Kangaroo Island,South Australia - South East,15847.0,128.2644,961.0,3.0,925.0,2.0,968.0,4.0,924.0,3.0,2248.04,2322.3554,0.5625,High
+407011149,Yankalilla,Fleurieu - Kangaroo Island,South Australia - South East,6498.0,980.1341,984.0,4.0,949.0,3.0,997.0,5.0,946.0,4.0,2248.04,2254.8044,0.3892,Moderate
+407021150,Grant,Limestone Coast,South Australia - South East,6138.0,1690.9302,1012.0,6.0,963.0,4.0,1045.0,8.0,920.0,3.0,2248.04,2151.2344,0.1562,Low
+407021151,Kingston - Robe,Limestone Coast,South Australia - South East,3872.0,4431.5114,995.0,5.0,959.0,4.0,994.0,5.0,932.0,3.0,2248.04,2261.6097,0.4091,Moderate
+407021152,Millicent,Limestone Coast,South Australia - South East,5245.0,177.4315,905.0,2.0,870.0,1.0,926.0,2.0,854.0,1.0,2248.04,2427.689,0.7898,Critical
+407021154,Naracoorte,Limestone Coast,South Australia - South East,6293.0,115.23,952.0,3.0,923.0,2.0,963.0,3.0,895.0,2.0,2248.04,2334.4133,0.5994,High
+407021155,Naracoorte Surrounds,Limestone Coast,South Australia - South East,2395.0,4404.485,1044.0,7.0,1018.0,6.0,1049.0,8.0,1021.0,7.0,2248.04,2143.0315,0.1364,Low
+407021156,Penola,Limestone Coast,South Australia - South East,3107.0,1514.3964,952.0,3.0,924.0,2.0,973.0,4.0,919.0,3.0,2248.04,2310.4214,0.5256,High
+407021157,Tatiara,Limestone Coast,South Australia - South East,6891.0,6527.2342,982.0,4.0,950.0,3.0,1004.0,6.0,926.0,3.0,2248.04,2239.0837,0.3409,Moderate
+407021158,Wattle Range,Limestone Coast,South Australia - South East,3470.0,2281.8815,987.0,4.0,945.0,3.0,1008.0,6.0,923.0,3.0,2248.04,2230.1984,0.3153,Moderate
+407021173,Mount Gambier - East,Limestone Coast,South Australia - South East,14947.0,66.7535,941.0,2.0,907.0,2.0,951.0,3.0,887.0,1.0,2248.04,2363.8696,0.6989,High
+407021174,Mount Gambier - West,Limestone Coast,South Australia - South East,14499.0,126.5343,931.0,2.0,899.0,2.0,932.0,2.0,889.0,1.0,2248.04,2412.0601,0.7699,Critical
+407031159,Barmera,Murray and Mallee,South Australia - South East,6401.0,856.1907,937.0,2.0,908.0,2.0,966.0,3.0,886.0,1.0,2248.04,2327.1636,0.5767,High
+407031160,Berri,Murray and Mallee,South Australia - South East,4143.0,12.0822,860.0,1.0,854.0,1.0,871.0,1.0,876.0,1.0,2248.04,2580.9874,0.9034,Critical
+407031161,Karoonda - Lameroo,Murray and Mallee,South Australia - South East,2921.0,10548.6359,984.0,4.0,952.0,4.0,982.0,4.0,945.0,4.0,2248.04,2289.2464,0.4858,Moderate
+407031162,Loxton,Murray and Mallee,South Australia - South East,5575.0,146.0888,965.0,3.0,929.0,3.0,969.0,4.0,918.0,3.0,2248.04,2319.9587,0.5568,High
+407031163,Loxton Surrounds,Murray and Mallee,South Australia - South East,1742.0,4790.3357,984.0,4.0,957.0,4.0,1003.0,6.0,946.0,4.0,2248.04,2241.3161,0.3494,Moderate
+407031164,Mannum,Murray and Mallee,South Australia - South East,6594.0,3287.9008,914.0,2.0,884.0,1.0,950.0,3.0,882.0,1.0,2248.04,2366.3579,0.7074,High
+407031165,Murray Bridge,Murray and Mallee,South Australia - South East,18243.0,97.5456,873.0,1.0,852.0,1.0,907.0,1.0,839.0,1.0,2248.04,2478.5447,0.8352,Critical
+407031166,Murray Bridge Surrounds,Murray and Mallee,South Australia - South East,3732.0,1924.5348,986.0,4.0,942.0,3.0,1007.0,6.0,925.0,3.0,2248.04,2232.4131,0.3239,Moderate
+407031167,Renmark,Murray and Mallee,South Australia - South East,4705.0,14.6561,863.0,1.0,858.0,1.0,882.0,1.0,859.0,1.0,2248.04,2548.7982,0.8807,Critical
+407031168,Renmark Surrounds,Murray and Mallee,South Australia - South East,5080.0,901.7859,978.0,4.0,937.0,3.0,1011.0,6.0,897.0,2.0,2248.04,2223.5806,0.2926,Moderate
+407031169,The Coorong,Murray and Mallee,South Australia - South East,5473.0,8644.9956,939.0,2.0,911.0,2.0,956.0,3.0,910.0,2.0,2248.04,2351.5063,0.6705,High
+407031170,Waikerie,Murray and Mallee,South Australia - South East,6646.0,5557.8467,926.0,2.0,893.0,2.0,950.0,3.0,874.0,1.0,2248.04,2366.3579,0.7074,High
+497979799,Migratory - Offshore - Shipping (SA),Migratory - Offshore - Shipping (SA),Migratory - Offshore - Shipping (SA),,,,,,,,,,,2248.04,,0.9744,Critical
+499999499,No usual address (SA),No usual address (SA),No usual address (SA),,,,,,,,,,,2248.04,,0.9744,Critical

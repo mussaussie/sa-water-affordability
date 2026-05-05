@@ -1,0 +1,139 @@
+-- =============================================================================
+-- SA WATER AFFORDABILITY DASHBOARD — DAX MEASURES
+-- Create all measures by right-clicking the sa2_main table → New measure
+-- =============================================================================
+
+-- ─── SECTION 1: CORE KPI MEASURES ────────────────────────────────────────────
+-- Used on: Page 1 (Vulnerability Map) header cards
+
+Critical Count =
+    CALCULATE(
+        COUNTROWS(sa2_main),
+        sa2_main[burden_tier_rel] = "Critical"
+    )
+
+-- ─────────────────────────────────────────────────────────────────────────────
+
+High Count =
+    CALCULATE(
+        COUNTROWS(sa2_main),
+        sa2_main[burden_tier_rel] = "High"
+    )
+
+-- ─────────────────────────────────────────────────────────────────────────────
+-- Format as Percentage, 1 decimal place in the card visual
+
+Avg Burden % =
+    CALCULATE(
+        AVERAGE(sa2_main[water_cost_burden_pct]),
+        sa2_main[provider_type] = "SA Water"
+    )
+
+
+-- ─── SECTION 2: SIMULATION MEASURES ──────────────────────────────────────────
+-- Used on: Page 2 (Price Rise Simulator) header cards
+-- These respond to the scenario_label slicer on Page 2.
+
+Tier Shifts =
+    CALCULATE(
+        COUNTROWS(simulation_scenarios),
+        simulation_scenarios[tier_shifted] = 1
+    )
+
+-- ─────────────────────────────────────────────────────────────────────────────
+
+Suburbs in Stress Zone =
+    CALCULATE(
+        COUNTROWS(simulation_scenarios),
+        simulation_scenarios[sim_tier_abs] IN { "High", "Critical" }
+    )
+
+
+-- ─── SECTION 3: TIPPING POINT MEASURE ────────────────────────────────────────
+-- Used on: Page 3 (Tipping Point Analysis) — table and scatter chart
+--
+-- Returns the MINIMUM price increase % at which a suburb shifts to a worse tier.
+-- Returns BLANK() for suburbs that never shift across all 8 scenarios.
+-- IMPORTANT: Place this on Page 3 only — do NOT use alongside a scenario slicer
+-- (the slicer would restrict the FILTER context and produce wrong minimums).
+
+Tipping Point % =
+    MINX(
+        FILTER(
+            simulation_scenarios,
+            simulation_scenarios[tier_shifted] = 1
+        ),
+        simulation_scenarios[price_increase_pct]
+    )
+
+
+-- ─── SECTION 4: CALCULATED COLUMNS ───────────────────────────────────────────
+-- Create these as calculated COLUMNS (right-click table → New column),
+-- not as measures.
+
+-- ── In table: simulation_scenarios ──────────────────────────────────────────
+-- Purpose: Allows sim_tier_abs to be sorted by severity (not alphabetically)
+-- After creating: select sim_tier_abs column → Column tools → Sort by column → sim_tier_order
+
+sim_tier_order =
+    SWITCH(
+        simulation_scenarios[sim_tier_abs],
+        "Critical",  1,
+        "High",       2,
+        "Moderate",   3,
+        "Low",        4,
+        5  -- catch-all (Unknown / blank)
+    )
+
+-- ── In table: sa2_main ───────────────────────────────────────────────────────
+-- Purpose: Friendly labels for the Metro/Country slicer on Page 4
+
+metro_label =
+    IF(sa2_main[is_metro] = 1, "Metro", "Country")
+
+
+-- =============================================================================
+-- QUICK REFERENCE — WHICH MEASURE GOES WHERE
+-- =============================================================================
+--
+-- Page 1 — Suburb Vulnerability Map
+--   Cards: Critical Count, High Count, Avg Burden %
+--
+-- Page 2 — Price Rise Simulator
+--   Cards: Tier Shifts, Suburbs in Stress Zone
+--
+-- Page 3 — Tipping Point Analysis
+--   Table + Scatter Y-axis: Tipping Point %
+--   NOTE: No scenario slicer on this page — Tipping Point % needs full context
+--
+-- Page 4 — Hardship Priority Map
+--   Slicer: metro_label (calculated column)
+--   No new measures — all columns from sa2_main
+--
+-- Page 5 — SHAP Explainability
+--   No new measures — uses avg(abs_shap_value) from shap_long directly
+--
+-- =============================================================================
+-- TIER COLOUR REFERENCE (for conditional formatting rules)
+-- =============================================================================
+--
+--   Critical  = #D32F2F  (dark red)
+--   High      = #F57C00  (orange)
+--   Moderate  = #FBC02D  (amber)
+--   Low       = #388E3C  (green)
+--   Unknown   = #9E9E9E  (grey)
+--
+-- Apply via: Select visual → Format pane → Conditional formatting
+--   → Background colour → Rules → Field value = "Critical" → colour #D32F2F, etc.
+--
+-- =============================================================================
+-- SORT-BY-COLUMN SETTINGS (must be done manually in Column tools ribbon)
+-- =============================================================================
+--
+--   sa2_main[burden_tier_rel]               → sort by  tier_order_rel
+--   sa2_main[burden_tier_abs]               → sort by  tier_order_abs
+--   simulation_scenarios[sim_tier_abs]      → sort by  sim_tier_order  (calc column above)
+--   simulation_scenarios[scenario_label]    → sort by  price_increase_pct
+--   shap_long[burden_tier_rel]              → sort by  tier_order_rel
+--
+-- =============================================================================
