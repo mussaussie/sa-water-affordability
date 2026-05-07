@@ -854,8 +854,8 @@ function renderPage6() {
     backgroundColor: (TIER_COLOURS[tier] || '#9E9E9E') + '99',
     borderColor: TIER_COLOURS[tier] || '#9E9E9E',
     borderWidth: 1,
-    pointRadius: d => Math.max(4, Math.sqrt((d || 1000) / 300)),
-    pointHoverRadius: 8
+    pointRadius: ctx => Math.max(3, Math.sqrt((ctx.raw?.pop || 500) / 400)),
+    pointHoverRadius: 9
   }));
   destroyChart('p6-scatter');
   const sCtx = document.getElementById('p6-scatter').getContext('2d');
