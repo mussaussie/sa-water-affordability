@@ -1,5 +1,5 @@
 # SA Water Affordability & Infrastructure Stress
-### Suburb-level analysis of water cost burden across 176 SA2 areas — South Australia
+### Suburb-level analysis of water cost burden across 176 SA2 areas — South Australia · V2
 
 ---
 
@@ -13,6 +13,8 @@ I wanted to model that — suburb by suburb — and find out which communities w
 
 The result surprised me. The suburbs I expected to find in crisis (remote outback communities) were there — but so were coastal retirement towns like Victor Harbor, Goolwa, and Moonta. Fixed superannuation. No ability to earn more. Already ranking in the top 10% of water affordability stress in the state.
 
+**V2 adds a rainfall dimension:** the suburbs nearest the affordability threshold are also in the fastest-declining rainfall zones. Drought years push usage (and bills) up — but retirement-income households can't adapt with greywater systems or efficient appliances. The regulatory risk compounds.
+
 ---
 
 ## What I found
@@ -22,32 +24,21 @@ The result surprised me. The suburbs I expected to find in crisis (remote outbac
 - At the **FY2025-26 approved increase (+4.7%)**, 5 SA2s shift to a worse absolute stress tier. At +10%, it's 13. At +20%, it's 28.
 - SA Water's hardship assistance program (2,732 customers statewide) appears underweighted toward the suburbs the data predicts need it most
 - **SHAP analysis** confirmed that SEIFA socioeconomic indexes are a genuine leading indicator of water affordability stress — meaning we can identify at-risk suburbs *before* income data is collected
+- **V2 — 13 double-stress SA2s** are Critical on water affordability *and* in long-term rainfall decline (2000–2025). SA mean rainfall trend: −2.8 mm/yr. Worst affected: Elizabeth, Victor Harbor, Wallaroo, Moonta, Yorke Peninsula, Berri, Renmark.
 
 ---
 
 ## The dashboard
 
-### Tab 1 — Vulnerability Overview
+Open `outputs/dashboard.html` in any browser — no server required. Five tabs, all interactive Plotly figures.
 
-![Vulnerability Overview](assets/dashboard_tab1.png)
-
-17 Critical SA2s, 25 High. Average water cost burden across all 168 SA Water suburbs: 1.49% of household income. The top 20 highest-burden suburbs are dominated by regional SA — but the coastal retirement cluster (Moonta, Victor Harbor, Yorke Peninsula) is in that list.
-
----
-
-### Tab 2 — Price Rise Simulator
-
-![Price Rise Simulator](assets/dashboard_tab2.png)
-
-I built a simulation engine that recalculates each suburb's water cost burden under 8 price scenarios. The slicer updates the tier distribution and flags exactly which suburbs shift to a worse tier. At baseline: 0 suburbs in absolute crisis. At +10%: 13 move. Named suburbs, not aggregate counts.
-
----
-
-### Tab 5 — SHAP Explainability
-
-![SHAP Explainability](assets/dashboard_tab5.png)
-
-The ML model uses SEIFA socioeconomic indexes only — no income, no bill — to predict stress tier. SHAP breaks down why each suburb was classified the way it was. IRSAD (advantage/disadvantage) and IEO (education and occupation) carry the strongest signal for the Critical tier. This confirms SEIFA as a usable proxy for water affordability risk, even without direct income data.
+| Tab | What it shows |
+|-----|---------------|
+| **Vulnerability Map** | Burden tier choropleth (relative percentile + absolute policy threshold). Hover any SA2 for suburb name, burden ratio, and tier. |
+| **Price Rise Simulator** | Interactive scenario selector (8 price scenarios). Shows exactly which SA2s shift tier at each increment. |
+| **Hardship Priority** | Estimated hardship need map — volume of households likely experiencing payment stress by suburb. |
+| **ML Explainability** | SHAP global importance, beeswarm (Critical tier), and waterfall for the top 3 Critical SA2s. |
+| **V2: Rainfall Overlay** | Double-stress map (Critical burden + declining rainfall), rainfall trend choropleth, top 20 steepest-decline bar chart. |
 
 ---
 
@@ -63,7 +54,8 @@ The ML model uses SEIFA socioeconomic indexes only — no income, no bill — to
 | 7 | `07_automl_pycaret.ipynb` | Ran 14 models via PyCaret AutoML. Best: ExtraTrees at F1 = 0.685 |
 | 8 | `08_simulation_engine.ipynb` | Built the price-rise simulation engine — 8 scenarios × 176 SA2s, tipping point analysis per suburb |
 | 9 | `09_shap_explainability.ipynb` | Used SHAP TreeExplainer to decompose each suburb's predicted tier into per-feature contributions |
-| 10 | `10_powerbi_export.ipynb` | Packaged the three output tables into a clean Power BI data model |
+| 10 | `10_powerbi_export.ipynb` | Packaged the three output tables into a Power BI data model |
+| 11 *(V2)* | `11_rainfall_overlay.ipynb` | Layered 55 BOM stations onto SA2 centroids (nearest-point join), computed 2000–2025 linear rainfall trends, identified 13 double-stress SA2s |
 
 ---
 
@@ -116,7 +108,7 @@ All data is publicly available. Download and place in the paths shown before run
 | ABS Census 2021 G02 (SA) | [ABS Census DataPacks](https://www.abs.gov.au/census/find-census-data/datapacks) | `data/raw/` |
 | ABS Wage Price Index 6345.0 Table 2b (SA) | [ABS WPI](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/wage-price-index-australia) | `data/raw/` |
 | ABS SA2 Shapefile GDA2020 | [ABS ASGS Edition 3](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3) | `data/spatial/` |
-| BOM HQ rainfall — SA stations (districts 016–026) | [BOM FTP](ftp://ftp.bom.gov.au/anon/home/ncc/www/change/HQmonthlyR/) | `data/raw/bom_rainfall_sa.csv` |
+| BOM HQ rainfall — SA stations (districts 016–026) | BOM FTP: `ftp.bom.gov.au/anon/home/ncc/www/change/HQmonthlyR/` | `data/raw/bom_rainfall_sa.csv` |
 
 ---
 
@@ -138,28 +130,33 @@ Note: Coober Pedy is supplied by the District Council of Coober Pedy, not SA Wat
 
 ## How to reproduce
 
-```bash
-# Phases requiring geopandas / PyCaret (Python 3.11)
-conda activate sa-water-py311
-jupyter nbconvert --to notebook --execute --inplace notebooks/05_feature_engineering.ipynb
-jupyter nbconvert --to notebook --execute --inplace notebooks/07_automl_pycaret.ipynb
-jupyter nbconvert --to notebook --execute --inplace notebooks/08_simulation_engine.ipynb
+All phases run on the `data-sci-scratch` conda environment (Python 3.13, geopandas installed via conda-forge).
 
-# All other phases
+```bash
 conda activate data-sci-scratch
+
+# V1 — core pipeline
 jupyter nbconvert --to notebook --execute --inplace notebooks/02_pdf_extraction.ipynb
 jupyter nbconvert --to notebook --execute --inplace notebooks/03_cleaning.ipynb
 jupyter nbconvert --to notebook --execute --inplace notebooks/04_eda.ipynb
+jupyter nbconvert --to notebook --execute --inplace notebooks/05_feature_engineering.ipynb
 jupyter nbconvert --to notebook --execute --inplace notebooks/06_ml_modelling.ipynb
+jupyter nbconvert --to notebook --execute --inplace notebooks/07_automl_pycaret.ipynb
+jupyter nbconvert --to notebook --execute --inplace notebooks/08_simulation_engine.ipynb
 jupyter nbconvert --to notebook --execute --inplace notebooks/09_shap_explainability.ipynb
 jupyter nbconvert --to notebook --execute --inplace notebooks/10_powerbi_export.ipynb
+
+# V2 — rainfall overlay
+jupyter nbconvert --to notebook --execute --inplace notebooks/11_rainfall_overlay.ipynb
 ```
+
+Then open `outputs/dashboard.html` in a browser.
 
 ---
 
 ## Stack
 
-Python 3.11 · pandas · geopandas · scikit-learn · PyCaret · SHAP · Plotly · Power BI
+Python 3.13 · pandas · geopandas · scipy · scikit-learn · PyCaret · SHAP · Plotly
 
 ---
 

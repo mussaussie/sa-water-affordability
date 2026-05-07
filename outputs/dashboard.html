@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SA Water Affordability Dashboard</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f5f6f8;
+    color: #1a1a2e;
+  }
+
+  header {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 20px 32px 16px;
+    border-bottom: 3px solid #e63946;
+  }
+
+  header h1 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+  }
+
+  header p {
+    font-size: 0.82rem;
+    color: #a8b2c1;
+    margin-top: 4px;
+  }
+
+  .badge {
+    display: inline-block;
+    background: #e63946;
+    color: #fff;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 2px 7px;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-left: 6px;
+    text-transform: uppercase;
+  }
+
+  .badge.v2 {
+    background: #2a9d8f;
+  }
+
+  nav {
+    background: #fff;
+    border-bottom: 1px solid #e0e3ea;
+    display: flex;
+    gap: 0;
+    padding: 0 32px;
+    overflow-x: auto;
+  }
+
+  nav button {
+    background: none;
+    border: none;
+    padding: 14px 18px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: #6b7280;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    white-space: nowrap;
+    transition: color 0.15s, border-color 0.15s;
+  }
+
+  nav button:hover { color: #1a1a2e; }
+
+  nav button.active {
+    color: #1a1a2e;
+    border-bottom-color: #e63946;
+    font-weight: 600;
+  }
+
+  nav button.active.v2tab {
+    border-bottom-color: #2a9d8f;
+  }
+
+  .key-stats {
+    display: flex;
+    gap: 12px;
+    padding: 16px 32px;
+    background: #fff;
+    border-bottom: 1px solid #e0e3ea;
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    flex: 1;
+    min-width: 140px;
+    background: #f5f6f8;
+    border-radius: 8px;
+    padding: 12px 16px;
+    border-left: 3px solid #e63946;
+  }
+
+  .stat.green { border-left-color: #2a9d8f; }
+  .stat.amber { border-left-color: #f4a261; }
+  .stat.blue  { border-left-color: #457b9d; }
+
+  .stat-number {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #1a1a2e;
+  }
+
+  .stat-label {
+    font-size: 0.72rem;
+    color: #6b7280;
+    margin-top: 4px;
+    line-height: 1.3;
+  }
+
+  .tab-panel {
+    display: none;
+    padding: 20px 32px 32px;
+  }
+
+  .tab-panel.active { display: block; }
+
+  .panel-header {
+    margin-bottom: 14px;
+  }
+
+  .panel-header h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1a1a2e;
+  }
+
+  .panel-header p {
+    font-size: 0.78rem;
+    color: #6b7280;
+    margin-top: 3px;
+    max-width: 780px;
+    line-height: 1.5;
+  }
+
+  .frame-wrap {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #e0e3ea;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+
+  iframe {
+    display: block;
+    width: 100%;
+    border: none;
+  }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .col-label {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+  }
+
+  .findings-box {
+    background: #1a1a2e;
+    color: #e2e8f0;
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin-top: 16px;
+    font-size: 0.8rem;
+    line-height: 1.7;
+  }
+
+  .findings-box h3 {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #a8b2c1;
+    margin-bottom: 10px;
+  }
+
+  .findings-box ul {
+    padding-left: 16px;
+  }
+
+  .findings-box li { margin-bottom: 5px; }
+
+  .findings-box strong { color: #fff; }
+
+  .highlight-red  { color: #e63946; font-weight: 600; }
+  .highlight-teal { color: #2a9d8f; font-weight: 600; }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.72rem;
+    color: #9ca3af;
+    border-top: 1px solid #e0e3ea;
+    background: #fff;
+    margin-top: 24px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>SA Water Affordability &amp; Infrastructure Stress
+    <span class="badge">V2</span>
+  </h1>
+  <p>Suburb-level water cost burden across 176 SA2 areas · South Australia · FY2024-25 pricing + BOM rainfall 2000–2025</p>
+</header>
+
+<div class="key-stats">
+  <div class="stat">
+    <div class="stat-number">17</div>
+    <div class="stat-label">Critical stress SA2s<br>(top 10% burden)</div>
+  </div>
+  <div class="stat amber">
+    <div class="stat-number">25</div>
+    <div class="stat-label">High stress SA2s<br>(75th–90th percentile)</div>
+  </div>
+  <div class="stat blue">
+    <div class="stat-number">13</div>
+    <div class="stat-label">SA2s shifted tier<br>at +10% price rise</div>
+  </div>
+  <div class="stat green">
+    <div class="stat-number">13</div>
+    <div class="stat-label">Double-stress SA2s<br>V2: Critical + declining rainfall</div>
+  </div>
+  <div class="stat">
+    <div class="stat-number">−2.8</div>
+    <div class="stat-label">SA mean rainfall trend<br>mm/yr (2000–2025)</div>
+  </div>
+</div>
+
+<nav>
+  <button class="active" onclick="showTab('vulnerability', this)">Vulnerability Map</button>
+  <button onclick="showTab('simulator', this)">Price Rise Simulator</button>
+  <button onclick="showTab('hardship', this)">Hardship Priority</button>
+  <button onclick="showTab('shap', this)">ML Explainability</button>
+  <button class="v2tab" onclick="showTab('rainfall', this)">V2: Rainfall Overlay <span class="badge v2">new</span></button>
+</nav>
+
+<!-- TAB 1: Vulnerability -->
+<div id="tab-vulnerability" class="tab-panel active">
+  <div class="panel-header">
+    <h2>Suburb Vulnerability Map</h2>
+    <p>Water cost burden ratio (annual bill ÷ median household income) classified into four tiers by percentile rank within SA Water suburbs. 17 Critical SA2s, 25 High — many are coastal retirement towns where residents are on fixed superannuation.</p>
+  </div>
+  <div class="frame-wrap">
+    <iframe src="figures/fig_burden_tier_rel_map.html" height="580"></iframe>
+  </div>
+  <div class="two-col" style="margin-top:16px">
+    <div>
+      <div class="col-label">Burden ratio (raw)</div>
+      <div class="frame-wrap">
+        <iframe src="figures/fig_burden_ratio_map.html" height="420"></iframe>
+      </div>
+    </div>
+    <div>
+      <div class="col-label">Absolute tier (4% policy threshold)</div>
+      <div class="frame-wrap">
+        <iframe src="figures/fig_burden_tier_abs_map.html" height="420"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="findings-box">
+    <h3>Key findings</h3>
+    <ul>
+      <li>At current FY2024-25 prices, <strong>no SA2 breaches the 4% absolute hardship threshold</strong> — the absolute tier map shows Low/Moderate only.</li>
+      <li>The relative tier map tells the real story: <strong>Victor Harbor, Goolwa, Moonta, and Wallaroo</strong> are in the Critical tier — retirement towns, not impoverished communities.</li>
+      <li>Average water cost burden across all SA Water SA2s: <strong class="highlight-red">1.49%</strong> of household income.</li>
+      <li>The same $1,160 annual bill is 0.7% of income in Burnside and 2.4% in Elizabeth.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- TAB 2: Simulator -->
+<div id="tab-simulator" class="tab-panel">
+  <div class="panel-header">
+    <h2>Price Rise Simulator</h2>
+    <p>Select a price scenario to see which SA2s shift to a worse absolute stress tier. At the FY2025-26 approved increase (+4.7%), 5 SA2s shift. At +10%, 13 shift. At +20%, 28 shift. These are named suburbs, not aggregate counts.</p>
+  </div>
+  <div class="frame-wrap">
+    <iframe src="simulation/interactive_scenario_map.html" height="640"></iframe>
+  </div>
+  <div class="two-col" style="margin-top:16px">
+    <div>
+      <div class="col-label">Scenario tier counts</div>
+      <div class="frame-wrap">
+        <iframe src="simulation/scenario_tier_counts.html" height="380"></iframe>
+      </div>
+    </div>
+    <div>
+      <div class="col-label">Tier shift map at +10%</div>
+      <div class="frame-wrap">
+        <iframe src="simulation/tier_shift_map_10pct.html" height="380"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="findings-box">
+    <h3>Key findings</h3>
+    <ul>
+      <li>The FY2025-26 increase (+4.7%) was <strong>approved by ESCoSA</strong> — 5 SA2s cross into a worse absolute tier as a direct result.</li>
+      <li>At <strong class="highlight-red">+10%</strong>, 13 SA2s shift tier. The first to cross: Yorke Peninsula South, Wallaroo, Moonta — the same coastal retirement cluster.</li>
+      <li>At <strong class="highlight-red">+20%</strong>, 28 SA2s shift. No major metropolitan Adelaide suburb shifts until +25%.</li>
+      <li>The simulation engine is parameterised — it recalculates tiered billing (not a flat multiplier) so tier crossings are precise, not estimated.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- TAB 3: Hardship -->
+<div id="tab-hardship" class="tab-panel">
+  <div class="panel-header">
+    <h2>Hardship Priority</h2>
+    <p>SA Water's payment assistance program (2,732 statewide customers, $2,590 average debt) is mapped against predicted suburb-level need. The gap between predicted need and program reach is the policy blind spot this project surfaces.</p>
+  </div>
+  <div class="frame-wrap">
+    <iframe src="figures/fig_estimated_hardship_need_map.html" height="580"></iframe>
+  </div>
+  <div class="findings-box">
+    <h3>Key findings</h3>
+    <ul>
+      <li>Estimated hardship need is modelled from water cost burden ratio and SA2 population — it estimates the <em>volume</em> of households likely to be experiencing payment stress.</li>
+      <li>The suburbs with the highest estimated need are not all in the Adelaide metro — <strong>Port Pirie, Berri, Renmark, and Elizabeth</strong> rank highest outside the city.</li>
+      <li>SA Water's published hardship program figure (2,732 customers) cannot be cross-referenced to SA2 level — no suburb-level uptake data is publicly available. The gap cannot be confirmed, only estimated.</li>
+      <li>This is named <strong>estimated hardship need</strong>, not a "gap" — the weighting method estimates need, not actual under-service.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- TAB 4: SHAP -->
+<div id="tab-shap" class="tab-panel">
+  <div class="panel-header">
+    <h2>ML Explainability — SHAP</h2>
+    <p>The ML model predicts stress tier from SEIFA socioeconomic indexes only — no income, no bill. SHAP decomposes each prediction into per-feature contributions. This confirms SEIFA as a leading indicator of water affordability stress, before any direct income data is available.</p>
+  </div>
+  <div class="two-col">
+    <div>
+      <div class="col-label">Global feature importance</div>
+      <div class="frame-wrap">
+        <iframe src="figures/09_shap_global_importance.html" height="420"></iframe>
+      </div>
+    </div>
+    <div>
+      <div class="col-label">Beeswarm — Critical tier SA2s</div>
+      <div class="frame-wrap">
+        <iframe src="figures/09_shap_beeswarm_critical.html" height="420"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="frame-wrap" style="margin-top:16px">
+    <iframe src="figures/09_shap_waterfall_top3.html" height="380"></iframe>
+  </div>
+  <div class="findings-box">
+    <h3>Key findings</h3>
+    <ul>
+      <li><strong>IRSAD</strong> (Index of Relative Socioeconomic Advantage and Disadvantage) and <strong>IEO</strong> (Index of Education and Occupation) carry the strongest predictive signal for Critical tier classification.</li>
+      <li>The model achieves macro F1 ~0.60–0.69 — genuine signal, not a tautology. The first model (F1 = 1.000) was leaky: it included income and bill as features, which directly encode the tier label.</li>
+      <li>Using SEIFA proxies only means the model could be applied to <em>any</em> regulated utility in Australia where income data lags ABS collection cycles.</li>
+      <li>Best AutoML model: <strong>ExtraTrees</strong> (F1 = 0.685 via PyCaret).</li>
+    </ul>
+  </div>
+</div>
+
+<!-- TAB 5: V2 Rainfall -->
+<div id="tab-rainfall" class="tab-panel">
+  <div class="panel-header">
+    <h2>V2 — Rainfall Trend Overlay <span class="badge v2">new</span></h2>
+    <p>The suburbs nearest the affordability threshold are also in the fastest-declining rainfall zones. Drought years push usage (and bills) up — but retirement-income households cannot adapt with greywater systems or efficient appliances. The regulatory risk compounds. 55 BOM stations, linear trend 2000–2025.</p>
+  </div>
+  <div class="frame-wrap">
+    <iframe src="figures/fig_double_stress_map.html" height="580"></iframe>
+  </div>
+  <div class="two-col" style="margin-top:16px">
+    <div>
+      <div class="col-label">Rainfall trend per SA2 (mm/yr)</div>
+      <div class="frame-wrap">
+        <iframe src="figures/fig_rainfall_trend_map.html" height="420"></iframe>
+      </div>
+    </div>
+    <div>
+      <div class="col-label">Top 20 steepest rainfall declines</div>
+      <div class="frame-wrap">
+        <iframe src="figures/fig_rainfall_trend_bar.html" height="420"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="findings-box">
+    <h3>Key findings</h3>
+    <ul>
+      <li><span class="highlight-teal">13 double-stress SA2s</span>: Critical water cost burden <em>and</em> declining annual rainfall (2000–2025).</li>
+      <li>Notable double-stress suburbs: <strong>Elizabeth, Victor Harbor, Lonsdale, Wallaroo, Moonta, Yorke Peninsula North/South, Berri, Renmark, Port Pirie, Goyder.</strong></li>
+      <li>SA-wide mean rainfall trend: <strong class="highlight-red">−2.8 mm/yr</strong>. Most of the state has been in long-term rainfall decline for 25 years.</li>
+      <li>The worst-hit BOM district: Happy Valley Reservoir station (−3.9 mm/yr) — the station nearest to Adelaide's southern suburbs, covering Elizabeth, Lonsdale, Victor Harbor, and Torrens Island.</li>
+      <li>This is not a supply scarcity story — SA Water draws from a centralised network (Murray + reservoirs + desalination). The risk is behavioural: <strong>declining rainfall → more garden and outdoor watering → higher usage → higher bills</strong> for households with no income growth.</li>
+    </ul>
+  </div>
+</div>
+
+<footer>
+  SA Water Affordability &amp; Infrastructure Stress · Personal learning project · Abdul Mssavir · 2025–26
+  · Data: SA Water, ABS Census 2021, ABS SEIFA 2021, BOM HQ Rainfall
+  · No affiliation with SA Water or ESCoSA
+</footer>
+
+<script>
+  function showTab(name, btn) {
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+    document.getElementById('tab-' + name).classList.add('active');
+    btn.classList.add('active');
+  }
+</script>
+
+</body>
+</html>
